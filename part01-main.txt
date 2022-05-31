@@ -5,6 +5,12 @@ THIS IS A TEST THIS IS ONLY A TEST
 This Wiki is based off frequently asked questions on #hnt-iot-mining
 This is a Wiki so please edit as needed or let me know what needs updating
 
+<h2 id='heading--contributing'><a href="#heading--contributing">Contributing</a></h2>
+
+Feel something was missed out or that you can contribute? 
+Feel free to raise a [pull request](https://github.com/killtheplanet/voskcoin-hntwiki)
+Alternatively, tag @killtheplanet on #helium-mining on the VoskCoin Discord
+
 <h2 id='heading--mining'><a href="#heading--mining">Helium Mining</a></h2>
 
 Explained to a five-year-old style [video](https://www.youtube.com/watch?v=Vx9YyS7-d3g)
