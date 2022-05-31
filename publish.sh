@@ -13,7 +13,8 @@ fi
 function generate_json () {
 	# Pre&Post - better than sedding this together
 	echo '{"post":{"raw": "' > part1
-	git_text=`git log -1 --pretty=%B | tr '\n' ' '`
+	# Why do I use doublequotes...
+	git_text=`git log -1 --pretty=%B | tr '\n' ' ' | sed s/\"//g`
 	git_hash=`git log --pretty=format:'%h' -n 1`
 	echo "\", \"edit_reason\": \"${git_hash}: ${git_text}\"}}" > part2
 }
