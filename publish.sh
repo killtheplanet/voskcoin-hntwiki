@@ -15,7 +15,7 @@ function generate_json () {
 	echo '{"post":{"raw": "' > part1
 	git_text=`git log -1 --pretty=%B | tr '\n' ' '`
 	git_hash=`git log --pretty=format:'%h' -n 1`
-	echo '", "edit_reason": "${git_hash}: ${git_text}"}}' > part2
+	echo "\", \"edit_reason\": \"${git_hash}: ${git_text}\"}}" > part2
 }
 
 function generate_toc () {
