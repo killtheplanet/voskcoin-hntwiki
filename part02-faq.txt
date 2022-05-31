@@ -1,0 +1,1438 @@
+<h2 id='heading--faq'><a href="#heading--faq">FAQ</a></h2>
+
+<h3 id='heading--tippingjar'><a href="#heading--tippingjar">Tipping Jar</a></h3>
+
+Keeping this post up to date takes some effort, if this has been helpful in any way and you wish to buy the dude some coffee, you can tip some HNT to,
+
+**killtheplanet**
+* 13k9BE5RGGg1WRLcWqAV7ofcavxk4cLYE8jkSvaQMHaasdrsuxk
+* [Vosk's confirmation](https://discord.com/channels/391255032558911490/828974069378580490/851969892483334192)
+![image|171x174](upload://yHoH5OU4HqH5R1UeZJg0ZC3h8q6.png)
+* Hat tip to y2kanonomous, Phayu94, Steverino, sk8er1113 and arronblackll
+
+**Paul**
+* Paul - for all your [relaying](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-relayed) needs
+* 135xE3EbEMWFVkNn5th9GEsovE365Zz4YZKjme9JikLje8bqbZa
+* [Vosk confirmation](https://discord.com/channels/391255032558911490/828974069378580490/901454327963582474)
+![image|187x173](upload://qDsqqJFhAjJlrxi5s48JqGzONGu.png)
+
+
+
+
+<h3 id='heading--networking'><a href="#heading--networking">Networking</a></h3>
+
+* All manufacturer units support WiFi or Ethernet
+* Expect to use approx. 40-140GB of traffic per month for your miner (this depends on if you are relayed or not, who you are carrying traffic for, etc), this will reduce with Milestone 4 when no syncing is required.
+
+<h4 id='heading--faq-staticip'><a href="#heading--faq-staticip">What does a static or DHCP reservation mean?</a></h4>
+
+Typically you want your router to assign a static IP (or sometimes called a DHCP reservation) for your miner, so that it always gets the same IP address on your internal network.
+
+This in turn ensures that your portforwarding (see section below) works as intended.
+
+There is a good guide to explain how this works [here](https://portforward.com/static-ip-address/)
+
+<h4 id='heading--faq-relayed'><a href="#heading--faq-relayed">What does relayed mean?</a></h4>
+
+![image|690x377](upload://kc0vQR6r4zFqNvUv25HHgolaNfr.jpeg)
+
+
+* Ensure you forward TCP port 44158 to your miner from the internet to ensure your miner does not appear as 'relayed' (more info [here](https://intercom.help/heliumnetwork/en/articles/3207912-troubleshooting-network-connection-issues)), video tutorial [here](https://www.youtube.com/watch?v=IHuvrdjYf3s), similarly see '[Fixing Relayed Hotspots](https://www.robertputt.co.uk/helium-hnt-fixing-relayed-hotspots/)'
+* A [good tool](https://www.yougetsignal.com/tools/open-ports/) to check your own port forwarding - do NOT use your hotspot's IP address, use the IP that shows up on the web page!
+* A written [guide](https://jamesachambers.com/speed-up-helium-miner-hotspot-sync-fixing-relayed-status/) on what to do
+* Gristle King and BFGNeil talks for 43mins on this 17 November 2021 about [relayed issues](https://www.youtube.com/watch?v=xSbF-r-vjh4)
+* Here is a great workflow as well credit to Jason on Helium's discord - keep in mind that the cellular workflow mostly applies to US only (v4):
+![image|115x500](upload://ngva683L6rQpXsoxETWIKSFlRqb.jpeg)
+
+<h4 id='heading--faq-relayedsteps'><a href="#heading--faq-relayedsteps">The 4 steps to relay freedom</a></h4>
+
+1. Reserve an IP address for your hotspot on the router
+2. Port forward TCP 44158 to that same IP address on the router
+3. Validate that port 44158 is open: https://www.yougetsignal.com/tools/open-ports/ (do not put your hotspot IP address into the web site.  Only change port 80 to 44158 and click Check)
+4. Wait 2-15 days for the App/Explorer to update your status
+
+<h4 id='heading--faq-relayedhowlong'><a href="#heading--faq-relayedhowlong">How long does it take to not be relayed?</a></h4>
+
+* Check that you have validated that your port 44158 is really open using the tool described in step 3 above
+* If it is OPEN - it can take the blockchain up to 8 days to be updated with this gossiped information
+* If it's closed - start again with the section above
+
+
+<h4 id='heading--faq-relayedneedhelp'><a href="#heading--faq-relayedneedhelp">Still need relayed help?</a></h4>
+
+If you still need help, reach out to @Paul#2702 on discord, via the '#Relayed Help' channel - Vosk discusses this good man [here](https://youtu.be/0Q4P1bsIiak?t=1050)
+
+<h4 id='heading--faq-relayedwhy'><a href="#heading--faq-relayedwhy">How relayed status affects your earnings</a></h4>
+
+One of the [vendors](https://www.bobcatminer.com/post/firmware-version-display-update) summarised it well from the original [Helium](https://docs.helium.com/troubleshooting/understanding-witnesses/?ref=vosk) pages:
+
+**Relayed Hotspots & the Importance of Opening Ports**
+
+Relayed Hotspots do not just affect the Hotspot owner, but can also affect its neighbors and the network.
+
+**Relayed Hotspot as a Challenger**
+
+When a relayed Hotspot issues a challenge, the receipt (or acknowledgment of the challenge) by the challengee and witnessing Hotspots may not arrive in time to be accepted. This is due to the receipt having to traverse various other Hotspot connections to arrive at the relayed challenger.
+
+*Any witnesses that heard the beacon will have issues submitting their receipts to the challenger in a timely manner.*
+
+The Challenger does not earn HNT, Challengee does not earn HNT, witnesses do not earn HNT!
+
+**Relayed Hotspot as a Challengee (Beaconer)**
+
+A Challenger that sends a request to the Challengee expects an acknowledgment or a receipt by the Challangee within a certain period of time.
+
+*If the Challengee is relayed, the initial request can take too long to arrive at the relayed Hotspot, and the request becomes stale and invalid.*
+
+The Challenger does not earn HNT, Challengee does not earn HNT, witnesses that respond do not earn HNT.
+
+**Relayed Hotspot as a Witness**
+
+Hotspots that witness Beacons have to submit their receipt to the Challenger in a timely manner in order to earn HNT.
+
+*If the witnessing Hotspot is relayed, then they are unlikely to submit their receipt in time.*
+
+<h4 id='heading--faq-relayedapi'><a href="#heading--faq-relayedapi">How do I see more technical relay info?</a></h4>
+
+* Find your miner's 'long address' - ie, not the three-worded name, but the long address as shown here:
+![image|610x183](upload://tSiBRhi4ODWtU4GjwNDIeSlJgnQ.png)
+* Now browse to https://api.helium.io/v1/hotspots/<THE_ADDRESS> - replace "<THE_ADDRESS>" with the long-form address as shown above.
+* A UPNP relayed hotspot will have something like this in the listen_addrs field:
+![image|690x43](upload://okEKyZOwo9jsqgTXpw7v5t4CnwD.png)
+* ie. a UPNP relayed  miner contains a app/session id and ipv4 address 
+* A non-relayed one will look something like this:
+![image|690x180](upload://5uCqD8dG4Y0gxLFITltBdoP03sl.png)
+* A relayed one will look something like this (with just p2p info):
+![image|690x218](upload://uNQFr8AZkm7NiqeYynCh76gJKWX.png)
+
+<h4 id='heading--faq-CGNAT'><a href="#heading--faq-CGNAT">What is CG-NAT and why is it bad for me?</a></h4>
+
+CG-NAT stands for [Carrier-grade NAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT).
+
+Due to the exhaustion of IPv4 addressing space, many smaller internet providers, and most mobile carriers, have their clients behind CG-NAT.
+
+**What does it look like?**
+
+When you are CG-NAT'd it means that the modem/router you are using gets a external (NOT LAN) IP address from the ISP/carrier that is in the [RFC1918](https://datatracker.ietf.org/doc/html/rfc1918) address space, in other words, a private IP address, such as 192.168.x.x, or 10.x.x.x, or 127.16-32.x.x
+
+Your LAN 'behind' this modem/router would typically be on a similair (but different) RFC1918 address space as mentioned above.
+
+Your ISP/carrier then takes the traffic across ALL over their subscriber base on these private IP addresses and then CG-NAT's them across a pool of public IP addresses.
+
+In this example let's assume,
+* Your miner's LAN IP is 192.168.1.5
+* Your router's WAN IP is 192.168.0.1
+* Your ISP/carrier's CG-NAT pool is: 80.80.80.1-50
+
+Therefore - if you were to browse to something such as [whatismyipaddress.com](https://whatismyipaddress.com/) the internet site will see the IP address to belong to the ISP/carrier's CG-NAT pool, ie. 80.80.80.1-50, and not that of your router's WAN IP address (as would be the case without CG-NAT).
+
+NOTE: Your 'WAN' IP address NOT being a RFC1918 address does not exclude you from being a CG-NAT specifically, it could just be that the address range is not routeable outside of the ISP/Carrier
+
+**Why will a port forward not work?**
+
+The only place you can put a port forward is on your router, 192.168.0.1 in the example above, this IP address is a private and non-route-able address range and therefore is only useful for traffic between your carrier and you, not the internet.
+
+**Can my ISP/carrier not put in a port forward for me?**
+
+Think about it - using the example above, you might come from 1 of 50 IP addresses across all of their customer base, for which you are asking to 'hog' one port on each of the 50 to your router, it is easier to lose the customer for this obscure request.
+
+**What can I do about it if I need to use a CG-NAT provider?**
+
+A bit more 'level 2' difficulty, however the most practical would be to utilise a router with VPN support, get a VPS running with a dedicated IPv4 address, and you can simply VPN all the traffic to/from the miner over the VPN link.
+
+NO - you should not be looking at your standard pay-for-VPN offerings as you typically can choose the specific port you need forwarded, and unless it's tcp:44158 you will be stuck.
+
+If you are still not scared off from doing this - [Modo Tech](https://www.youtube.com/watch?v=kl_0JOkHI3Q) has a good video that touches on the subject on doing this.
+
+KTP also wrote a howto for this kind of setup [here](https://voskcointalk.com/t/remote-management-guide/32588)
+
+<h4 id='heading--faq-wifi'><a href="#heading--faq-wifi">Can I setup WiFi remotely?</a></h4>
+
+If you are sending a miner to a third party who will NOT be in control of your wallet (which controls the miner) you can let the person at the remote site,
+
+* Install the Helium App
+* Get the miner into Bluetooth pairing mode - as if setting up a new miner in the Helium App
+* Make it connect to their Wifi network
+* The Helium App will NOT let them control the miner as only the wallet owner can do that
+* Video showing this method [here](https://www.youtube.com/watch?v=PRfrve9YWeo)
+
+<h4 id='heading--faq-bandwidth'><a href="#heading--faq-bandwidth">Bandwidth requirements and consumption</a></h4>
+
+**Bandwidth**
+
+On **average** (measured Nov 2021) we see about 650kbit/s being utilised by a functioning (and not relayed) miner, therefore a 1Mbit service would be "more than enough"
+
+**Consumption**
+
+This changes as the number of miners increases, this is roughly true for November 2021:
+
+* A non-relayed miner will consume 120-150GB per month as the number is dependent on the number of non-relayed miners on the network)
+* A relayed miner will consume in the range of 25-75GB per month
+* The Helium team is aware that most of this traffic is wasteful and are in the process of reducing the amoung of wasteful data use
+* In the longer term, as hotspots will long term not have to keep a copy of the blockchain, this data usage should dramatically decrease as well (no ETA)
+
+
+
+<h3 id='heading--faq-networkaccess'><a href="#heading--faq-networkaccess">Can I access my miner remotely?</a></h3>
+
+There are three kinds of access methods typically found,
+
+1. Bluetooth onboarding/diagnostics
+2. Network based (typically a webpage)
+3. Cloud based (typically a management dashboard)
+
+<h4 id='heading--faq-networkaccess-bluetooth'><a href="#heading--faq-networkaccess-bluetooth">Accessing the miner over bluetooth</a></h4>
+
+This typically involves,
+* Opening the Helium app on your mobile device
+* Going to the miner's name and clicking the cogwheel (or pressing the + to onboard a new miner)
+* Adding a new miner / Pushing the 'diagnostic' button
+
+<h4 id='heading--faq-networkaccess-IP'><a href="#heading--faq-networkaccess-IP">Accessing the miner over IP</a></h4>
+
+Some miners have a web interface you can connect to by browsing to the miner's IP address on your local network.
+
+* If you do not know the IP address of your Bobcat on your network,
+– Put it in diagnostic mode, pair it to bluetooth and look at the diagnostics screen
+– Login to your router and look for the Bobcat unit in the active clients/DHCP leases table, it typically describes itself as the miner vendor type or model number or even hotspot name
+– Use a tool such as ‘fing’ to find stuff on your network
+
+* These miners have local accessible webpages you can browse to from your browser by typing in the IP address, if you require credentials, check the relevant manufacturer section of this wiki:
+-- Bobcat
+-- Linxdot
+-- Sensecap
+-- Syncrobit
+-- PantherX
+-- Browan
+-- Heltec
+
+<h4 id='heading--faq-networkaccess-cloud'><a href="#heading--faq-networkaccess-cloud">Accessing the miner's cloud based dashboard</a></h4>
+
+Some vendors offer a management dashboard, they are:
+* [Nebra](https://dashboard.nebra.com/)
+* [Sensecap](https://status.sensecapmx.cloud/)
+
+<h3 id='heading--faq-networkstatus'><a href="#heading--faq-networkstatus">What is the current network status?</a></h3>
+
+Concerned the Helium network or validators have a issue? Check the status dashboard:
+
+* [Helium](https://status.helium.com/)
+* [Helium validators](http://validators-status.helium.com/)
+
+<h3 id='heading--faq-offline'><a href="#heading--faq-offline">My miner is syncing/offline/needs attention?</a></h3>
+
+Is your miner saying it is syncing, offline or that it needs attention? Here's some tips:
+* The Helium App (not in Bluetooth Diagnostic mode),Explorer website and many other sites are hours to days lagged/behind to  'what is now', everything might just be fine!
+* On the App/Website the 'trigger' for being offline is purely that it "thinks" it has not heard from your hotspot for a while (this is called gossip), this trigger can be a bit sensitive due to the amount of miners joining the network every day and the back-end systems needing to try and keep up
+* Your miner might have fallen off the blockchain rendering them 'offline', the same advice applies here
+* Therefore, you should just check that your miner is functioning as it should and most critically, that it is up to date on the block-chain, the method for doing this is different between manufacturers, see "[Can I access my miner remotely](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-networkaccess)"
+-- Ensure Inbound&Outbound shows as OK
+-- Once you have access, observe the 'gap' or 'blockchain height' vs 'your height' or 'sync progress', if you are using the Bluetooth Diagnostic tool click on the 'send email' button to get this information
+-- You typically want to be within ~50 blocks of the current block-chain height
+-- If you are more than 400 blocks behind, your miner might have a 'fast sync' or 'turbo sync' feature to help you narrow that gap, here's the [Bobcat way](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--app-syncingBobcatCheck) of doing that as an example
+-- If you have no options available and there is still a gap all you can do is wait - check every few hours to ensure that the 'gap' decreases
+-- If you have just followed the above advice and you still see the App/Explorer saying you need attention / the miner is offline, keep the first bullet point in mind
+* If you have tried all of the above and it is not related to blockchain height, 
+-- Some have reported that working miner’s even report this error, it might be normal and just a network anomaly, which will work itself out
+-- Check connectivity (can you see the miner on your LAN in a ping, etc, does your router see it? Does it have internet access?, etc.
+-- If your block height has not increased in several hours, try rebooting the miner
+-- If your block 'gap' INCREASES (but height increases) it means it is struggling keeping synced - you typically have a local/internet issue then, if it is on WiFi, take it off it (this is a common issue)
+
+<h3 id='heading--security'><a href="#heading--security">Security</a></h3>
+
+What about the security of these miners?
+
+* See Helium's comment on this [here](https://docs.helium.com/faq/security/)
+* As with most IoT devices technical peeps tend to put these devices on a segregated network segment
+
+<h3 id='heading--securityphysical'><a href="#heading--securityphysical">But you can see me on the map?</a></h3>
+
+**NOTE:** On 17 June 2021 a update was released that will start moving miner positions into their hex-res8 positions please see <a href="#heading--faq-hip17">this section</a> for more information.
+
+The protocol is 'Proof of Coverage' the location is literally the point. Not that it isn't a consideration before getting into it but it isn't connected to your name and the dot on the map is within 300m, so that house you think its in, it may not be, could be any of the houses within 300m of that.
+
+If you're the only one within 300m, then yes its obvious which house it is, but not who lives there. If Satoshi Nakamoto had one of these it wouldn't give you a way to find him.
+
+It is not much different than someone having your IP address which they can get by embedding a tracking pixel into anything you consume online. You, personally are just more aware with this now because you saw the map, its not that your pseudonymous ID is not already linked to an address its just that you are ignorant to it.
+
+The geo location is also not specific enough to find the exact house someone lives in, unless a) it is the only house in that area so impossible to be wrong, or b) the house has a 8-10 dbi antenna stuck on the side of it.
+
+It is good practice in mining anyway to move currency from a wallet you use to mine to another wallet (on exchange, hard wallet, Helium app on another phone)
+
+<h3 id='heading--securitythreats'><a href="#heading--securitythreats">My miner is generating security alerts?</a></h3>
+
+![image|231x500](upload://4lacoiJNIOHvoUWUH19hleBcfpL.png)
+
+Some "firewall" / "security" software or services MAY flag your miner as a security threat as your miner are receiving and sending many connections to/from many other nodes on the Helium network all the time as part of the **normal** operation of the device.
+
+This 'pattern' of traffic is typically associated with peer-to-peer software or [command & control malware](https://en.wikipedia.org/wiki/Botnet#Command_and_control) systems. However in the case of Helium miners it is perfectly normal behaviour.
+
+You can therefore ignore the warnings / turn off those specific alerts / throw it in the bin as it adds no value.
+
+PS: The above picture is from Comcast Xfinity - you can turn off XFI security by navigating to More and selecting My Services. From here, select Disable under xFi Advanced Security and follow the on screen prompts.  Once disabled, you will lose 24/7 threat monitoring and real-time reporting on your home network.
+
+See the <a href="#heading--security">security</a> section if you have more questions.
+
+
+<h3 id='heading--hacking'><a href="#heading--hacking">Hacking/Gaming?</a></h3>
+
+This section discusses circumventing the reward structure for your own benefits, rather than the security aspect of it (check [security](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--security) for that)
+
+In short - there is no official way to report hacking, however there is a site for users to look at for patterns into this kind of gaming [here](https://suspots.com). Helium itself currently has no report or deny-list as there are no definitive rules to determine "gaming". Nor is there a defined process as to how to address it even if someone could somehow be confirmed to be doing something wrong. This is being worked on and will be proposed in [HIP-40](https://github.com/helium/HIP/blob/master/0040-validator-denylist.md)
+
+Some other hacks mentions,
+* GristleKing discusses ['How Do you Cheat On The Helium Network?'](https://gristleking.com/how-do-you-cheat-on-the-helium-network/) on this January 2022 post
+* HNT RSSI cheat/hack discussed [here](https://www.youtube.com/watch?v=850BhcVl2jU) on 29 Dec 2021
+
+<h4 id='heading--hacking-POC'><a href="#heading--hacking-POC">POC Hacking</a></h4>
+
+As the network grows, especially in more congested areas, bad actors will be motivated to assert their miners in a way to maximise their benefits. Since Proof of Coverage is the mechanism to verify positioning, these bad actors will manipulate positioning in a unethical manner for maximised returns.
+
+As the network grows this problem will grow in complexity as well as detection and of course remediation steps however will continually be worked on.
+
+Interesting links on this topic,
+* See the '[banning](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-banning)' section for how listing/delisting works
+
+The content below are referencing historical events and their discussions:
+
+* This 28 Dec 2021 [video](https://www.youtube.com/watch?v=VP2JjOMv0kU) discusses the current state on POC hacking with the infestation in Europe
+* On 14 July 2021 a Helium dev said:
+
+> If we released a statement every time someone wrote some FUD about helium i dont think we'd ever get anything else done.
+
+* On 13 July 2021 tactical investing did a [video](https://www.youtube.com/watch?v=BWGUM9KviYI) about the article below and spoofing in general
+* On 2 July 2021 it was mentioned that online validators can hopefully assist in [POC abuse situations](https://youtu.be/uoVRKh_x1NQ?t=1405)
+* Helium's CTO discusses it [here](https://www.youtube.com/watch?v=ETObssOnoOA&t=4476s) on 1 May 2021
+* [Helium's Dirty Secret](https://hntnews.org/poc-hacking-explained/) - POC Hacking explained - from Jan 2021
+* Notably a Helium developer responded on these particular examples [here](https://www.reddit.com/r/HeliumNetwork/comments/kw1yx5/hackers_are_costing_helium_miners_thousands_of/gj4ncxl?utm_source=share&utm_medium=web2x&context=3)
+
+Credit: @Sound
+
+<h4 id='heading--hacking-beacons'><a href="#heading--hacking-beacons">Beacon Hacking</a></h4>
+
+* First noticed 24 September 2021
+* Mr Huge discusses it on 25 September 2021 on this [video](https://www.youtube.com/watch?v=waqo9EZ2zqY)
+* This issue appears to have been addressed somewhat by 7 October 2021 
+
+<h4 id='heading--hacking-calchipBeacon'><a href="#heading--hacking-calchipBeacon">Cal-Chip Witnessed Beacon Hacking</a></h4>
+
+* Noticed around 9 October 2021, specifically some Cal-Chip hotspots started Witnessing the maximum amount of witnesses (18 at the time of writing) every 1-2minutes, thereby increasing their earnings dramatically, two examples:
+-- [Magnificent Mercurial Yeti](https://explorer.helium.com/hotspots/112tm8AwKWZsNuKmWAzvNTbEE5ZH5tHH1MJEwnivSGdzG4gAYEoK/activity)
+-- [Exotic Taupe Frog](https://explorer.helium.com/hotspots/11yvGr2AwtPyVhmubEgP6ihAr7NgbsdtJadtU9PoAwDRthYndxV/activity)
+* We know these have been reported but have not seen a response yet
+
+
+<h3 id='heading--faq-banning'><a href="#heading--faq-banning">Banned hotspots</a></h3>
+
+The denylist will be published [here](https://github.com/helium/denylist) once [HIP-40](https://github.com/helium/HIP/blob/master/0040-validator-denylist.md) (Validator Denylist) has been implemented
+
+For now, hotspots have the ability to get banned if they are found 'guilty' of hacking. This started with:
+* [Maintain Temporary Hotspot Denylist](https://heliumvote.com/14iwaexUYUe5taFgb5hx2BZw74z3TSyonRLYyZU1RbddV4bJest) and [Publish Temporary Hotspot Denylist](https://heliumvote.com/13wCuq7XGnc4xgxPAc9n9ragKsRfmH9t9jB3c1smfKPZWSikZkd)  voted on Jan 14 2022
+
+
+
+**Historically**
+
+Capcom on 27 September 2021 said [here](https://discord.com/channels/404106811252408320/730243559873052754/892131753051971685):
+
+> We see the question often of "why isn't this Hotspot banned???" when suspicious PoC behavior is observed. there is currently no mechanism to ban Hotspots from the network, nor has any serious discussion ever taken place about how such a system would work. I wanted to drop this template of a proposal around how a denylist could be implemented by validators that would effectively turn suspected Hotspots into data-only Hotspots. please note that neither myself nor Helium Inc are actually proposing this, but I did want to get some discussion going on the subject, and give people a template with which they could decide to make a serious HIP proposal (see https://github.com/helium/HIP/blob/master/0007-managing-hip-process.md on how to create a real HIP). the template for the denylist idea is here: https://gist.github.com/amirhaleem/8349f248c0ce26ef78b708dae2e88e40
+
+<h3 id='heading--faq-future'><a href="#heading--faq-future">What's the future for Helium & HNT?</a></h3>
+
+* [5G](https://voskcointalk.com/t/helium-wiki-faq/14786#heading--faq-5G)
+* Topical video [link](https://www.youtube.com/watch?v=D8K57mbR-H8&t=967s) (bullish speculation of $80-100 USD per HNT)
+
+<h3 id='heading--faq-dilute'><a href="#heading--faq-dilute">What about more miners coming online?</a></h3>
+
+You make more money mining with more miners near you vs none, it's not like normal mining. Video discussing it [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1779s).
+
+<h3 id='heading--faq-pocGoAway'><a href="#heading--faq-pocGoAway">Will PoC go away?</a></h3>
+
+Thanks @Sound for the eloquent contribution -
+
+Yes - in around 20 years, every year it will get less and less till it's finally eroded away - see [this](https://github.com/helium/HIP/blob/master/0020-hnt-max-supply.md).
+
+![image|567x500](upload://1vqHmkKbLmouddg11uuKyyRlDyn.png)
+
+So you will earn less from miners coming online + every year the POC % goes down + halving every 2 years.
+
+This can be offset by,
+*  **IF** the value of HNT goes up, more partners come online(in dense populated with good spacing?).
+* When the founders take a % cut in their payouts as well. Though there is no telling if their loss is the miners gains.
+* Become a validator and make hnt from the census group
+
+<h3 id='heading--faq-datacredits'><a href="#heading--faq-datacredits">What are data credits?</a></h3>
+
+It looks like this:
+
+![image|690x329](upload://zGsC6NidPmEJCpfGuFT5SHEpnVB.png)
+
+* 1 Data Credit = $0.00001
+* HNT is burned to create DC
+* How many DC you get per HNT burned depends on HNT oracle price
+* 1 DC is worth 24 bytes of data.
+* So the above packet transfer was a data transfer of 96 bytes
+
+(Credit to @jmznoh)
+
+<h3 id='heading--faq-snapshots'><a href="#heading--faq-snapshots">What are snapshots?</a></h3>
+
+Snapshots are 'blessed' (approved) copies of the blockchain for a miner to download (also known as fast-sync and turbo-sync) which may or may-not be released with a firmware update.
+
+(As far as I am aware) each vendor provides their own snapshot URL
+
+* OG / RAK / MNTD Snapshot URL is [here](https://snapshots.helium.wtf/mainnet/latest-snap.json)
+* Nebra uses https://helium-snapshots.nebra.com/latest.json and then pulls the snapshot from https://helium-snapshots.nebra.com/snap- with the height appended after the snap- ie. a height of 1210923 would produce a snapshot url of https://helium-snapshots.nebra.com/snap-1210923
+* LMK of others
+
+
+
+
+
+<h3 id='heading--faq-safety'><a href="#heading--faq-safety">Is it safe?</a></h3>
+
+Concerned about safety of the miners? 
+
+* kyk13 Did a excellent article on this on [this topic](https://kyk13.com/helium-hotspots-rf-exposure/)
+* Yes, as safe as a cordless phone
+* See [this](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1312s)
+
+<h3 id='heading--faq-whichminer'><a href="#heading--faq-whichminer">Which miner should I get?</a>
+</h3>
+
+Since all miners perform the same, you should get the miner that arrives in a timeframe you can cope with at a cost you are willing to depart with.
+
+<h3 id='heading--faq-region'><a href="#heading--faq-region">Which region frequency should I get?</a>
+</h3>
+
+See Helium's region/country [list here](https://docs.helium.com/lorawan-on-helium/frequency-plans/)
+
+Note:
+![image|690x105](upload://jqONNv9YGSkIAD5WQU3KVMJ6Cs8.png)
+
+* What Frequency Should Australia Be On With Helium? Is a 29 March 2022 Gristle King video which covers the switch of Australia from US915 to AS923-1
+* Note Bobcat (and several other vendors') US 915 Band is NOT legal in AU - see [this](https://youtu.be/ffg2MsUmmfU?t=311)
+
+
+<h3 id='heading--faq-butdistance'><a href="#heading--faq-butdistance">But do I want two miners in one place?</a></h3>
+
+* Okay, however they will not witness each other which means reduced earnings.  See <a href="#heading--placement">Miner Placement</a> for more.
+* Gristle King also talks about it [here](https://youtu.be/QwzoIhQbwVA)
+
+
+
+<h3 id='heading--faq-rewardscale'><a href="#heading--faq-rewardscale">Why does 1 witness give me 0.5 reward?</a></h3>
+
+Hotspots who only have 1 witness has a 0.5 reward scale, read about [HIP17 here](https://github.com/helium/HIP/issues/60)
+
+* Another example,
+> In my situation i found the Hotspots effected weren't the ones with the lower rewards scale but it was the Hotpots who witness the hotpot with the low rewards scale 
+> 
+> example-
+> 
+> I have 3 hotspots  2 with a 0.5 Rewards scale and 1 with a 1 rewards scale
+> 
+> One of the hotspots with a 0.5 Rewards scale but could witness the one with 1 Rewards scale would get 100% of the witness rewards    (if that makes any sense)
+> 
+> 
+> (Hotspot with 1 rewards scale Beacons, 0.5 rewards scale witnesses and recieves 100% of the rewards
+> Hotspot with 0.5 rewards scale beacons, 1 rewards scale hotspot witnesses but only recieves 50% of the rewards )
+
+* Ie, if your miner is within 350m of another miner, the hotspot that is close to you, and that  person wont give great rewards to each other, but you can still receive good rewards (i.e 100%) from the other 1.0 Reward scale miners
+
+<h3 id='heading--faq-onesidedwitness'><a href="#heading--faq-onesidedwitness">I witness someone but they do not witness me?</a></h3>
+
+If you witness another miner and they do not witness me, what does it mean? Ed Ballou address it [here](https://youtu.be/c7dzFjz0BMk?t=460).
+
+It means someone (you or theirs not witnessing the other) cannot receive your signal as well as you/they could.
+
+
+<h3 id='heading--faq-nowitnessaward'><a href="#heading--faq-nowitnessaward">Why did I not get a witness award?</a></h3>
+
+![image|690x100](upload://fzCfm5sW6JjPtFI6s1oRlvzwe4i.png)
+* Expand it and look at the challenger, if it is relayed you will get no reward
+* If he is not relayed then you are not reachint other hotspots
+* NOTE: The challenger could be anywhere in the world and does not need to be local to you
+
+<h3 id='heading--faq-beacons'><a href="#heading--faq-beacons">How do I identify beacon issues / Why do my beacons have 0 witnesses?</a></h3>
+
+![image|673x500](upload://zvLyPe4xeX24MyprQ9xoRKMn5iT.png)
+
+> If you normally get witnesses, zero witness beacons can be a sign of a hotspot networking issue (usually from relayed status), though not necessarily your networking issue. There are three types of hotspots involved in beacon: 1. challenger, 2. challengee/beaconer, 3. witnesses. The beaconing hotspot is #2, but zero witness beacons are often a sign that hotspot #1 has a networking problem and #3 hotspots can't contact #1.
+
+Zero witness beacons are/can be caused by the challenger hotspot being relayed, and the challenger can be anywhere in the world.
+
+Because the witnesses to your beacon reply to the challenger, not the beaconer. if the challenger isn't allowing inbound tcp/44158, then the witnesses cant contact it.
+
+Thanks @Shwetty for this
+
+<h3 id='heading--faq-notwitnesses'><a href="#heading--faq-notwitnesses">Why am I getting no witnesses?</a></h3>
+
+If you have read the above and still perplexed maybe you have this issue,
+
+![image|685x500](upload://13CXt14BwCiR13n48hCfAQyC0V7.jpeg)
+
+This is caused by over-tightening the antenna, which in turn pries the mini-connector off the board as pictured, you can simply replace the pigtail, some help:
+
+* A good [guide](https://www.nowitness.org/bobcat-antenna-repair/)
+* A video [example](https://www.youtube.com/watch?v=710aPtKLsw4)
+* Another video [example](https://www.youtube.com/watch?v=hjPo9SK_Kgc)
+
+
+<h3 id='heading--faq-toopopulated'><a href="#heading--faq-toopopulated">I have too many miners close to me?</a></h3>
+
+But what if you have reduced awards because too many miners are too close to me? VoskCoin answers this well on this 8 June 2021 [video](https://youtu.be/NgbpYZcHsgM?t=899)
+
+To demonstrate another way:
+![image|683x500](upload://dLBXukf2fItspGdeGX5TIgcgiyz.jpeg)
+
+
+
+
+<h3 id='heading--faq-butiamalone'><a href="#heading--faq-butiamalone">No hotspots are around me?</a>
+</h3>
+
+I am alone / no hotspots/miners are around me, closest thing is 40 miles away, what do I do?
+
+* Buying more than 1 miner and placing it closeby (but more than 350m away) would be beneficial
+* Keep in mind that the map will change drastically by the time you get your miner
+* Video discussing the topic [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1508s)
+* See how location is important [here](https://voskcointalk.com/t/helium-wiki-faq/14786#heading--moolah)
+* And how witnesses are important [here](https://voskcointalk.com/t/helium-wiki-faq/14786#heading--witnesses)
+
+<h3 id='heading--faq-pocChallenge'><a href="#heading--faq-pocChallenge">What is a POC Challenge?</a>
+</h3>
+
+* This is used to confirm your proof of coverage, and where you are physically compared to other miners
+* See the docs [here](https://docs.helium.com/blockchain/proof-of-coverage/)
+
+<h3 id='heading--faq-rssitoohigh'><a href="#heading--faq-rssitoohigh">Why am I getting witness_rssi_too_high invalid?</a></h3>
+
+Your signal is quite strong and being rejected by (probably close) miners due to PoC calculations.
+See this 29 Dec 2021 [video](https://www.youtube.com/watch?v=OoQzB_AXbHU) for more on the subject and how you can potentially address it.
+
+<h3 id='heading--faq-filters'><a href="#heading--faq-filters">What about noise filters and amplifiers</a></h3>
+
+Please suggest more content to add here!
+
+* Network bits talks on this 11 Jan 2022 [video](https://www.youtube.com/watch?v=f1dNUqBWATI) about a Noisy Location resulting in missed beacons and the use of a cavity filter
+
+<h3 id='heading--faq-mods'><a href="#heading--faq-mods">Which mods should I invest in?</a>
+</h3>
+
+It is best to see how your miner performs first with what it came with - all manufacturers send overall good antennas.
+
+Your priorities should be,
+* [Elevation](https://youtu.be/Xgpu40fwQxI?t=798)
+* Line of site to as much as possible should be your second aim, the less obstructions around the better
+* The antenna cable length should be kept as short as possible (use LMR400 to minimise loss please)
+* If all of the above is problematic, have a read about antenna placements <a href="#heading--antenna">here</a>
+
+<h3 id='heading--faq-profitsharing'><a href="#heading--faq-profitsharing">What about profit sharing deals?</a>
+</h3>
+
+Emrit IO etc. falls in this category,
+
+Emrit has a application process where you provide your location and they will consider sending you a Helium miner for free. Emrit in turn will give you 20% of the earnings that the miner makes.
+
+Assuming you are approved, this appears as a low-risk and little-investment opportunity to see how a Helium miner will perform at your location.
+
+Some things to consider,
+* Power (~10W, ie. minimal) and broadband use is of course your outgoing costs
+* The miner is never yours, there are T&C's to agree with
+* As you take no risk, you will only get 20% of the rewards
+* The device is not linked to your wallet
+* [Emrit's terms of service](https://emrit.io/terms.html/)
+* Emrit '[review](https://www.youtube.com/watch?v=FK_M2ILgG-k)'
+
+Alternatives,
+* [Lonewolfrescue.net](https://www.lonewolfrescue.net/) will buy your miner off you and give it a 'new home' and give you 10% of the miners earnings
+* [hotspotshare.com](https://hotspotshare.com/) - 50% instead of Emrit's 20%
+* [NobleIOT](https://www.nobleiot.com/) 
+* [CoastFii](https://www.coastfi.com/)
+* [FairSpot](https://www.fairspot.host/) (US) - interview with CEO [here](https://www.youtube.com/watch?v=_aitauNOBk0)
+* iHub
+
+<h3 id='heading--faq-shipping'><a href="#heading--faq-shipping">Do they ship to me?</a>
+</h3>
+
+* All vendors do worldwide shipping.
+* See <a href="#heading--vendors">Helium Manufacturers</a>
+* Keep in mind to buy the right [frequency band](#heading--faq-region) miner for your country!
+
+<h3 id='heading--faq-scams'><a href="#heading--faq-scams">Reported Scams</a>
+</h3>
+
+DYOR / This is not always current - but some we have heard of:
+
+* coinminingdirect.com
+* [helium.bar](https://www.helium.bar/) - Official Helium discord labelled as scam - nothing more concrete yet - reviews [here](https://uk.trustpilot.com/review/helium.bar)
+* jumbootech.com - Scam alert [here](https://www.youtube.com/watch?v=JvzwpEvFoZs)
+* superpromo.us - Scam alert [here](https://voskcointalk.com/t/is-superpromo-us-a-scam-for-helium-miners/19991)
+* heliumantennas.eu
+
+
+<h3 id='heading--faq-PoE'><a href="#heading--faq-PoE">What about PoE</a>
+</h3>
+
+![power-he-man|640x478](upload://AjpjRSlmGa4QNSL69chtfLYU6G1.gif)
+
+
+At the time of writing (June 2021), the only Helium miner that supports PoE "out of the box" is the Nebra Outdoor unit and Syncrobit's.
+
+You can however always use PoE splitters / injectors - a good post that includes the barrel sizes [here](https://kyk13.com/helium-hotspot-reference/).
+
+* This guy [shows](https://www.youtube.com/watch?v=QiI1HaGNvP8) his POE injector and splitter used for a Bobcat
+* Gristle King shows PoE injector/splitters [in this video](https://www.youtube.com/watch?v=oHzBNQOHqrY)
+* This barrel-type TP-Link [splitter](https://www.amazon.co.uk/gp/product/B001PS4NWW/ref=ppx_yo_dt_b_search_asin_title) and [injector](https://www.amazon.co.uk/gp/product/B08LQP8CYD/ref=ppx_yo_dt_b_search_asin_title) works fine on Bobcat & Linxdot
+
+<h3 id='heading--faq-sidewalk'><a href="#heading--faq-sidewalk">What about Amazon sidewalk?</a>
+</h3>
+
+* On 8 January 2022 Amazon Unveiled the Sidewalk Bridge Pro by Ring, read about it [here](https://www.hackster.io/news/amazon-unveils-sidewalk-bridge-pro-by-ring-offering-a-five-mile-range-for-lora-iot-connectivity-c36f5a8f8d42)
+* Helium CEO talks about it [here](https://twitter.com/amirhaleem/status/1391440448107913216)
+* Crypto Gossip talks about it [here](https://www.youtube.com/watch?v=TI2wOhmBEyc) (June 8 2021)
+
+<h3 id='heading--faq-challenge'><a href="#heading--faq-challenge">If I have two miners do they challenge each other?</a>
+</h3>
+
+All miners send/receive challanges - see [Vosk's video here](https://youtube.com/watch?v=Fh-IN9FQ4zc)
+
+<h3 id='heading--faq-finance'><a href="#heading--faq-finance">I have a finance/tokenomics/tax reporting question</a>
+</h3>
+
+* Good site for calculating any tax on your HNT mining at [minertax.com](https://www.minertax.com/)
+* Another good [HNT Transaction Export](https://www.fairspot.host/hnt-export-mining-tax) tool for reporting purposes
+* Miner history for a period [tool](https://helium.hiker.rocks/)
+* [The Helium Flywheel](https://multicoin.capital/2021/03/17/the-helium-flywheel/): Why Network Growth & Halvings Are A Good Thing! - a good article around the economics
+* Good chat about known risks [here](https://discordapp.com/channels/391255032558911490/828974069378580490/835300745556918333)
+* Crypto Gossip talks through the Helium Token and Halving [here](https://www.youtube.com/watch?v=hWUhSGVheTs)
+* VoskCoin runs through ROI on Helium on this [video](https://youtu.be/NgbpYZcHsgM?t=1264) from 8 June 2021
+* Coin Bureau has a good all-round tokenomics video from 3 October 2021 [here](https://www.youtube.com/watch?v=n1FUV4YsXcc)
+* See how token allocation will change over time (taken from [here](https://www.helium.com/hnt)) credit: @jonenren1
+![image|690x289](upload://licW6L61ddehXBpcGrOsAMC93DW.png)
+
+<h3 id='heading--faq-profitable'><a href="#heading--faq-profitable">Is it still profitable?</a></h3>
+
+Yes, reasoning:
+* Even if you put this in your basement with a [faraday](https://en.wikipedia.org/wiki/Faraday_cage) cage surrounding it, your miner will get challenged (over the internet) and it will get rewarded for responding to those challenges (over the internet), and those rewards *most likely* will exceed the electricity use, therefore it will be profitable.
+* If the *rate* of the profit you accumulate is acceptable to you is of course the actual question, we got a couple of section in this very FAQ/Wiki to help make your decision on that,
+  - Starting with '[Why are my earnings so low?'](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-lowearnings) in the section below
+  - [Am I too late to buy a miner?](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-amitoolate)
+  - See ["How much will I make"](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--moolah) which runs you through why the location and height is important
+  - Lastly, also check out the Finance section which have plenty of details on the [tokenomics](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-finance)
+
+From all of the above you should glace that nobody can tell you exactly "how profitable" a miner in a specific location will be, however you will have an idea on how to increase your returns by optimising location, antenna and height. You will also have learnt that the HNT earnings will only go down over time (however it may not have a correlation to the FIAT value).
+
+<h3 id='heading--faq-lowearnings'><a href="#heading--faq-lowearnings">Why are my earnings so low?</a></h3>
+
+Wondering why your rewards are so low? Here's some (certain not all) reasons:
+* Understand what is normal - you can see the current average reward rate [here](https://heliumanalytics.io/daily-rewards)
+* Voskcoin talks about it on this 4 April 2022 [video](https://www.youtube.com/watch?v=TLQiZ-raqlA)
+* Maximise what you **CAN** influence - elevation and position - see [Placement](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--placement) and lastly [antenna](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--antenna)
+* Compare your earnings with those close to you
+* More miners come online every day, there is a set amount of HNT for miners per month, therefore the same total amount of rewards are split across a increasing amount of miners every month. Check the tokenomics section in the heading above for more information.
+* On the same topic, KoalaBlast has a [good post about it here](https://www.reddit.com/r/HeliumNetwork/comments/qdiair/1_reason_for_low_rewards/)
+* Understand your transmit scale and what affects it - more miners in your area (not just your Hex!) will scale your rewards down, see sections " [What is HIP-17 and the Hexagons about?](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-hip17)" and * [Miner Placement](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--placement) for more information
+* Those who you witness (and yourself) might have reduced earnings due to being relayed, see " [How relayed status affects your earnings](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-relayedwhy)"
+* There might be technical issues on the network,
+-- You can see the official Helium network status [here](http://status.helium.com/)
+-- Miners (yourself and/or others) might be strugglint to keep sync to the blockchain due to a recent change, see " [Syncing to the Blockchain](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--app-syncing)" for more information
+-- Sorin [discusses](https://www.youtube.com/watch?v=KOoR4jAWLIk) ' Low rewards or flat line? This can be your problem - Gossip protocol issue?' in this 6 Jan 2022 video
+* Environmental factors affect radio performance,
+-- Raining
+-- Humidity
+-- Temperature
+-- Cloud cover
+
+
+
+<h3 id='heading--faq-management'><a href="#heading--faq-management">Hotspot/Host Management</a>
+</h3>
+
+Some options to look at if you manage a fleet of hotspots/miners for fleet management:
+
+Phayu94 has written a review of the [main contenders](https://voskcointalk.com/t/helium-fleet-management-system-review/22160/1)
+
+Options include,
+* [hotspotty.net](https://hotspotty.net/)
+* [patrium.app](https://www.patrium.app/)
+* [Sensecap.cloud](https://status.sensecapmx.cloud/) - Fleet management for Sensecap miners
+* [Nebra Dashboard](https://dashboard.nebra.com/) - Fleet management for Nebra miners
+
+<h3 id='heading--faq-tools'><a href="#heading--faq-tools">Hotspot/Host Monitoring/Tools/Scripts/Firmware</a>
+</h3>
+
+Some interesting scripts/tools we have come across:
+
+Firmware,
+* Official firmware can be found [here](https://quay.io/repository/team-helium/miner?tab=tags)
+Dashboards,
+* [HNT_Monitor](https://github.com/nhatfield/hnt_monitor) - Bigdata/Prometheus based hotspot monitor
+
+Others,
+* See the '[Hotspot/Host Management](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-management)' section above
+* Paul has a alerting-bot - ask him on Discord in #HAM :slight_smile: 
+* [Helium-Status](https://app.heliumstatus.io/) lets you check the p2p peerbook, IP's, etc. of hotspots, started by BFGNeil 
+
+
+<h3 id='heading--faq-mx2pro'><a href="#heading--faq-mx2pro">MX2Pro vs Helium?</a>
+</h3>
+
+Still early days for both projects however here is [one writeup](https://senoritadunn.medium.com/mxc-m2-pro-miner-vs-helium-hotspot-review-e7ba30cee235).
+
+You can use a M2 Pro and Helium miner within the same 300m without any concerns
+
+<h3 id='heading--faq-hip15'><a href="#heading--faq-hip15">What is HIP-15?</a>
+</h3>
+
+[HIP-15](https://github.com/helium/HIP/blob/master/0015-beaconing-rewards.md) is the Beaconing Rewards system and covers the reward factor and how Proof of Coverage is rewarded.
+
+<h3 id='heading--faq-hip17'><a href="#heading--faq-hip17">What is HIP-17 and the Hexagons about?</a>
+</h3>
+
+Density calculations:
+![image|530x244](upload://1Y4RmOG8Zx675fRMGIRJ7r3e7bk.png)
+
+
+* HIP17 is about the Reward Scale and is documented [here](https://github.com/helium/HIP/blob/master/0017-hex-density-based-transmit-reward-scaling.md)
+* Gristle King explains 'What Hex Am I In? Demystifying Helium Hexes' in this helpful [video](https://www.youtube.com/watch?v=DeQH2jtImxQ)
+* The dude from kyk13.com has a excellent video running through HIP17 and density scaling [here](https://www.youtube.com/watch?v=826pM9h3ZsU) and another update with more information [here](https://www.youtube.com/watch?v=Mgotd_F7A_A)
+* On 19 June 2021, Jimmy is Promo is [running through](https://www.youtube.com/watch?v=HRSfMwkd308) the Helium App Update which included the hexagon views
+* On 17 June 2021 Helium published '[History in Hexagons](https://blog.helium.com/history-in-hexagons-633775c184a)' and '[Understanding Hexagons](https://docs.helium.com/wallets/app-wallet/hexagons/)' which contains a lot of useful information around Hex res's
+* [HIP17](https://engineering.helium.com/2020/12/09/blockchain-release-hip-17.html) covers the hex density award scaling for Proof of Coverage
+* Check out [hotspotty.net](https://app.hotspotty.net/) it has quite a good HIP17 fact-gathering system
+
+
+<h3 id='heading--faq-hip19'><a href="#heading--faq-hip19">What is HIP-19?</a>
+</h3>
+
+HIP19 is the process by which manufacturers apply to create Helium miners where they go through a certification process. This is documented by Helium [here](https://github.com/helium/HIP/blob/master/0019-third-party-manufacturers.md).
+
+<h3 id='heading--faq-halving'><a href="#heading--faq-halving">What is HIP-20 / What about halving?</a></h3>
+
+HIP20 (HNT Max Supply) is documented in this [proposal](https://github.com/helium/HIP/blob/master/0020-hnt-max-supply.md) and was approved on 18 November 2020 and documented in this [medium article](https://blog.helium.com/hip-20-on-hnt-max-supply-approved-by-the-community-fca15a161a80).
+
+In a halving you earn half of the rewards you were before yes. and with more miners that reduces the total amount paid per hotspot down yes but typically since its harder to get said coins price increases.
+
+The first halving occurred on 1 August 2021 at 00:00 UTC, here is the [transaction](https://explorer.helium.com/txns/260BH0ghXIQW_2g6Jc5rxvoWVqxnJdfk-4WWtw2cqDU)
+
+> * Total monthly HNT rewards target that can be earned goes from 5 million a month to 2.5 million a month 
+> Of that ..... 
+> * Helium Investors share goes down from 34% to 33% and can only be earned by HST token holders
+> * Consensus share remains the same at 6% and can only be earned by Validators 
+> * Of the remaining 61% able to be earned by hotspots 
+> * Max data transfer share increases from 32.5% to 35% 
+> * PoC Challengers share decreases from 0.95% to 0.9% 
+> * PoC Challengees share decreases from 5.31% to 5.02% 
+> * PoC Witnesses share decreases from 21.24% to 20.08%
+> 
+>  But as the actual Data transfer share is still very low the figure left over from 35% Data Transfers gets shared within the PoC rewards earnings and so the effective PoC percentage is really these: 
+> 
+> * PoC Challengers approximate share is 2.1% 
+> * PoC Challengees approximate share is 11.7% 
+> * PoC Witnesses approximate share is 47.1% 
+> 
+> As Data transfer usage gets higher in the next 2 years before the next halving the actual PoC percentages will get lower
+
+
+* On 19 August 2021 Vosk talks about the affects of halving we had [here](https://youtu.be/PH3dst55LX0?t=274)
+* On 12 July 2021 Crypto Layman talked about '[Is mining Helium still worth it? Lets do the Maths](https://www.youtube.com/watch?v=Y-fRLOpBpro)' assuming post-halving  numbers
+* Vosk talks about [this](https://youtu.be/4QdvXfPYTVg?t=793) on 26 June 2021
+* Vosk talks about [this](https://youtu.be/cofKps88NAA?t=506) on 14 June 2021
+* [Vosk commentary on this](https://youtu.be/XV5NHQa9DPI?t=1895)
+* [More Vosk commentary on this](https://youtu.be/Xgpu40fwQxI?t=512) (9 May 2021)
+* And in another video [here](https://youtu.be/ddfQA4Ubg6A?t=694)
+* More Vosk commentary (1 June 2021) [here](https://youtu.be/3RiSYr_3fLg?t=229) on the same
+* Crypto Gossip talking about it [here](https://www.youtube.com/watch?v=hWUhSGVheTs)
+* Helium COO talking [about the halving](https://youtu.be/ETObssOnoOA?t=2908)
+* Jimmy is Promo discussing it [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1162s)
+* [Helium Docs on this](https://docs.helium.com/blockchain/helium-token/)
+* [Read the Helium Flywheel](https://multicoin.capital/2021/03/17/the-helium-flywheel/), Crypto Gossip discusses this [here](https://www.youtube.com/watch?v=aIvBaoTlL5Y) as well (2 June 2021) and again with updated [numbers](https://www.youtube.com/watch?v=_1gfvjOVp54) on 10 June 2021
+
+<h3 id='heading--faq-hip24'><a href="#heading--faq-hip24">What is HIP-24?</a>
+</h3>
+
+HIP24 is a proposal to have awards split percentage based for a particular miner to several addresses. This is not yet approved.
+
+* See the proposal [here](https://github.com/helium/HIP/blob/master/0024-reward-splitting.md)
+* See Helium discuss it [here](https://www.youtube.com/watch?v=Y5ChAHZyCF4&t=1043s)
+
+<h3 id='heading--faq-hip39'><a href="#heading--faq-hip39">What is HIP-39 HNT Redenomination?</a></h3>
+
+This was the voting for a 1000:1 split of the HNT token which ended in a 'for' vote on 20 November 2021, the announcement on 21 November 2021 said:
+
+
+```
+73.8% of the community has voted in favor of redenomination, which is above the rough consensus threshold to pass.
+
+The date of conversion will be determined in coordination with the Helium core developers and providers of HNT services such as 3rd party wallets, custodians, exchanges, and market data providers. More detail will be forthcoming as the conversion date is determined.
+```
+
+* This has been moved to August 2022 as per this [announcement](https://discord.com/channels/404106811252408320/813452716286017557/942859668903059536)
+![image|690x429](upload://mLNAPHsZACD3yKumuSBWuQpPfLw.png)
+* This 11 Feb 2022 [video](https://www.youtube.com/watch?v=577i5g7PmEc) mentions rumours that this might be re-voted on
+* This 6 Jan 2022 update [video](https://www.youtube.com/watch?v=yXPdo1hnwVE) mentions that the redonimation has been pushed back to late Q2 2022
+* Vosk talks about it on this 8 Dec 2021 [video](https://youtu.be/0Q4P1bsIiak?t=152)
+* The HIP is [here](https://github.com/helium/HIP/blob/master/0039-hnt-redenomination.md)
+* On 9 November 2021 this HIP was put to [vote](https://heliumvote.com/14MnuexopPfDg3bmq8JdCm7LMDkUBoqhqanD9QzLrUURLZxFHBx)
+* On 6 October 2021 Modo Tech discusses it [here](https://youtu.be/cZR3Iwoe9BA?t=627)
+* August 2021 a 100:1 or 1000:1 HNT price split was mentioned, [this video explores this](https://www.youtube.com/watch?v=lkdU90I2aDA)
+
+
+<h3 id='heading--faq-hip42'><a href="#heading--faq-hip42">What is HIP-42? Beacon/Witness Ratio - Witness Reward Limit</a></h3>
+
+HIP 42, if implemented, would regulate the number of witnesses a Hotspot is rewarded for based on the number of successful beacons. This rewards 2-way LoRaWAN coverage and as a secondary benefit offers to limit some gaming due to witness stuffing.
+
+* HIP-42 [document](https://github.com/helium/HIP/blob/master/0042-beacon-witness-ratio-witness-reward-limit.md)
+* Sorin discusses it on this 12 Jan 2022 [video](https://www.youtube.com/watch?v=2ezhzVUxSck), you can check if your hotspot is affected [here](https://etl.dewi.org/question/461-poc-witness-scaling-hip-42)
+* Sorin discusses how this is a bad idea on this 9 Jan 2022 [video](https://www.youtube.com/watch?v=z83MfXSepBY)
+* This hip gained popularity when called for a temperature check on 9 Jan 2022
+
+<h3 id='heading--faq-hip51'><a href="#heading--faq-hip51">What is HIP-51?</a></h3>
+
+* This was announced in May 2022 - see the blog post [here](https://blog.helium.com/helium-chapter-2-a-network-of-networks-7372262210bd)
+* You can read the HIP [here](https://github.com/helium/HIP/issues/336)
+
+<h3 id='heading--faq-hip54'><a href="#heading--faq-hip54">What is HIP-54 & HIP-55?</a></h3>
+
+Short versions:
+![image|690x377](upload://xT6EbYGGFleM35rLzii6ALqJ925.jpeg)
+
+* Please also check our <a href="#heading--faq-lightgateway">What is light / data only / full hotspots?</a> section
+* Vosk talks about it on this 17 march 2022 [video](https://youtu.be/jayWy32BF9c?t=131)
+* Gristle King covers it on this 22 Feb 2022 [video](https://www.youtube.com/watch?v=inuaoxk6kTk)
+* Longer discussion from 17 Feb 2022 [here](https://www.youtube.com/watch?v=wmxAj_SVF90) 
+* BFGNeil discusses it [here](https://www.youtube.com/watch?v=QArKFlKpCtY) on this 18 Feb 2022 video
+
+<h3 id='heading--faq-hip58'><a href="#heading--faq-hip58">What is HIP-58?</a></h3>
+
+[HIP 58](https://github.com/helium/HIP/issues/384) is the PoC Distance Limit. Where a proof of coverage distance limit of 100 km has been set.
+
+After voting this has been approved on 14 April 2022
+
+![image|393x500](upload://uaywbY5dxIV6WD9gUggc5G2k1v0.jpeg)
+
+
+
+
+<h3 id='heading--faq-poc'><a href="#heading--faq-poc">Talk to me about the PoC standards</a>
+</h3>
+
+What is Proof of Coverage? Vosk covers it here on a 15 Nov 2021 [video](https://youtu.be/ont126oav-c?t=272)
+
+POCv11 was activated on 13 December around 10:00 AM PT / 18:00 PM UTC
+![image|690x148](upload://mn0gEsV0wBeD3CnXhmKjA0LvULX.png)
+
+* Vosk talks about what you need to do for POCv11 on this 14 December 2021 [video](https://youtu.be/dUzB6I6n-A0?t=443)
+* Gristle King on 13 Dec 2021 explains ['PoCv11 Made Simple'](https://www.youtube.com/watch?v=k10M9p-al3o) 
+* This [dude](https://www.youtube.com/watch?v=4SfzWpuwnJE) argues a higher gain antenna in EU still makes more sense in POCv11 on this early December 2021 video
+* Vosk covers POCv11 again in this 26 November 2021 [video](https://youtu.be/uOvdp1udTxk?t=437)
+* Voskcoin covers this topic on this 21 November 2021 [video](https://youtu.be/UAWc5Jv_RTU?t=174)
+* See Helium's blog post about [everything you should do](https://blog.helium.com/pocv11-explained-call-to-action-4add36c75a1d)
+* Hotspotty has a good article describing the changes [here](https://blog.hotspotrf.com/2021/10/21/what-is-heliums-pocv11-how-does-it-effect-me/?)
+* Factor in the antenna height and gain you set in the app, right now those values are ignored.
+* Modo Tech did a good video on actionable items for POCv11 in this [video](https://www.youtube.com/watch?v=uI3j1HMmFLc)
+* Network Bits has done a good video explaining the [changes](https://youtu.be/J-EmZsvIrtc?t=472)
+* Elgen Tech with a technical video on what to [expect](https://www.youtube.com/watch?v=JiQkPblSuMo)
+* We will be given two weeks notice before POCv11 implementation - you have that time to correct your location, dbi antenna and elevation figures if required
+-- Note that updating your location costs 1,055,000 DC = $10.55
+-- Note that updating your elevation/antenna only costs 55,000 DC = $0.55
+* Source unknown but might be interesting:
+![image|690x418](upload://dopDC5ZEjL1uiGjpTeEaKCAq2ye.png)
+
+<h3 id='heading--faq-chainvars'><a href="#heading--faq-chainvars">Talk to me about chain variables</a>
+</h3>
+
+Chain variables are variables that are manipulated by Helium Inc on the chain to adjust parameters.
+
+* Gristle King has a good video from 26 March 2022 on this [topic](https://www.youtube.com/watch?v=pLM6T6B2BHg)
+* https://helium.plus/chain-vars is a good visual resource to this compared to the API's
+
+
+<h3 id='heading--faq-NFT'><a href="#heading--faq-NFT">Someone mentioned NFT?</a>
+</h3>
+
+This was mentioned in early June 2021 -  Zodiac NFT's for Helium consists of 12 collectable NFT's you can get for your miner or validator and funds go to charity.
+
+* Discussed in this [video](https://www.youtube.com/watch?v=Y5ChAHZyCF4&t=1771s)
+* Zodiac site [here](https://zodiac.helium.com/)
+* Helium Twitter [announcement](https://twitter.com/helium/status/1400527710900916230)
+
+
+<h3 id='heading--faq-lonewolf'><a href="#heading--faq-lonewolf">What is a lonewolf?</a>
+</h3>
+
+A hotspot/miner that can not see any other miners to validate. Vosk talks about it [here](https://youtu.be/VJQXFR5OSi4?t=284).
+
+<h3 id='heading--faq-validators'><a href="#heading--faq-validators">Talk to me about validators</a>
+</h3>
+
+Online validators went live on 7 July 2021. This moved 'consensus awards' from miners to special online validators.
+
+
+
+This made way for enhancements such as,
+* More predictable block generation times
+* Stability in the [blockchain](https://www.reddit.com/r/HeliumNetwork/comments/o6jv60/validators_ama/h3hvetx?utm_source=share&utm_medium=web2x&context=3))
+* More [consistent](https://www.reddit.com/r/HeliumNetwork/comments/o6jv60/validators_ama/h3hr5ki?utm_source=share&utm_medium=web2x&context=3) awards
+* Removing the blockchain syncing from miners, thereby enabling a future of 'light' (thus cheaper) miners
+* 'Data only' packet-forwarder hotspots with no [proof of coverage capabilities](https://www.reddit.com/r/HeliumNetwork/comments/o6jv60/validators_ama/h3hvqub?utm_source=share&utm_medium=web2x&context=3)
+
+Content,
+
+* Vosk talks about Validators on this 19 Sep 2021 [video](https://youtu.be/FXJIox0R0lQ?t=585)
+* 8 July 2021 - good video when online validators has just gone [live](https://www.youtube.com/watch?v=8pUNnYy_h7U)
+* Good video - "[Helium mining: validators explained by Dal Gemmell (full interview)](https://www.youtube.com/watch?v=DVRUmpX2FiQ)"
+* Official Helium page on [Validators](https://www.helium.com/stake)
+* See more [here](https://github.com/helium/HIP/blob/master/0025-validators.md)
+* Vosk talks about it [here](https://youtu.be/pDNAouHV9G0?t=1406) and again on June 1 2021 [here](https://youtu.be/3RiSYr_3fLg?t=178)
+* On 27 May 2021 it's been anounced that validators will move to the Akash network [in this blog post](https://akash.network/blog/akash-network-provides-decentralized-cloud-to-the-largest-internet-of-things-iot-network-helium/)
+
+
+<h3 id='heading--faq-validatorpool'><a href="#heading--faq-validatorpool">Validator pools?</a>
+</h3>
+
+* 11 July 2021 - Spreadsheet comparing [Helium Validator Pools](https://docs.google.com/spreadsheets/d/1xl5IjZY3xeAXTmnbLk2Ynedb9Ssd6yxRBwHixJQg8xM/edit#gid=0)
+* 23 June 2021 - Helium has published a list of Staking Providers [here](https://docs.helium.com/mine-hnt/validators/faqs-resources-providers/#staking-providers) - DYOR
+* [HIP31](https://github.com/helium/HIP/blob/master/0031-governance-by-token-burn.md) might be problematic for this - discussed in [this](https://www.youtube.com/watch?v=X5YPP8Obw-Y) 18 June 2021 Crypto Gossip video
+* Tactical investing runs through a couple of testnet pools [here](https://www.youtube.com/watch?v=duP1BCyJWJk)
+
+<h3 id='heading--faq-consensus'><a href="#heading--faq-consensus">Talk to me about how consensus works</a>
+</h3>
+
+See [this](https://docs.helium.com/blockchain/consensus-protocol/)
+
+Keep in mind that consensus is going to go away to online Validators around Q3,Q4 2021
+
+<h3 id='heading--faq-discoverymode'><a href="#heading--faq-discoverymode">Tell me about Discovery mode?</a>
+</h3>
+
+Discovery mode is also known as Disco mode - which was released on 18 May 2021. You can use this (once you have a miner setup) to compare locations for the best rewards. Ed Ballou talks about it [here](https://blog.helium.com/uncover-your-hotspots-potential-discovery-mode-a14003ec23d) 5 (24 May 2021).
+
+* Crypto Gossip discusses on 13 June 2021 '[Why Helium Hotspot Discovery Mode Results Can Differ So Much From Reality](https://www.youtube.com/watch?v=m-FI_zIOoPo)'
+
+<h3 id='heading--faq-amitoolate'><a href="#heading--faq-amitoolate">Am I too late to buy a miner?</a>
+</h3>
+
+* Understand and read<a href="#heading--faq-lowearnings">'Why are my earnings so low?'</a>
+* Vosk talks about it on this 13 May 2022 [video](https://youtu.be/2CCVz5YZyE4?t=989)
+* Vosk talks about it on 19 Sep 2021 [here](https://youtu.be/FXJIox0R0lQ?t=665)
+* Vosk talks about it on 13 September 2021 [again](https://youtu.be/zbig5vfQxhQ?t=632)
+* Vosk talks about Helium HNT price predictions [here](https://www.youtube.com/watch?v=PH3dst55LX0&t=81s) on 19 August 021
+* Vosk talks about it [here](https://youtu.be/6edHMz0sEKw?t=770) on 13 August 2021
+* Vosk talks about it [here](https://youtu.be/cofKps88NAA?t=435) on 14 June 2021
+* Vosk talks about it [here](https://youtu.be/3RiSYr_3fLg?t=250) on 1 June 2021
+* Should I buy a miner? Vosk talks about it [here](https://youtu.be/VJQXFR5OSi4)
+* Understand 'Miner Placement'
+* Research and do the math yourself
+
+
+<h3 id='heading--faq-icannotwait'><a href="#heading--faq-icannotwait">I want a miner quickly / what about Ebay?</a>
+</h3>
+
+If you are impatient, you are probably weighing the cost of a Ebay/other scalper priced miner compared to waiting for one and seeking advice on the topic, some thoughts:
+
+- DYOR, this is not advice
+- In terms of ROI,
+-- See the [tokenomics](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-finance) section
+-- Understand that HNT being mined will become less and less with more hotspots coming online
+-- Understand that returns are unique to every location and position and how to make the best of the options available to you by understanding [miner placement](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--placement)
+- In terms of other risks,
+-- Be careful with resellers, Helium miners are tied on to a wallet on setup and needs to be transferred otherwise it is locked to the original owners wallet
+-- Ensure the hotspot you are buying is NOT on the denylist (has been banned) you can do that on https://explorer.helium.com
+-- Lots of scalpers are selling positions in queues with vendors rather than in-hand options
+-- Be familiar with '[Am I too late to buy a miner?](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-amitoolate)'
+- Read the whole Wiki/FAQ and any other sources until you are comfortable with your decision
+
+
+
+
+
+
+<h3 id='heading--faq-diy'><a href="#heading--faq-diy">Can I make my own miner?</a>
+</h3>
+
+You could in 2020, you cannot anymore, if you create one now it would not be signed by Helium and therefore you would never get rewards.
+
+You can DIY a Helium Light Hotspot with a [Dragino LP28 DLOS8](https://www.youtube.com/watch?v=OuujPVK8f3U) for packet forwarding but will not be compensated for it (yet) if you want to play with the technology.
+
+<h3 id='heading--faq-lightgateway'><a href="#heading--faq-lightgateway">What is light / data only / full hotspots?</a>
+</h3>
+
+BFGNeil has a good video from 28 Feb 2022 covering [this](https://www.youtube.com/watch?v=fWoPXCO8_oI)
+
+There is a roadmap for Light Hotspots (or Light Gateways) to go in beta, [read about it here](https://docs.helium.com/mine-hnt/light-hotspots/)
+
+If you want to read about what the plans are post HIP19 (where vendors manufacture for Helium) there is talk of a secure module HAT which can be put on DIY hardware on this [HIP proposal](https://github.com/helium/HIP/blob/master/0022-diy-concentrators.md)
+
+* Vosk talks about Light Hotspots on this 19 May 2022 [video](https://youtu.be/17cb04Q9QdQ?t=504)
+* Helium released a good Milestone4 Light-Hotspot [FAQ](https://blog.helium.com/light-hotspots-explained-everything-you-need-to-know-f86612f571c6) on 13 April 2022 for the go-live on May 3 2022
+* Vosk talks about Light Hotspots again on this 17 March 2022 [video](https://youtu.be/jayWy32BF9c?t=377)
+* Vosk covers the differences in this 22 Jan 2022 [video](https://youtu.be/Od4e_e0XCTc?t=301)
+* kyk13.com wrote a excellent article about Light Hotspots / Packet Forwarders / Regular Hotspots in [this blog](https://kyk13.com/light-hotspots-explained/?) in late July 2021
+* On 2 July 2021 Helium made some interesting [comments](https://youtu.be/uoVRKh_x1NQ?t=1558) on the future light-hotspot miners and how important it is to drive the cost of future miners down
+* On 30 May 2021 Ed Ballou answered "If you must sell your current pre-order if light gateways are coming out" [here](https://youtu.be/c7dzFjz0BMk?t=81) 
+
+This was published 4 June 2021:
+![image|388x500](upload://37zxuCFSdiLlDDfKMDvfF5UQPKs.png)
+
+
+<h3 id='heading--faq-car'><a href="#heading--faq-car">Can I put the miner in my car/truck?</a>
+</h3>
+
+No - the position needs to be asserted, see the below on the re-assert fee. Youtube [link](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1464s) discussing this
+
+<h3 id='heading--faq-moving'><a href="#heading--faq-moving">I need to move my miner / remotely assert a miner / can I assert it later?</a>
+</h3>
+
+* There is a ~$10 re-assert fee to assert a new position (distances more than 300 meters)
+* Vosk talks about the process [here](https://youtu.be/pDNAouHV9G0?t=1352)
+* Yes you can assert it later, when setting up the miner for the first time it asks:
+![image|231x500](upload://iGJyPp0JIXUrnfsE2ZAs67YwGLT.jpeg)
+
+* The map picker icon looks like this, put it in the center of the circle, not below the point:
+![image|155x170](upload://l2pYNeNmN7Ns5gLa4T8cMqNE3ls.png)
+  - It will snap to the center of the res10 regardless
+
+
+
+
+<h3 id='heading--faq-5G'><a href="#heading--faq-5G">Tell me about 5G?</a>
+</h3>
+
+First photos of prototype of FreedomFi LoRaWAN / 5G hotspot:
+![image|666x500](upload://h9WI6oE9VMX2A23d9T48C4Sqzes.jpeg)
+![image|666x500](upload://iugKdvwAaaJl7BC9NTpDzjCGBQQ.jpeg)
+
+To set the scene:
+
+![image|690x316](upload://sPn8H2cVOm1qfETLuKeFpjfpdv0.jpeg)
+
+* NOTE this is US only for now and completely optional
+* Vosk talks about 5G and cossts on this 24 March 2022 [video](https://youtu.be/xwEl4nQkRWg?t=452)
+* Interesting HIP for accelerating Helium 5G in [Europe](https://github.com/dewi-alliance/grants/issues/52)
+* FreedomFi's [webpage](https://freedomfi.com/Helium5G/) received some updates on 31 August 2021
+* The idea is that it will provide 5G coverage for areas with bad cell service, therefore expect a lot of Internet use as such a site and expectations of low latency and high throughput
+* Gristle King has a good article on '[Understanding Helium 5G](https://gristleking.com/a-rough-guide-to-helium-5g-deployments/)'
+* Ed Ballou covers 'How much can I make 5G mining?' in this 3 Jan 2022 [video](https://www.youtube.com/watch?v=iE0JZM8mB0s)
+* [HIP37](https://github.com/helium/HIP/blob/master/0037-omni-protocol-poc.md) - Omni Protocol is a interesting read on the economic intensives of 5G/data
+* Gristle King has a good 15 Dec 2021 interview called ['Experts Answer Helium 5G Questions'](https://www.youtube.com/watch?v=wFLXZ85lfb4)
+* Ed Ballou does a unboxing of the FreedomFi 5G miner on 8 October 2021 [here](https://www.youtube.com/watch?v=-utwTEDhRBI)
+* DISH in the US striked a deal with Helium for 3m 5G units on 26 October 2021 see [this](https://blog.helium.com/dish-first-major-carrier-to-bring-helium-5g-to-the-people-10da0e899792)
+* CryptoGossip runs through the Freedomfi [purchase options](https://www.youtube.com/watch?v=evfoYjSj-o8) on 29 September 2021
+* Good 23 September 2021 video from 'The Hotspot' titled ['5G Omni-Protocol & Proof of Coverage (w/ Boris Renski & James Fayal)'](https://youtu.be/X6WLchwHFAo)
+* Modo Tech did a good [video](https://www.youtube.com/watch?v=JQ5Cwzn-uqE) on 16 August 2021 talking about concerns around the 5G band-wagon and what to expect
+*  [ Buckle Up. Helium 5G is Coming](https://dewialliance.medium.com/buckle-up-helium-5g-is-coming-b71d01d1e904)
+* [Episode Two: The Path to 5G](https://blog.helium.com/episode-two-the-path-to-5g-3f704a58661) 
+* FreedomFi [FAQ here](https://freedomfi.com/Helium5G/?frm_page=3#faq)
+* Helium CEO discusses [CBRS & 5G](https://youtu.be/_9lHamWbH_8?t=403) here
+* Please note it might be prohibitively expensive for those starting off,
+![unknown|690x355](upload://75y7BrZrFl2zvWVLWlqlYxkk0G.png) 
+* (22 May 2021) FreedomFi CTO [showing](https://www.youtube.com/watch?v=p2rhjeWiRK8) PoC of using the FreedomFi gateway on the Helium blockchain
+* (23 May 2021) FreedomFi [Helium Hotspot Update](https://www.youtube.com/watch?v=j3yHNnW1dOg) going through the FAQ's by Crypto Gossip
+* [HIP27](https://github.com/helium/HIP/blob/master/0027-cbrs-5g-support.md) discusses 5G/CBRS
+* FreedomFi shows what's all involved with a LTE (not 5G) setup in this entertaining [video](https://www.youtube.com/watch?v=yMSWNl96yNU)
+* Previously we had a mini-rant here, this is deleted because it appears this offering is data-only as well as CBRS which skips many regulatory hurdles, whilst there is still some significant costs (outlined roughly above) they are not as costly as operator-level operations
+
+<h3 id='heading--faq-contactminer'><a href="#heading--faq-contactminer">Can I contact an owner of a miner?</a>
+</h3>
+
+Not directly - however there are a couple of contacting-miner platforms:
+*  [heliumhosts.com](https://heliumhosts.com/) has been setup to add a element of connecting owners
+* [Hotspotty.net](https://hotspotty.net/)
+* [Sitebot](http://www.sitebot.com/helium/)
+
+<h3 id='heading--faq-stolen'><a href="#heading--faq-stolen">What if someone steals my miner?</a></h3>
+
+Theft has little purpose as the miner has your wallet address on it - they would be mining to your address unless you released the miner beforehand.
+
+
+<h3 id='heading--faq-masts'><a href="#heading--faq-masts">What about mast installations?</a></h3>
+
+This is a specialised area, cell towers require a contract for the lease with the cell tower owner (or revenue share), certificate of insurance, extra equipment to install (~$1k), extra installation costs ($1-3k), internet and of course power is not always available.
+
+Our resident US expert on this is @jhunter007, some photos:
+
+![image|371x500](upload://9vgVIJkPd8TBiBM4cy08P1e8jjL.jpeg)
+![image|431x500](upload://bfnY0s9uMGbTpy98dsrrClb2Byv.jpeg)
+
+
+<h3 id='heading--faq-arresters'><a href="#heading--faq-arresters">What about lightning arresters and grounding?</a></h3>
+
+These should be installed on any external installation to a ground wire, some info on the topic:
+* Sorin talks about 'How to Ground a Helium Antenna - Do we need an arrestor?' on this 1 Dec 2022 [video](https://www.youtube.com/watch?v=UPNhNjhHrdg)
+* A good [grounding tutorial](https://www.youtube.com/watch?v=L_iRaIlSTKg)
+* Kyk13 has a good '[Lightning Arrestors in 30 seconds](https://kyk13.com/lightning-arrestors-in-30-seconds/)' article
+* [Video](https://www.youtube.com/watch?v=5f6bS604jg4) dealing with sealing / arrestor installation
+* Arresters you can [buy](https://linktr.ee/lightningarrester)
+
+
+<h3 id='heading--faq-pitching'><a href="#heading--faq-pitching">How do I pitch one to a friend?</a></h3>
+
+Want to put a miner at a friend/neighbour?
+
+* Quirky introduction [video](https://www.youtube.com/watch?v=Vx9YyS7-d3g) from Helium
+* Gristle King around '[Why is Helium So Exciting?](https://www.youtube.com/watch?v=Ged0aU9V7TA)' 
+* Discuss that the device does IoT
+* Discuss security, dog-trackers, etc will connect to it, not WiFi or your network
+* Discuss impact to the person - ie. little electricity use, not more than a couple of hours of Netflix use in bandwidth per month
+* Benefits - pay their internet? A %?
+* Video discussing this [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1609s)
+
+@Tankin kindly shared his strategy,
+
+> **Ideas For Finding Neighbors/Friends To Network/Partner with HNT Miners.**
+> 
+> **Facebook Community**
+> 
+> Check to see if your neighborhood has a Facebook page you can join. If they do then join it, introduce yourself, and talk a little about HNT mining mention how many miners you have and that you are looking to expand the Helium Network, help fellow neighbors earn a bit of passive income.
+> 
+> If they are interested you can proceed to tell them more details about how it works or you can send them this video and then have them follow up with you with any questions they have.
+> 
+> * https://www.youtube.com/watch?v=Vx9YyS7-d3g
+> 
+> After you know they are pretty serious this is when you explain that the hotspots need to be 350m+ apart for the best result if you haven't already and this is when you ask them for their address to be sure theirs will be 350m or more away from the hotspots you have planned.
+> 
+> If they are 350m+ then you can discuss how you will split it.
+> 
+> I have listed a few examples of ways you can go about splitting, but you can get creative and come up with your own ways if you would like.
+> 
+> If they are within 350m explain that you are sorry but they are too close. Don't end it there though ask them if they know any neighbors in the area that may be interested and if they do reach out to them.
+> 
+> This works the same for apps like Nextdoor as well!
+> 
+> **Door to Door**
+> 
+> This is a bit more tricky. However, some ideas for this that you could try is picking a start location and map out houses/businesses that are 350m+ away from there and start knocking doing the same thing as above only in person rather than via Social Media.
+> 
+> **Ideas for Splits(You/them)**
+> 
+> 80/20 forever or whatever % you want
+> 
+> 80/20 until the units paid off and then 50/50 or whatever % you want
+> 
+> If they are friends or family offer to take them out for lunch/do something nice for them
+> 
+> Offer them a flat monthly rate or cover their internet cost monthly(I don't like these as HNT mining can go up or down in profitability so you may end up paying them more than the miner earns. This is why I like the % method best.
+> 
+> **Splitting The Earnings**
+> 
+> If you are doing a % split you can offer to send them their portion of HNT to their HNT wallet and teach them how they can sell it or you can offer to sell their portion of HNT and then pay them what it sells for via PayPal/Venmo or any other way you choose.
+> You can make a Facebook page for people in your neighbourhood that are using your hotspots to keep everyone up to date on how they are doing
+
+<h3 id='heading--faq-electricity'><a href="#heading--faq-electricity">How much electricity does it use?</a></h3>
+
+Assuming 0.15c/kWh (which is above average):
+* Bobcat says no more than 0.12kWh per day, so worst case: 56c per month
+* Nebra says rated up to 15W, so worst case: $1.67 per month
+* RAKv2 says powersupply up to 5V/3A = 15W, worst case: $1.67 per month
+* SP NA says 21W, worst case: $2.34 per month
+
+<h3 id='heading--faq-rebooting'><a href="#heading--faq-rebooting">I heard the miners reboot all the time?</a></h3>
+
+A issue with miners rebooting due to a OOM (out of memory) condition has been reported, affecting all miners (not vendor specific).
+
+* Ed Ballou talks about it [here](https://youtu.be/cs3zZsoBSdQ?t=176) (24 May 2021)
+
+
+19 May Update #2:
+
+> **Syncing Issues: Update** The core developers pushed a blockchain release late last night `2021.05.18.0` which alleviates some issues on RAK and OG Hotspots. About 27K of the online hotspots have picked up this release and we continue to monitor all 40k nodes on the network and their sync status. We're seeing some improvement on some hotspots but are noticing some new issues that we will continue to address. this is roughly in order of importance. 1. Some hotspots with smaller SD card (32 GB) are filling up in space as the new RocksDB checkpoints are using more disk than they did before. When the disk fills up, the miner is unable to proceed. The core devs are working on a way to force more garbage collection to solve this issue and will **be issuing a follow up OTA firmware update that includes this** . 2. Bobcat and other mis-configured Docker based Hotspots are unable to maintain a maximum open file limit that the miner needs. This configuration needs to be rolled out to all of the Bobcat fleet but since they automatically update around 21:30 UTC, they will need to skip yesterday's release. We **will be rolling back the latest tag** and then rolling it forward again after their update time to accommodate their team's timezone. We advise that all hotspot manufactures ensure their Hotspots OS settings allow for a max open files setting that matches the Dockerfile. We also advise not using the latest tag directly (and some manufacturers already have this process in place). 3. Some hotspots are having trouble picking up the latest snapshot from peers. The network has generated a more available snapshot and the core devs will **be issuing a follow up OTA that includes this** . The core devs continue to work on the remaining issues and we appreciate your patience!
+
+19 May Update #1:
+
+> **Required Blockchain Release: Fixing OOM and Sync** The team has a new release tagged `2021.05.18.0` which primarily fixes out-of-memory and sync issues observed on older, less capable hardware, and other bug fixes. This is a follow up release to the prior, paused, `2021.05.16.1` release. This is a *required* upgrade for all miners and will be automatic for all Hotspots using the Helium firmware when we GA.
+> Read the Engineering Blog for details: https://engineering.helium.com/2021/05/18/blockchain-release-fixing-oom-and-sync.html No manual intervention is required if you are operating a Helium Hotspot or RAK Hotspot Miner. Other manufacturers will need to update their fleets and owners will need to wait on their manufacturer to push an update to their Hotspot. DIY will need to manually update and Docker builds will kick off as soon as we tag the GA. We will be specifically testing this release with the Bobcat team this evening to ensure a rollback isn't necessary again. We have been beta testing `2021.05.18.0` since May 18th, 2021 4:30 PM PT. Current ETA for GA is 9:00 PM PT, May 18th, 2021. Sorry for the late evening ping but as you all know, the core devs have been focused on this issue. Thanks for your patience!
+
+
+18 May 2021 Update:
+
+> **Paused Blockchain Release: `2021.05.16.1`** The core developers have paused the `2021.05.16.1` release as of yesterday and are continuing to work on the memory and out-of-sync issues. A few miners have updated to the latest firmware and the entire Bobcat fleet automatically updated to the latest Docker tag. This exposed some unforeseen issues causing us to pause the wider roll out. The blockchain continues to be stable and assets (Hotspots, HNT, DCs and OUIs) remain safe. We're working with the Bobcat team to roll back their Hotspots (which will happen automatically later this evening). The core devs will provide an update and information about the next release soon. We've been beta-testing a new firmware and are seeing some promising results. Thanks for your patience!
+
+17 May 2021 release notes for 2021.05.16.1 - [here](https://engineering.helium.com/2021/05/17/checkpoints.html)
+
+13 May 2021 initial note:
+
+> An Update on Memory / Sync Issues
+> 
+> As much of you know, a small percentage of Hotspots are having an issue with memory / sync issues and preventing them from participating in blockchain activity. The scale of the fix required for this issue is larger than the core developers expected and requiring them to rework the miner to use RocksDB's checkpoint feature. This is a significant change and needs to be done safely.
+> 
+> There will be a separate release that is being testing tonight to support other efforts but it is not intended to address the memory issues. We should have an update tomorrow on the progress being made. 
+> 
+> Thanks for your patience!
+
+
+<h3 id='heading--faq-examples'><a href="#heading--faq-examples">LoRa Examples</a></h3>
+
+Example products,
+* [LDS02 Dragino Door Sensor](https://blog.helium.com/knock-knock-dragino-door-sensor-is-here-d6a5e6035800) - announced 3 December 2021
+* [Asset Tracking for Logistics Operations with Hoopo](https://blog.helium.com/asset-tracking-for-logistics-operations-with-hoopo-26dbbda4a1af) was announced on 1 September 2021
+* [ARICA](https://blog.helium.com/airica-and-helium-fight-covid-19-and-other-pathogens-with-air-quality-sensors-fa707b8aa801) air quality sensors, announced 26 August 2021
+* Lark personalised sensors, [announced](https://blog.helium.com/solve-supply-chain-challenges-with-personalized-sensors-from-lark-alert-623eb8a722b5) 27 July 2021
+* Invoxia Trackers was announced on [13 July 2021](https://blog.helium.com/find-protect-your-valuables-with-launch-of-invoxia-trackers-in-the-u-s-9498bcbc99d6) - [unboxing/review](https://www.youtube.com/watch?v=5SltgLCRpSw)
+* InfiSense IoT sensors announced on [9 July 2021](https://blog.helium.com/advancing-smart-agriculture-environmental-sustainability-with-infisense-90fd1442be4)
+* Barnacle Tracker announced June 28 2021 [here](https://blog.helium.com/package-tracking-like-youve-always-dreamed-with-barnacle-a4c6a3caff27)
+* [ConnectedFresh](https://blog.helium.com/connectedfresh-selects-the-peoples-network-to-keep-food-beverages-safe-d0bc01e64b4e) was announced on 16 June 2021
+* Actility and Abeeway GPS tracking on the Helium network, [announcement](https://www.actility.com/actility-and-abeeway-enable-global-indoor-outdoor-asset-tracking-on-heliums-global-peer-to-peer-iot-network/) and [video](https://www.youtube.com/watch?v=saMgZh9HAOM) - released 10 June 2021
+* [Tabs Object locator](https://connectedthings.store/gb/tabs-object-locator-lorawan-gps-tracker.html)
+* [Mouse Trap](https://blog.helium.com/literally-a-better-mousetrap-from-helium-victor-powered-by-the-peoples-network-b3e7af96947b) - 1st mouse [event](https://youtu.be/ETObssOnoOA?t=3822)
+* [Airly](https://blog.helium.com/airly-selects-the-peoples-network-to-track-air-quality-around-the-globe-d861602685a8) air quality monitor, Helium COO talks about it [here](https://youtu.be/ETObssOnoOA?t=3987)
+* [Parking Lot](https://blog.helium.com/nobel-systems-selects-the-peoples-network-for-major-metropolitan-parking-lot-monitoring-5fdc5e1a78f8) Monitoring - Helium COO talks about it [here](https://youtu.be/ETObssOnoOA?t=4033)
+* [NOWI](https://blog.helium.com/nowi-is-using-the-peoples-network-to-stop-leaks-and-water-waste-a00bb6aa280f) water leak sensor, Helium COO talks about it [here](https://youtu.be/ETObssOnoOA?t=4087)
+* [Oyster2 LoRa GPS Tracking Device](https://www.lonestartracking.com/tracking-devices/oyster-lora-gps-tracking-device-915mhz/)
+* Helium keeps a list as well [here](https://www.helium.com/ecosystem)
+
+Science stuff,
+* Using Helium on [weather balloon](https://youtu.be/Pne3zJAUDok?t=61) science projects
+
+
+<h3 id='heading--faq-offgrid'><a href="#heading--faq-offgrid">I want to mine offgrid</a></h3>
+
+Check out this - [How to take your Helium Hotspot off grid](https://kyk13.com/how-to-take-your-helium-hotspot-off-grid/) 
+
+* Helium 4G LTE Hotspot Setups, Relay Mode, VPNs, and Resources - covers [some options](https://www.youtube.com/watch?v=xQarBIe0PiA) for connectivity 
+* Gristle King explains 'Will Your Off Grid Helium Hotspot Get Stolen?' on this 26 Dec 2021 [video](https://www.youtube.com/watch?v=S0-kBL4VcHk)
+* Gristle King running through offgrid requirements [https://www.youtube.com/watch?v=9QrqB5uIJ6c](https://www.youtube.com/watch?v=9QrqB5uIJ6c)on 23 July 2021
+* RaspberryPi offgrid [video](https://www.youtube.com/watch?v=CbpfNU7oaws) but quite applicable as power requirements are the same as Helium miners
+* [GKI Readyspot](https://www.youtube.com/watch?v=2-KWsa2b8OY) - packable Off Grid Helium Hotpsot and [writeup](https://kyk13.com/packable-off-grid-helium-miners/)
+* Good [video](https://www.youtube.com/watch?v=KIpfk_aBfKs) running through creating your own outdoor enclosure with temperature control, fans, POE splitter, etc.
+* [How to: mining Helium over a cellular connection](https://medium.com/@oliverswitzer_91379/an-in-depth-guide-how-to-setup-your-helium-hotspot-over-a-cellular-network-39763d443c99#1eb0)
+* Gristle King's offgrid [parts-list](https://docs.google.com/spreadsheets/d/13ckmeNprB_gj_DQnmPssK7ibIsART0VdileJjxo2WqU/edit#gid=0)
+* KTP covers offgrid remote management over [here](https://voskcointalk.com/t/remote-management-guide/32588)
+
+<h3 id='heading--faq-enclosures'><a href="#heading--faq-enclosures">What about Enclosures?</a></h3>
+
+If you did not get what you needed from the above section,
+* Check the vendor-specific [section](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--vendors) for particular enclosures
+* Great video from Ed Ballou on 28 November going through the RAK and Bobcat [enclosures](https://www.youtube.com/watch?v=f_gXaH3d_i0)
+* A Bobcat or Sensecap DOES fit in a Nebra enclosure:
+![image|375x500](upload://75QOEXxt9Vdo8kgY5J6hUSOTIFS.jpeg)
+![image|375x500](upload://iqcCVqi3Q5MAtdskhWudkG85toq.jpeg)
+
+
+
+<h3 id='heading--faq-friends'><a href="#heading--faq-friends">Is it benficial to have more than one miner on my account?</a></h3>
+
+Short answer - it does not matter, [explainer here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=449s)
+
+<h3 id='heading--faq-apps'><a href="#heading--faq-apps">Interesting Apps</a></h3>
+
+* Helium Hotspot Utility ([Android](https://play.google.com/store/apps/details?id=com.kentwilliams.hotspotutility&hl=en_US&gl=US) | [Apple](https://apps.apple.com/gb/app/helium-hotspot-utility/id1527367455) ), mentioned [here](https://youtu.be/cs3zZsoBSdQ?t=320).  - Useful for quick diagnostics without using a wallet
+* https://hotsbot.net/ Notifies you on Telegram of any activity on your Helium account, the author runs through it [here](https://www.youtube.com/watch?v=bY_6_5e0bM4) on 22 July 2021
+
+<h3 id='heading--faq-interestingspots'><a href="#heading--faq-interestingspots">Interesting miners / Fun Facts</a></h3>
+
+Interesting miners spotted -
+* High earners,
+ * [LA](https://explorer.helium.com/hotspots/112VQbVpRw5AYXPeAXcBwNGvBJSNkxPquxdMgtbaDWSnxpjpGiqG#14/36.53778/-119.84161/0/26)
+ * [LA again](https://explorer.helium.com/hotspots/112VQbVpRw5AYXPeAXcBwNGvBJSNkxPquxdMgtbaDWSnxpjpGiqG#14/36.53778/-119.84161/0/26)
+ * [Torrance, CA](https://explorer.helium.com/hotspots/112QxJn64peKFX61RSR4FRhdJKpjKwyPzm9faYu4p2A7uDfYo1qj)
+ * [Pittsburgh, PA](https://explorer.helium.com/hotspots/11vtcvMLugeb5vpD8CMFFFUj7QhHVvDxucYcDwqVNUsyMEz11C3)
+ * [San Diego, CA](https://explorer.helium.com/hotspots/112hNSHiK2uLpduVV2ZQNtoBiZJKzizcwGrGvmAUTGWeKVoUHvJK) - good water reflection
+ * [Spring, TX](https://explorer.helium.com/hotspots/11M6zpKQMpBLauHnjyM2dKKkUYGZVPPfUMzxsUMN3ceCDJVt4yG) - good elevation example
+* [London, UK](https://explorer.helium.com/hotspots/11cKUQkhmXjb86CQPPNd4SxiAUd9LUCX8ymJ1ek8gHbVqgZY9Zk)
+* [Blackpool, UK](https://explorer.helium.com/hotspots/11zzPnBhaWWwUEyveujge4bV5XUV2cf3uJ1xBgQDTmcpXndWNLq)
+* [Lakeside, CA, United States](https://explorer.helium.com/hotspots/112qN5DMoTdc4ThFGQHKyg4e3QfuEkkCUEfu5EgZA1QZLNdqb4Cf)
+* [Mississauga, ON, Canada](https://explorer.helium.com/hotspots/11SQ3PDz2GNuVG9a2S7qPKbDJJUMoWgnsNwNUPLsSSq3YeD24wG)
+
+Fun stuff,
+* [Richest Accounts](https://explorer.helium.com/accounts/richest)
+
+<h3 id='heading--faq-explorer'><a href="#heading--faq-explorer">How to use the Helium Explorer</a></h3>
+
+* [First Look](https://www.youtube.com/watch?v=xG-NoMQwKiI) at the New Beta Helium Explorer 2.0 Website - 9 June 2021 by Jummy is Promo
+
+<h3 id='heading--faq-trading'><a href="#heading--faq-trading">Where can I exchange/trade HNT?</a></h3>
+
+You can transfer/buy/sell Helium HNT at,
+
+* Vosks talks about exchanging [here](https://youtu.be/NgbpYZcHsgM?t=1056) on 8 June 2021
+* Vosk talks about exchanging [here](https://youtu.be/VJQXFR5OSi4?t=592) (11 May 2021)
+* Binance / Binance.us (reportedly)
+* Crypto.com (as of May 2021) ([article](https://blog.crypto.com/crypto-com-app-lists-helium-hnt/))
+* Video with more info [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=755s)
+* See the exchange [list here](https://www.coingecko.com/en/coins/helium) on Coingecko.com
+* We hear that some people prefer using Simpleswap YMMV
+
+<h3 id='heading--faq-antennapower'><a href="#heading--faq-antennapower">Talk to me about antenna power limits?</a></h3>
+
+Thanks @jhunter007,
+
+For those of you having questions on how powerful of an antenna you can use, please refer to the FCC rules on the US915 spectrum:
+
+FCC allows for 36 dbm total output power.  So if the hotspot is doing 27 dbm (which I think is the max that most of the Helium hotspots use)...you can add a max of a 15dbi antenna, from [this site:](https://afar.net/tutorials/fcc-rules/)
+![image|552x398](upload://lY6H5dHWeQCgIfKTwm9H4S8xPyW.png)
+
+1.    Maximum transmitter output power, fed into the antenna, is 30 dBm (1 watt). 
+2.    Maximum Effective Isotropic Radiated Power (EIRP) is 36 dBm (4 watt).
+You can obtain the EIRP by simply adding the transmit output power, in dBm, to the antenna gain in dBi.
+![image|690x275](upload://sZ485j7dpZTG6bQswfxV4WflWBR.png)
+
+This is for those of you that really want to understand the technology.  For those of us that don't, you're generally fine up to a 8dbi antenna, no matter which hotspot you chose.
+
+<h3 id='heading--faq-mappers'><a href="#heading--faq-mappers">What about mappers?</a></h3>
+
+This is a deep rabbit hole - word is that you should start [here](https://mappers.helium.com/)
+
+
+<h3 id='heading--faq-antennaswap'><a href="#heading--faq-antennaswap">What's the best practice for swapping antennas?</a></h3>
+
+Switch your miner OFF when changing antennas!
+
+Each antenna is a resistor and therefore has impedance, if you made the impedance change whilst the miner is on it could damage the radio.
+
+It can be compared to the same effect of wiring speakers to an amplifier:
+![image|690x281](upload://xep6nE28TsRQxUlf0jVNdvQJRcl.png)
+
+Once antennas are swapped - it is safe to turn it back on.
+
+credit: @Shwetty 
+
+<h3 id='heading--faq-2antennas'><a href="#heading--faq-2antennas">Can I put two antennas on one miner?</a></h3>
+
+Vosk mentions this question on this 20 Sep 2021 [video](https://youtu.be/FXJIox0R0lQ?t=437)
+
+Assuming that both antennas are 50 Ω resistive, they will combine in parallel for a 25 Ω load impedance when transmitting. This will cause the transmitter to see a 2:1 SWR. This is a 0.333 voltage reflection coefficient so ~11% of the transmitter power will be returned to the transmitter from the tee junction. The remaining 89% of the power will be split between the two antennas resulting in approximately 44% of power to each antenna. The net effect is an measurable dB loss to each antenna.
+
+The above scenario assumes that the transmitter does not further fold back the output power as part of an SWR protection mechanism nor does the transmitter final burn out due to elevated SWR.
+
+If you wish to deploy an antenna with additional gain, you will be far more successful with a purpose built antenna for that purpose.
+
+credit: @Shwetty 
+
+One post said,
+![image|286x500](upload://gGBAh5lQLFwHeyTq8pfP5TBMclF.jpeg)
+
+
+<h3 id='heading--faq-1dbi'><a href="#heading--faq-1dbi">Why do I have a 1.2dbi antenna?</a></h3>
+
+Are you concerned that the Helium app/explorer shows you/someone else has a 1.2 dbi antenna at 0 elevation?
+
+That's because when you asserted your miner you did not choose a antenna type or location.
+Currently (POCv10) this data is not used at all for any reward calculations so it does not have to be correct or need correcting.
+
+When POCv11 is announced and available this will however need rectifying as it will form part of the reward calculations, see [this](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-poc)
+
+
+<h3 id='heading--faq-naming'><a href="#heading--faq-naming">What's with the miner names?</a></h3>
+
+They are randomly generated to make it fun but memorable, the Helium COO talks about it [here](https://youtu.be/ETObssOnoOA?t=6083).
+
+The technical explanation - The swarm_key is an ECC Compact Key used by the Miner to sign all blockchain and libp2p transactions. The three word animal name (e.g. angry-purple-tiger) is actually derived from the public key of the swarm_key. ([link](https://docs.helium.com/mine-hnt/full-hotspots/become-a-maker/security-requirements))
+
+The three sets of names are available [here](https://github.com/helium?q=Angry+purple+tiger&type=&language=&sort=)
+
+<h3 id='heading--faq-humournaming'><a href="#heading--faq-humournaming">What are some funny hotspot names?</a></h3>
+
+We've seen a few odd ones,
+* Hot Cream Rooster
+* Dry Cream Swallow
+* Huge Cream Swallow
+* Massive Green Duck
+* Muscular White Ferret
+* Bald Oily Beaver
+* Attractive Fuzzy Beaver
+* Big Fuzzy Rat
+* Plain Velvet Beaver
+
+<h3 id='heading--faq-humour'><a href="#heading--faq-humour">I need Helium Jokes/Memes</a></h3>
+
+Random images found on Discord,
+![image|690x388](upload://209itDad4oQE5IYmGaoktGklyTb.jpeg)
+![5cl421|640x419](upload://xluqd2LuX90KgDPBUcTbZpLzGI.jpeg)
+![ShouldaBoughtAnotherMiner|480x360](upload://bCMB9xNSLDan8YJqosSyGgEBRuu.jpeg)
+![5cg1aj|618x499](upload://8EZRbBRqV34hZMYtxHhk3KTtZBg.png)
+![image|672x500](upload://vHYEod4BE6qkR1U7ZIrNDidIBzw.jpeg)
+![image|500x500](upload://Adn7wHM7hMGULFwaK8tK6T5iQ30.jpeg)
+![image|576x433](upload://hVVopTB8iegWG14HBzgN7r7qZ42.jpeg)
+![image|524x499](upload://g7339Bw37tL1FbDxTDnqvLKL8cr.jpeg)
+![image|604x413](upload://mKeYfxSmPEm9PH2QskuNQzKPGR3.jpeg)
+![](https://cdn.discordapp.com/attachments/828974069378580490/854865377065566258/AirBit.gif)
+![image|498x500](upload://foE57otePNqjcHQYTBHYi0mtWli.jpeg)
+![image|461x500](upload://tmPMssgQJKhxlN9EtgL9rCGDnH5.jpeg)
+![image|523x500](upload://glTdFf89F1mOoDtLmtUjG1hY1eH.jpeg)
+![image|603x500](upload://lanupxWnKeBMSnLf882BGhiGm1U.jpeg)
+![image|615x500](upload://yDiK80VPkLjDiPNB0KepIWal1rw.jpeg)
+![image|381x500](upload://2e2cJr2K4Wv6Vi7PuDlmNPNMDn8.jpeg)
+![image|690x495](upload://v6M8WAuQbzvirSAYmLEEzGk6gpG.jpeg)
+![image|431x500](upload://9DVsTBOlE6GuSoJKf7DxUC9kJjy.jpeg)
+![image|177x500](upload://huK0wrFNcFEnkR4n1WVMX9njPk3.jpeg)
+![image|690x175](upload://ps8UVVTY6nc6aqixXPHrxLSEuCu.png)
+![image|496x492](upload://sYN9ulN8NNKSNCWRBSsWMYh3TOS.jpeg)
+![image|483x500](upload://ogMaNilBqpMhHUEe4DenIfun8Vs.jpeg)
+![image|484x349](upload://mYx52x902uH03gvyRLMSEOoGP3X.jpeg)
+![image|555x500](upload://1qZgtbahAA01bkVa9zDjqPxxXHP.jpeg)
+![image|568x500](upload://o0Sx2vHmNJFNSVj88iRFIc8pG8L.jpeg)
+![image|690x460](upload://zRQTvPuu3td6ClX3jzZIpGi2f9R.jpeg)
+![image|460x500](upload://rwRksPWhqHIoJRz5WQlrfG5owYZ.png)
+![image|329x500](upload://zjAdSz5Lr0teuxBTRGfCR8mtEMW.jpeg)
+![image|560x500](upload://up7xoXlrojoFVmOm3ZAgF5AMpm0.jpeg)
+![image|469x500](upload://jX8bKwBC9OJ4QjwShHLZyeblg5b.jpeg)
+![image|604x500](upload://bGW3HUEJxmuPHsxwz5CYWcGxxPw.png)
+![image|500x500](upload://p0QTBU4fQCWdcefVuwreiSlm93D.jpeg)
+![image|611x409](upload://HVejd5Ev8nhl1E0XHwArMgVZbp.jpeg)
+![image|429x427](upload://aGLLNm0SRlgwIfgAbROqGwmQKPq.jpeg)
+![image|273x500](upload://H3Dyeue4kxBsQm19SNu0lts3VM.jpeg)
+![image|690x349](upload://qKQ8j9U8PZwPpWwxBTNg7Ek0yB1.jpeg)
+![image|690x370](upload://1vH1BM6YX5zNyEaxqck6iXLLci3.jpeg)
+![image|690x370](upload://1vH1BM6YX5zNyEaxqck6iXLLci3.jpeg)
+![image|375x500](upload://bYajz9D4gAyHCZD7aWPV9EzU3b2.jpeg)
+![image|620x454](upload://rccOHlTPOjYXMHXcSPGAq3IWNqW.jpeg)
+![image|690x481](upload://btCLGFwR5LdZX4EfCXvaQMxyTas.png)
+![image|665x375](upload://fBH3J2pgJsQDvAVftwo9HXfRCmT.jpeg)
+![image|690x460](upload://qFRzMUMfstG3sVL5Xa1O0z9yJq3.jpeg)
+![image|487x488](upload://AtzPhS1Iy9uGZYAjIZt1gQdBvB7.jpeg)
+![image|246x339](upload://EBeyJ01rKmQAkpL5CbEleqHsS8.jpeg)
+![image|500x500](upload://6zSddSV3QzlpHxEiX4ZgBV5o9c4.jpeg)
+![image|455x134](upload://xZAwKBcoCAIsNZb4jP2PpAhVUKo.png)
+![image|252x500](upload://bjQ57e1JfBPD6HQgYP44qIQJBQM.jpeg)
+![image|403x500](upload://s9n4Ku5QUfPnZnAXqI8WSImQGve.jpeg)
+![image|483x470](upload://qn3r9iBwp9TauDpI6BcznsQislv.jpeg)
+![image|350x499](upload://nYjlGE89bpHStcnt7SvXN1aU5ZU.jpeg)
+![image|350x499](upload://mzvk4RqHIpNbqWmaqzuXVg3jyrm.jpeg)
+![image|690x329](upload://7NX132AfuSwauxso30DayQVp4eZ.jpeg)
+![image|500x500](upload://p0QTBU4fQCWdcefVuwreiSlm93D.jpeg)
+![image|484x318](upload://qjMai3eNL3jLWzcfTl0018rqbKp.jpeg)
+![image|482x358](upload://prpakLqn2hXRUe9xNSyVzdant0U.jpeg)
+![image|484x484](upload://au6U78AQhEbbYRofeuAtw69LVfs.jpeg)
+![image|479x316](upload://rJPX10HDcybKl3mFBLbI6OoSk18.jpeg)
+![image|483x482](upload://2nKHzWTVDAIMV0ow3Xwl8M4bkgb.jpeg)
+![image|485x323](upload://1dm8KSNYokJT8CseeU2uHRtWZYj.jpeg)
+![image|483x314](upload://AipaQiwbhvKixoEaQ4fG5B0f3E6.jpeg)
+![image|484x322](upload://pU9sISfUgg5p1L76RoKLe4mZhby.jpeg)
+![image|626x417](upload://vJwafP7wPqiqp83Ydi0L350JGYs.jpeg)
+![image|357x500](upload://ApbJo8ZnjhFd5ttn1eghDHT80kE.jpeg)
+![image|487x270](upload://5D7CBh8CTkCC0dVHQnZAbjLamYX.jpeg)
+![image|484x484](upload://7IbgxguKbbe7hR4Cp2WKjoHwXgH.jpeg)
+![image|690x458](upload://mRGcXsjyC3fn7zdCvtAalNN7dTo.jpeg)
+![image|501x499](upload://zBnUhAWLmA1mn3kAusHtwVwkqp.jpeg)
+![image|291x499](upload://dtGqClQmEZiBvA5aMxxl9gyCyuk.jpeg)
+![image|372x500](upload://2wWB5F78vlJ9m3YlJ5bMOUdbiQS.jpeg)
+![image|436x500](upload://oIM3B8az6CIG4qXIqlew39Ul42p.jpeg)
+![image|536x387](upload://x0yZJO59lbCNvqNNpsfpnUNWWis.jpeg)
+![image|471x500](upload://gP2kqcQRkloVrvYV68crmEnaXIQ.jpeg)
+![image|536x297](upload://nHAPHdkAIckBinshrCKoiufcmpk.jpeg)
+![image|562x390](upload://pnXWH7TnBTjAoMtUxh1J2Gwm0sU.jpeg)
+![image|683x384](upload://pa17H3vCg0Mx7TrKjZzpE6wPZm.jpeg)
+![image|530x296](upload://ctWZsbvabhFSLEXADjgxs29h1Lo.jpeg)
+
+
+
+
+<h3 id='heading--faq-activations'><a href="#heading--faq-activations">Activation rate</a></h3>
+
+For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
+
+![10k+ Vendors - 2022-05-30T224030.213|690x426](upload://iAxh2viDDqyuoc5f1hEpstEUIGJ.png)
+
+
+
+
+* Another nice graph [available here at etl](https://etl.dewi.org/public/dashboard/5f3cd0b4-9317-48a3-88f0-aae5adf80aed?days=180)
+* Another effort for stats are available at https://heliumanalytics.io/
+* Helium Inc dashboards,
+-- https://dashboard.helium.com/d/SVFH2-jWk/blockchain?orgId=1 (Blockchain)
+-- https://dashboard.helium.com/d/AUqJjR77z/seeds?orgId=1 (Seeds)
+
+Want to know where those new hotspots are? [This is a useful site](https://www.sitebot.com/helium/hotspots/search)

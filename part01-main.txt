@@ -1,0 +1,954 @@
+THIS IS A TEST THIS IS ONLY A TEST
+
+<h2 id='heading--intro'><a href="#heading--intro">Introduction</a></h2>
+
+This Wiki is based off frequently asked questions on #hnt-iot-mining
+This is a Wiki so please edit as needed or let me know what needs updating
+
+<h2 id='heading--mining'><a href="#heading--mining">Helium Mining</a></h2>
+
+Explained to a five-year-old style [video](https://www.youtube.com/watch?v=Vx9YyS7-d3g)
+
+A otherwise good starter of the actual mining process and how it is calculated is [documented here](https://www.helium.com/hnt#distribution), in short:
+
+LongFi. Which is the combination of Heliums blockchain and the LoRaWAN frequency, is a low bandwidth and long range network that aims to get all the small things on a widespread network. LoRaWAN is better than using wi-fi as the transceiver and transmitter uses far less power. This means that Location trackers and other LoRaWAN appliances can last much longer on the same battery power. 
+
+* Vosk gives a good introduction to Helium in this 19 May 2022 [video](https://youtu.be/17cb04Q9QdQ?t=108)
+* In 2022 Helium Inc rebranded to Nova Labs - Vosk talks about it [here](https://youtu.be/17cb04Q9QdQ?t=258)
+
+<h2 id='heading--vendors'><a href="#heading--vendors">Helium Manufacturers</a></h2>
+
+What's the best one to buy? 
+* Miss Vosk covers it here in a 29 October 2021 [update](https://medium.com/voskcoin/the-best-helium-hnt-hotspot-miner-to-buy-right-now-788a332d1ac5) (Bobcat)
+* Vosk covers it here on a April 2021 [update](https://medium.com/voskcoin/what-is-the-best-helium-hotspot-miner-to-buy-e26f3f4a0c37) (Bobcat)
+
+
+What's the difference between them? Vosk addresses it [here](https://youtu.be/VJQXFR5OSi4?t=319). A handy hardware-specs-only comparison is being built up [here](https://docs.google.com/spreadsheets/d/1j7VXz4blroKfOf1nFPx7nccLo1NHRkDEhbglM8RC3bM/edit#gid=0) by crapdeathnel_x
+
+Please use the following links to support Voskcoin and our community. [Nebra]( https://www.nebra.com/collections/helium-hotspot-miners-hnt?ref=voskcoin) , [Bobcat ](https://www.bobcatminer.com/?ref=vosk) , [RAK ](https://voskco.in/HNTr). 
+
+Each hotspot vendor will provide everything you need to get your first miner up and running. One thing to note is that hotspot miners come with different frequency bands. Please make sure you are picking the correct selection for your region.
+
+A list of each vendor and how many Helium miners are deployed is listed <a href="#heading--faq-activations">here</a>
+
+A spreadsheet tracking all the new vendors and where they are in the approval processes is available [here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/htmlview#)
+
+All certified vendors for Helium are listed [here](https://docs.helium.com/mine-hnt/full-hotspots)
+
+<h3 id='heading--bobcat'><a href="#heading--bobcat">Bobcat</a></h3>
+
+![image|670x500](upload://amiwXqh9vfms7RMpczFcBFEnw8n.jpeg) 
+
+Currently still (December 2021) recommended by Vosk. This is because they have proven delivery estimates which currently stands at roughly ~28 weeks.
+
+* [Order link](https://voskco.in/HNTb)
+* Still the Vosk recommended [miner](https://medium.com/voskcoin/the-best-helium-hnt-hotspot-miner-to-buy-right-now-788a332d1ac5) here, on [21 Nov 2021](https://youtu.be/UAWc5Jv_RTU?t=105)
+* On 24 March 2022 Bobcat released announced that you can now manage your Bobcat on a cloud-based and from the mobile app - [see the announcement](https://www.bobcatminer.com/post/bobcat-launches-remote-troubleshooting-features)
+* Vosk talks about the upcoming Bobcat 500 in this 24 March 2022 [video](https://youtu.be/xwEl4nQkRWg?t=159)
+* Latest shipping news is always [here](https://www.bobcatminer.com/shipping-update)
+* As of 5 Nov 2021 AU915/AS923/KR920 miners are [orderable](https://twitter.com/BOBCATiot/status/1456456239030939667?t=-s6IlTVrjAtiKQWHXP6UfA&s=19)
+* See Vosk's 16 June 2021 video titled "[How to Buy Bobcat Miner 300 Helium Hotspot Miner](https://www.youtube.com/watch?v=2w4q2SbQb_8)"
+* Since 4 June 2021 the easiest option is to pay in USDC using Coinbase at checkout, video [here](https://www.youtube.com/watch?v=FkKRWaYJqVM). 
+* You can purchase USDC/USDT immediately and withdraw with crypto.com - see Vosk's [video here](https://youtube.com/watch?v=x9CU9833bbM) 
+* How to buy the Bobcat with USDC on Coinbase [video](https://www.youtube.com/watch?v=YqRDA_KHzdw) - Bobcat's version of doing the same shown [here](https://www.youtube.com/watch?v=FkKRWaYJqVM)
+* How to buy the Bobcat with USDC on Binance (9 Jun 2021) [here](https://www.youtube.com/watch?v=Ar3G4d-jiZs&t=29s&ab_channel=Crayban)
+* Orders cannot be cancelled or returned
+* Vosks's 29 October 2021 Bobcat video review [here](https://www.youtube.com/watch?v=9mYWcUJHUYU)
+* Vosk's April 2021 Bobcat video [here](https://www.youtube.com/watch?v=ddfQA4Ubg6A)
+* Comes with a 4dbi antenna ([spec sheet](https://d523ddbc-be3d-4ce8-9f4a-86e1d9b2472b.filesusr.com/ugd/13d5f4_699950e7075a4662a5bb92ab48f94255.pdf)) this antenna is [waterproof](https://media.discordapp.net/attachments/828974069378580490/862886627692773426/Screen_Shot_2021-07-08_at_6.png) & confirmed [here](https://bobcatminer.zendesk.com/hc/en-us/articles/4409715363227-Antenna-Specifications)
+* Bobcat [technical specsheet](https://d523ddbc-be3d-4ce8-9f4a-86e1d9b2472b.filesusr.com/ugd/13d5f4_5630e270db4e40d68f8bc7f6819b635a.pdf)
+* Utilises RP-SMA connector for antenna, if your connector has broken off for some reason, see this [repair guide](http://nowitness.org/bobcat-antenna-repair/)
+* Good manufacturing capabilities - does Xbox [component parts](https://youtu.be/ETObssOnoOA?t=1201) 
+* There is a good Bobcat-specific website [here](https://www.nowitness.org/) which covers troubleshooting, no witnesses, antenna repair, Bobcat's setup, Proof of Coverage, and tuning the hotspot
+* Made by RAK but Bobcat outdoor enclosure kit available [here](https://store.rakwireless.com/products/bobcat-outdoor-enclosure-kit) video demo [here](https://www.youtube.com/watch?v=5S6nK6v4aHM)
+* Good video showing the Bobcat's [working/operating temperatures](https://www.youtube.com/watch?v=K4r_APHHGts)
+* Bobcat has a good [blog](https://www.bobcatminer.com/blog) which contains firmware and other updates
+* The bobcat diagnoser is run as a webpage on your miner, blog [post](https://www.bobcatminer.com/post/bobcat-diagnoser-user-guide) and video [here](https://www.youtube.com/watch?v=FLQ58nGso8U), [Reboot & ReSync](https://www.bobcatminer.com/post/bobcat-miner-ota-update-08-28-2021) added on 28 August 2021
+* [No Witnesses! How to Test and Repair your Bobcat Miner Antenna](https://www.youtube.com/watch?v=710aPtKLsw4)
+* On 24 November 2021 Bobcat confirmed that many of their units are being shipped with 2GB of [ram](https://www.bobcatminer.com/post/65-of-all-bobcat-miners-shipped-have-2gb-ram)
+* If you have issues with your order, 
+-- [contact information is here](https://discord.com/channels/391255032558911490/828974069378580490/834493485188776007)
+-- Or [use this form for assistance](https://docs.google.com/forms/d/e/1FAIpQLScw1k1Ut37WzBhudDUA-g7qiTChEMmzEGjQpkC1VbQybGhQbw/viewform)
+-- Or watch Vosk tell you the same [here](https://youtu.be/ddfQA4Ubg6A?t=594)
+* For reference, a confirmed Bobcat order says:
+
+> Congratulations!
+Your order number #XXXX is successful. We’d like to begin by thanking you for your time and patience throughout this process. 
+Your miner will ship in 20-28 weeks from the time you placed your order.
+
+* Bobcat [explains](https://twitter.com/BOBCATiot/status/1451014533695168517?s=20) the Shipping label order process here so you can understand the shipment process better
+* Serial port details of your Bobcat, MicroUSB cable at the back runs at 1500000 baud, 8N1, credit 
+* There is talk about improving the antenna circuit within the Bobcat in this [Sorin](https://www.youtube.com/watch?v=OTovVfFVTBI) video, [US](https://www.amazon.com/dp/B093247PHX?psc=1&ref=ppx_yo2_dt_b_product_details) & [UK](https://www.amazon.co.uk/gp/product/B072VWKXCR/ref=ppx_yo_dt_b_asin_title_o00_s00?) part for reference
+
+
+<h3 id='heading--nebra'><a href="#heading--nebra">Nebra</a></h3>
+
+![image|641x500](upload://pyprwp39cWhfo5TJgEDjv52hQ0a.jpeg)
+![image|666x500](upload://5IQPmeSIaSnyjJsfqJAlYkD92oT.jpeg)
+
+
+**Sold out since 24 April 2021 due to component shortages**
+
+* Keep in mind that Voskcoin does not recommend this miner, as per this 21 Nov 2021 [video](https://youtu.be/UAWc5Jv_RTU?t=157)
+* Vosk's Nebra Helium Hotspot Miner [Review](https://www.youtube.com/watch?v=3RiSYr_3fLg) (1 Jun 2021)
+* Be aware of: [HIP19 action: Revocation of Nebra’s Approval as a Helium Hotspot Manufacturer](https://github.com/helium/HIP/issues/270) raised in August 2021 which is up for discussion & voting ultimately, by 2022 this has not received much attention
+* If you are having trouble onboarding your Nebra, try unplugging your Ethernet cable and rebooting your hotspot, before doing a bluetooth pairing
+* Indoor & Outdoor unit supports Wifi
+* Outdoor unit supports PoE
+* [Instant sync](https://discord.com/channels/404106811252408320/862486889578889256/893607778747285584) was introduced on 1 Oct 2021
+* Check Nebra's page for estimated batch shipping dates
+* POE how-to [here](https://helium.nebra.com/handy-guides/poe-explained)
+* FCC/CE docs [here](https://github.com/NebraLtd/Helium-Guides/tree/main/docs/certifications/indoor/FCC?utm_source=bento&utm_medium=email&utm_campaign=nebra8&bento_uuid=a02351a1f9ac361bd0444e240fe2e72c), [here](https://fccid.io/2AZDM-HNTIN?utm_source=bento&utm_medium=email&utm_campaign=nebra8&bento_uuid=a02351a1f9ac361bd0444e240fe2e72c) and [here](https://apps.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Exhibits&RequestTimeout=500&calledFromFrame=N&application_id=Pa6qrAs0d%2FUOLfrC8FZExg%3D%3D&fcc_id=2AZDM-HNTIN&utm_source=bento&utm_medium=email&utm_campaign=nebra8&bento_uuid=a02351a1f9ac361bd0444e240fe2e72c) outdoor [here](https://github.com/NebraLtd/Helium-Guides/tree/main/docs/certifications/outdoor/FCC)
+* Features a web interface for [diagnostic data](https://helium.nebra.com/handy-guides/local-diagnostics)
+* It has a 'cloud dashboard' available [here](https://dashboard.nebra.com/login/) however it will turn into a paid-for option
+* To find out in which batch you are in, please see the [batch calculator](https://www.nebra.com/pages/nebra-miner-shipping-dates)
+* [4 June 2021 blog update](https://www.nebra.com/blogs/news/3rd-june-2021-nebra-miner-update)
+
+
+Nebra Outdoor:
+* [1st](https://www.youtube.com/watch?v=9MFIS_kC4UQ) look, [2nd](https://www.youtube.com/watch?v=bdfWNmCVI-w) look
+
+Please do not order via Parley Labs and order directly through Nebra to support VoskCoin. Parley does not make their miners.
+
+<h3 id='heading--CalChip'><a href="#heading--CalChip">Cal-Chip / RAKv1.5 / RAKv2</a></h3>
+
+**NOTE: Significant delays see the shipping calculator. No orders are currently being taken due to supply issues**
+
+* Manufactured by RAK however distributed by CalChip
+* [Vosk referral link with 3% off](https://voskco.in/HNTr) - or use code 'voskcoin'
+* Vosk's review of the [CalCHip RAK V2](https://www.youtube.com/watch?v=Xgpu40fwQxI) published 9 May 2021
+* RAK has produced mostly miners for Emrit and other whitelabeled vendors at this stage on behalf of Cal-Chip
+* Bundled with a 2.8dBi (US) or 2.3dBi (EU)
+* Datasheet [here](https://cdn.shopify.com/s/files/1/0447/5633/6807/files/RAK-Hotspot-Miner-Datasheet-Final.pdf?v=1600786895&ref=voskcoin)
+* Weatherproof enclosure [video](https://twitter.com/rakwireless/status/1387733344402563072?s=21)
+* Rak V2 [teardown](https://www.youtube.com/watch?v=BUrAb2GoHhc)
+* Check out the [Shipping calculator](https://www.calchipconnect.com/pages/rak-hotspot-miner-shipping-calculator) to find out where you are in the order backlog
+* Public letter (June 3 2021):
+![image|407x500](upload://1ZR1W95sx6ANW5nLOdTH4cZfZDH.png)
+* CalChip distributed [this](https://cdn.shopify.com/s/files/1/0447/5633/6807/files/LettertoCommunityFromCo-Founder_Final10.15.21_f438d78f-5fd2-4719-a725-2a346fc4d47e.pdf?v=1634321723&ref=voskcoin) on 15 October 2021 with regards to their delays and the RAKwireless offerings
+* RAKv2 SD card replacement [howto](https://support.getmntd.com/hc/en-us/articles/4418137820951-I-need-to-replace-the-microSD-card-on-my-hotspot) BFGNeil explainer [here](https://www.youtube.com/watch?v=CzMwnpkjob4)
+* On 31 March 2022 Nebra announced that it has custom firmware which adds instanc sync and soon a remote dashboard to RAK & MNTD [miners](https://twitter.com/nebraltd/status/1509310176217772032?s=21&t=tx5EYkhLfJIom7oabFLrrg)
+
+<h3 id='heading--MNTD'><a href="#heading--MNTD">RAKwireless MNTD</a></h3>
+
+![image|666x500](upload://AosUeQVO2KtYZCU3lmMj3fHp5XC.jpeg)
+![image|504x499](upload://5BdS7PRRboUZlNsAm4zMBCcdzE5.jpeg)
+
+
+* Order [link](https://voskco.in/hntM)
+* 15 November 2021 Vosk's [review](https://youtu.be/ont126oav-c) of the MNTD
+* 22 October 2021 Miss Vosk [Medium Post](https://medium.com/voskcoin/mntd-helium-hotspot-miners-ready-to-ship-now-a5d8e8a327ce) explaining the origins of MNTD and how their drops typically work
+* On 11 November 2021 vosk asked if anybody was interested in a green VoskCoin-endorsed version [here](https://voskcointalk.com/t/would-you-be-interested-in-a-rak-v2-greenspot-voskcoin-edition-miner-by-mntd/25987?u=voskcoin), register your interest!
+* On 5 October 2021, RAkwireless started producing MNTD see about it [here](https://getmntd.com/) these appear to be in stock sooner than RAKv2 units
+* RAK has [confirmed](https://discord.com/channels/391255032558911490/828974069378580490/908409192342245466) the US915 band editions will autoswitch for AU915
+* Bundled with a 2.3dbi antenna (EU) or 2.8dbi antenna (US)
+* Keep an eye on their [Twitter feed](https://twitter.com/getmntd_) and subcribe to their newsletter for upcoming drops
+* You can find the RAK rep on our discord with nickname jmarcelino
+* MNTD SD card replacement [howto](https://support.getmntd.com/hc/en-us/articles/4418137820951-I-need-to-replace-the-microSD-card-on-my-hotspot) BFGNeil howto [here](https://www.youtube.com/watch?v=CzMwnpkjob4)
+* On 31 March 2022 Nebra announced that it has custom firmware which adds instanc sync and soon a remote dashboard to RAK & MNTD [miners](https://twitter.com/nebraltd/status/1509310176217772032?s=21&t=tx5EYkhLfJIom7oabFLrrg)
+
+
+
+<h3 id='heading--SPNA'><a href="#heading--SPNA">Syncrob.it & SP North America</a></h3>
+
+![image|663x500](upload://itCHdLIVzXcJWHlyheMyqey2vsc.jpeg)
+
+
+
+Syncrobit is the official manufacturer and producer of their Helium hotspot miner and released a co-branded miner with SP North America. 
+
+* Keep in mind Voskcoin does NOT recommend ordering Syncrobit - as per this 21 Nov 2021 [video](https://youtu.be/UAWc5Jv_RTU?t=142)
+* Get $25 off with coup code VOSKCOIN at https://voskco.in/hntsyn - new orders has been paused from July 14 2021 to keep on with demand, this will re-open once they have caught up on orders and are fulfilling in-line with projections
+* VoskCoin's update [video](https://www.youtube.com/watch?v=gIQdrq_BcrQ) on SyncroBit and SPNA on 3 November 2021
+* VoskCoin's [review](https://www.youtube.com/watch?v=NgbpYZcHsgM) of the miner - 8 June 2021
+* [Lowest manufacturing capabilities](https://youtu.be/ENxZFdmBzTM?t=993) compared to the other manufacturers on this page that we are aware of
+* [Datasheet](https://cdn.discordapp.com/attachments/826273488356638782/851777538531131432/Syncrobit_HNT.pdf) of the product
+* 11 May 2021 update - Due to chip shortages price has increased to $650
+* As of July 10 2021 if your Miner Height ever falls more than 250 blocks behind the blockchain, a resync will automatically be initiated
+* For those struggling with POE - You cant use a standard splitter, the mini usb is not universal, you were supposed to get one in the kit - contact support
+* [Outdoor Enclosure Installation Tutorial](https://www.youtube.com/watch?v=WhybYWHdizk)
+* [SyncroB.it Gateway Set Up Guide](http://helpdesk.syncrob.it/support/solutions/articles/69000447784-syncrob-it-gateway-set-up-guide)
+
+
+<h3 id='heading--longAP'><a href="#heading--longAP">LongAP</a></h3>
+
+![image|375x500](upload://s96Io9mbbGL6YucD8gjA1LphI0P.jpeg)
+![image|375x500](upload://uRhJk7l435anJNkKOAXkwcNjgju.jpeg)
+
+* On June 4 2021 they announced the LongAP Pro which is the outdoor version - site [here](https://longap.com/products/longap-pro)
+![image|100x100](upload://gV3XX1Lx0EQABPN8Wo7iWIfW6Xv.png)
+![image|501x499](upload://uG3lm6Fwi6PJ5XO7OjN0f3obzsv.jpeg)
+
+
+<h3 id='heading--LinxDot'><a href="#heading--LinxDot">LinxDot</a></h3>
+
+![image|653x500](upload://kvSr8T8Kp5XHrmBHTtOSlrdAQld.jpeg)
+
+
+
+
+Another Helium manufacturer, orders are now open to all
+
+* Page [here](https://voskco.in/hntL) use discount code 'Voskcoin' for 3% off
+* Voskcoin's [review](https://www.youtube.com/watch?v=5_6vsfB4seA) of the Linxdot on 11 November 2011 written version [here](https://medium.com/voskcoin/linxdot-helium-hnt-hotspot-miner-review-discount-code-f19074d1ada7)
+* Fully onboarded on 2 August 2021
+* US/EU/AU approved
+* Their HIP19 application is [here](https://github.com/helium/HIP/blob/7f56331deb02d46f411eb00d87933cb3068da27f/0019-third-party-manufacturers/linxdot.md) and got approved on [28 July 2021](https://www.linxdot.com/linxdot-is-helium-approved/)
+* 3dbi antenna (no longer a 4)
+* Batch2 onwards will feature a new Rockchip board instead of a PI CM4
+* Uses the Syncrobit 'instant sync' feature as it is the same [firmware](https://media.discordapp.net/attachments/828974069378580490/880782567945674812/SmartSelect_20210827-125517_Discord.jpg?utm_source=pocket_mylist)
+
+
+<h3 id='heading--smartmimic'><a href="#heading--smartmimic">Smart Mimic / Finestra</a></h3>
+
+![image|382x443](upload://b6CFsqZcfA30zMUeAMI3Yan16M1.jpeg)
+(credit: CreditCardBuffet@Discord)
+
+A vendor who already sells a few LoRa gateways and sensors who appears to want to create a miner.
+
+* Their HIP19 application is [here](https://github.com/helium/HIP/blob/7f56331deb02d46f411eb00d87933cb3068da27f/0019-third-party-manufacturers/smart-mimic.md)
+* [Website](https://thefinestra.com/)
+* NOTE: This miner has NO Ethernet, Wifi only, unless you cut it out like this:
+![image|402x500](upload://1KVCe5YUDRuVEMpLWXL156hQGq4.jpeg)
+
+
+
+<h3 id='heading--kerlink'><a href="#heading--kerlink">Kerlink</a></h3>
+
+This miner is manufactured by Cal-Chip and not yet available, pre-orders only.
+
+Note that this miner requires validators to be offloaded from the miners, which is schedule to happen Q3-Q4 2021, to quote Kerlink:
+
+> Kerlink will release miner software to run inside the gateways (full miner), but that requires the HIP25 (Validators) to be in production (to eliminate the high CPU usage on the gateways due to the Consensus Group work).
+> Kerlink will eventually switch to light gateways, as any other manufacturer.
+
+Note that eventually all miners will have their software converted to a light hotspot - per the light hotspot roadmap detailed on this page.
+
+* Order page [here](https://www.calchipconnect.com/collections/gateways/products/kerlink-helium-compatible-wirnet-ifemtocell-miner)
+* Onboarding Troubleshooting [link](https://helium-onboarding.kerlink.com/troubleshooting/)
+* HIP19 application [here](https://github.com/helium/HIP/blob/7f56331deb02d46f411eb00d87933cb3068da27f/0019-third-party-manufacturers/kerlink.md)
+* Kerlink Miner (to come) Vosk mentions [here](https://youtu.be/Xgpu40fwQxI?t=708) on 9 May 2021
+* Product comparison:
+![image|690x280](upload://frFLJIoyYdBYjAmeKIrTz4ioegj.jpeg)
+
+<h3 id='heading--SenseCAP'><a href="#heading--SenseCAP">SenseCAP</a></h3>
+
+![image|690x439](upload://3UkkFOOLJejhzMOxndGINe6U2CL.jpeg)
+![image|690x238](upload://jtxWHLSYdL9wvIIDb8qQmSaLVb7.jpeg)
+
+* Vosk's 18 Dec 2021 [review](https://www.youtube.com/watch?v=mFZXtStcq24) of the Sensecap M1 and Voskcointalk article [here](https://voskcointalk.com/t/sensecap-m1-helium-hotspot-miner-review/30060)
+* Sensecap utilises [several distributors](https://docs.sensecapmx.com/m1/official-distributors/distributors-list) you can check out - this list keeps updating continually
+* Sensecap started selling data-only hotspots if you are into that around [April 2022](https://www.seeedstudio.com/SenseCAP-M2-Data-Only-LoRaWAN-Indoor-Gateway-SX1303-GPS-EU868-p-5340.html)
+* The Sensecap hosted Dashboard encountered a "security issue" in early Jan 2022 - this [video](https://www.youtube.com/watch?v=UHZHj5LgIfw) summarises it
+* On 16 June 2021 SEED / SenseCAP has been approved by Helium Inc to take pre-orders after completing hardware audit, onboarding integration and adhering to regulatory certification
+* HIP19 [application](https://github.com/jancee/HIP/blob/pre/0019-third-party-manufacturers/seeed.md) with Helium
+* Bundled antenna was going to be 1.2 dBi but now it will be 2.6dBi for US & 2.8dBi for EU
+* USB-C powered
+* [Spec Sheet](https://www.sensecapmx.com/docs/sensecap-m1/datasheets/)
+* [FCC & CE certified](https://twitter.com/sensecapmx/status/1407358182532468738?s=20) June 22 2021
+* [SenseCAP M1 FAQ](https://docs.google.com/document/d/1lIae11fugiKxmYpdySyRgizEDUY0rAGpgIaNTB83ixo/edit?usp=sharing)
+* [SenseCAP M1 Local Console Guide](https://docs.google.com/document/d/1e5rVWcCcHSTJclpduriTfPUsKk1fDbUnOhB5FkvUmUE/edit)
+* On 17 August 2021 they released a [management dashboard](https://status.sensecapmx.cloud/)
+* On 11 October 2021 they released a local dashboard as well as 'Turbo Sync' (like fastsync)
+* Modo Tech has a good video on how to replace the SD cards on Sensecaps [here](https://www.youtube.com/watch?v=lYafGYW6Clk)
+* For those curious about the different models and the RAM they have onboard - model numbers starting with '2' has 2GB, '4', has 4GB and '8' has 8GB in this table:
+  - 2915 - 4915  - 8915 for the US models
+  - 2868 - 4868 - 8868 for the EU models
+  - 2923 - 4923 - 8923 for the AS models
+* How to format a existing MicroSD [card](https://docs.sensecapmx.com/m1/troubleshooting/micro-sd-card-errors/format-existing-micro-sd-card)
+* How to flash a new SD card [image](https://docs.sensecapmx.com/m1/troubleshooting/micro-sd-card-errors/flash-new-micro-sd-card-image)
+
+
+<h3 id='heading--pisces'><a href="#heading--pisces">Pisces Miner</a></h3>
+
+![image|690x493](upload://yQ5WG7rlNaT2OR5J2KO5xpVkoht.jpeg)
+![image|666x500](upload://dF7PD55jkaxeCUVnDPPKSFZlVgR.jpeg)
+
+
+* [Pisces Miner](https://www.piscesiot.com/) is EU only, ordering is via waiting list so join their list if interested
+* Pisces Miner was fully onboarded on 2 August 2021
+* First batch was  a small batch sold with USDC (ERC-20) at around $600
+* [Someone](https://github.com/briffy/PiscesQoLDashboard) made a replacement dashboard for it
+* [Pisces P100 Troubleshooting guide](https://docs.google.com/document/d/1Z55jWvkQYYR5dNFgcEkbCIrR3EL5rIxhlPWYNiz0COE/edit)
+* On 31 Jan 2022 Pisces has offered a SAW filter to reduce your noise if [required](https://docs.google.com/forms/d/e/1FAIpQLSfEw4U5-4ANFvaK4_UbsE1UM5cOaC9guojdsk3wRYEeXe5_Rw/viewform?usp=sf_link) ([source](https://discord.com/channels/836238477057720350/871654901162336256/937695858303053824))
+* With SSH access possible there is a bit of a community forming creating custom scripts, a collection of them are [here](https://github.com/moophlo/pisces-miner-scripts) and a log analyzer [here](https://github.com/inigoflores/helium-miner-log-analyzer)
+* They started selling their SAW filter for both internal and external units [here](https://greenpalmiot.com/products/unnamed)
+
+<h3 id='heading--clodpi'><a href="#heading--clodpi">ClodPi</a></h3>
+
+* ClodPi was fully onboarded on 2 August 2021
+* ​Pre Orders began on 6 August 2021 at 9AM IST [here](https://india-shop.clodpi.io/) 45k Rupees
+* One of the only manufacturers for the India market
+
+<h3 id='heading--cotx'><a href="#heading--cotx">COTX Networks</a></h3>
+
+![image|690x387](upload://p5e73sRzuLM9WtHLnNNsdb2Z4zk.jpeg)
+
+![image|690x387](upload://6qeVDDn5sDJYz3biEbgW41UtVX.jpeg)
+
+
+NOTE: COTX has been placed on Helium's naughty list on 27 September 2021 <a href="#heading--naughtyCOTX">see this</a> and should be on this listed until April 2022 before they will take new orders
+
+* Vosk's Order [link](https://voskco.in/cotx) - email them to get on their order list [here](https://voskco.in/cotx2)
+* Vosk's [review](https://www.youtube.com/watch?v=cWrPW1BGIMU) of the COTX Helium miner on 7 Jan 2022. Vosk also have a written guide which goes into the temporary suspension of them [here](https://voskcointalk.com/t/cotx-helium-hotspot-miner-review-the-hnt-miner-that-was-banned/31678)
+* [Cotx Networks](https://github.com/helium/HIP/blob/7e97f1a3bd5ac43157e2a8b5f0a13b0aef6830b8/0019-third-party-manufacturers/Cotx-Networks.md?utm_source=pocket_mylist)
+* COTX networks Helium Hotspot info [page](https://en.cotxnetworks.com/hotspot/cotx-x3/), do not sell direct and only via distributors, listed below:
+  - CubifyS pre-orders accepted from EU & US at [this site](https://cubify.co.uk/product/cotx-x3-hotspot-miner/) - they also offer Emrit-type 80/20% hosting deals
+  - hntservice pre-order accepted at this [link](https://hntservice.eu/product/cotx-x3-hotspot-miner-hnt/)
+  - fastminers.io sells it [here](https://www.fastminers.io/product/cotx-x3-helium-miner/) (US/EU)
+  - [ShopEM BV](https://www.heliumhotshop.eu/) (Netherlands)
+  - [HNT Service](https://hntservice.eu/) (Romania)
+* COTX [Twitter](https://twitter.com/CotxNetworks)
+* FCC approved on [23 September 2021](https://discord.com/channels/860768230024151041/862985075657539614/890539541499375617) 
+* 4dbi antenna
+* Crypto Gossip talks about them [here](https://www.youtube.com/watch?v=0-zCPt3W3FE) on 11 August 2021 
+
+
+<h3 id='heading--Controllino'><a href="#heading--Controllino">Controllino</a></h3>
+
+![image|375x500](upload://vFNHpmprCqf6vmnaDSvflSRabSh.jpeg)
+![image|666x500](upload://5hwCDvyh9X2MLUYqxwMiH0BeCB1.jpeg)
+![image|666x500](upload://1ps16NHxtC50J40u7WcmpJzADXb.jpeg)
+![image|666x500](upload://1jIRbb6j5diQJfXncthomkDALW5.jpeg)
+
+
+![image|655x500](upload://zUoGayAzm8dejx1Yd1yMYz05yV2.jpeg)
+* [Controllino](https://hotspot.controllino.com/)
+* Batch 1 pre-orders only at this time
+* BFGNeil has a review [here](https://www.youtube.com/watch?v=qrd0AVaA-Oo) and [here](https://www.youtube.com/watch?v=n9alWG-Kaxk)
+* Some good third party monitoring opensource goodness [here](https://github.com/DimitrisSar/Controllino)
+* For ~90 EUR you can purchase a 'license' to run additional software on your miner, see [this](https://hotspot.controllino.com/product/hotspot-apps/)
+
+<h3 id='heading--Heltec'><a href="#heading--Heltec">Heltec Automation</a></h3>
+
+* [Heltec Automation](https://Heltec.org) - HIP19 [approved](https://github.com/dewi-alliance/hotspot-manufacturers/blob/main/applications/heltec.md)
+* If out of stock on their main website above, there is a 'offline order' system available [here](https://heltec.org/offline-sales/)
+* [First](https://www.youtube.com/watch?v=-GNxochV1Tw) unboxing/review
+* [Manual](https://resource.heltec.cn/download/HT-M2808/HT-M2808-User-Manual.pdf)
+* In late Nov 2021 some complaints has been picked up on RSSI values - see thread [here](http://community.heltec.cn/t/heltec-ht-m2808-rssi-sensitivity/7481/44) as it develops, this was updated on 15 December 2021 [with](https://discord.com/channels/847446196994048001/902540574899437598/920595600616095754):
+> Regarding the receiving sensitivity of some devices, we have been attaching great importance to it recently and have been doing related tests and experiments. Compared with other miners using SX1302 chipset, SX1308 has the following differences:
+> 1. The receiving sensitivity of SX1308 is lower than that of SX1302;
+> 2. In the reference design of SX1308, the FEM chip used is SE2435L, while the recommended FEM of SX1302 is SKY66420-11. The SE2435L has lower amplification gain and higher noise figure;
+> 3. SX1308 will generate a lot of heat during operation, this will cause the center frequency shift.
+> Combining the above reasons, the receiving sensitivity will be about ~5dB lower than other machines using the SX1302 version. Antennas and coaxial cables may affect the overall receiving sensitivity.
+> Why should we choose SX1308?
+> We started preparing for the Helium project in April 2021. Under the circumstances at the time, SX1308 was the least likely to be out of stock.
+> solution:
+> We will incorporate the temperature drift into the RSSI calculation in the V1.2.8 update;
+> We are developing and testing filters and two-way signal amplifiers that can be used to correct the problem. This device can correct the inherent deficiencies of SX1308 in hardware;
+> Starting from December 2021, this problem has been improved on newly produced miners;
+> We are applying for a new generation of Hotspot based on the SX1302/3 baseband chipset.
+> If you have any questions about such issues, please send an email to xiaohong@heltec.cn for feedback and consultation. Your data and feedback are very important to us.
+* To login to the local dashboard, username is: HT-m2808 and the password is the last 6 digits of the MAC in lowercase, no colons
+
+<h3 id='heading--PantherX'><a href="#heading--PantherX">PantherX</a></h3>
+
+![image|665x500](upload://2OEIgg3CJW75rtaWQkZy6s8PFtu.jpeg)
+
+
+
+* [Approved](https://discord.com/channels/404106811252408320/813452716286017557/892154151205744680) 27 September 2021
+* [Website](https://voskco.in/hntP)
+* The X2 has a 1.8GHz processor, 4GB of memory, 32GB eMMC and 64 GB TF card and comes with a 3dBi antenna
+* Vosk talks about them on this 14 December 2021 [video](https://youtu.be/dUzB6I6n-A0?t=209)
+* Vosk talks about [them](https://youtu.be/0Q4P1bsIiak?t=524) on this 8 Dec 2021 video make sure to check the [later section](https://youtu.be/0Q4P1bsIiak?t=765) as well where he is not recommending them
+* Vosk's [Voskcointalk thread on the PantherX](https://voskcointalk.com/t/panther-x2-helium-hotspot-miner-8-000-units-apparently-in-stock-ready-to-ship/28714)
+* Panther X1 CN470 [manual](https://discord.com/channels/857870123728633927/917131794665570354/917203975051292732)
+* Panther X2 CN470 [manual](https://discord.com/channels/857870123728633927/917131794665570354/917204118391636092)
+* Panther X2 EU/US/AU [manual](https://discord.com/channels/857870123728633927/917131794665570354/928581722851913748)
+* Sorin reviews/opens one [here](https://www.youtube.com/watch?v=1W7pcL1nzc0)
+* Coupon codes,
+> 1. A coupon for $30
+> Units required to purchase: 1 hotspot
+> Code: PantherX2Buy1Get30USD
+> 
+> 2. A coupon for $120
+> Units required to purchase: 3 hotspots
+> Code: PantherX2Buy3Get120USD
+> 
+> 3. A coupon for $240
+> Units required to purchase: 5 hotspots
+> Code: PantherX2Buy5Get240USD
+* Appears to be CN470 / EU868 only for $499 USD
+* Approved for China, USA, Europe, Australia and New Zealand on [3 December 2021](https://discord.com/channels/404106811252408320/813452716286017557/916402913562210325)
+* Dashboard default username/pass: admin/admin - when setting the password you can SSH to the miner with username admin and the same password
+
+
+<h3 id='heading--hummingbird'><a href="#heading--hummingbird">Hummingbird</a></h3>
+
+* [Website ](https://www.xdt.com/)
+* [Approved ](https://discord.com/channels/404106811252408320/813452716286017557/892154151205744680) 27 September 2021
+* Appears to be China-only - no details yet known
+
+<h3 id='heading--Milesight'><a href="#heading--Milesight">Milesight</a></h3>
+
+![image|375x500](upload://uRX5F2XIGXxze863fEw9Wl9eUzR.jpeg)
+
+
+* [Approved](https://discord.com/channels/404106811252408320/813452716286017557/898487936436297749) 15 October 2021
+* Resellers [listed here](https://www.milesight-iot.com/blog/milesight-helium-hotspot-authorized-reseller/)
+* Modo Tech reviews it [here](https://www.youtube.com/watch?v=B-_6zdzTCkM)
+* UG65 model comes standard with 802.3AF PoE
+
+
+
+<h3 id='heading--RisingHF'><a href="#heading--RisingHF">RisingHF</a></h3>
+
+* [Approved](https://discord.com/channels/404106811252408320/813452716286017557/898487936436297749) 15 October 2021
+* A distributor [link](https://mahtecminer.com/product/risinghf-outdoor-miner-for-helium-uk)
+
+<h3 id='heading--Browan'><a href="#heading--Browan">Browan/MerryIoT</a></h3>
+
+![image|666x500](upload://j255Kq5t2d7FsgcDFeoQYi0sIw1.jpeg)
+
+
+* MOC approval for sales in USA & Europe given on [3 December 2021](https://discord.com/channels/404106811252408320/813452716286017557/916402913562210325)
+* Has been on sale [here](https://cubify.co.uk/product/browan-merryiot-helium-gateway-eu868/)
+* And on sale [here](https://heliummart.com/browan-helium-hnt-hotspot-miner/?)
+* Specifications [here](https://cubify.co.uk/wp-content/uploads/2021/12/Browan-MerryIoT-Helium-Gatway.pdf) (but very light on detail)
+* [User manual](https://usermanual.wiki/m/34edf4e77e1ffa6dc7fdec7ca8e9eeeb1c8a22f3bb18e4eb9a863a677cf5e4ec_pdf)
+* Issues-chart:
+![image|496x500](upload://dctiX0hqZ4G0PrYuXO3W5GNlhxZ.png)
+
+<h3 id='heading--midas'><a href="#heading--midas">Midas</a></h3>
+
+* Midas Technologies HIP-19 [application](https://github.com/helium/HIP/blob/3768d9bbdaf9cd0e9377ce61ac86424393b354ff/0019-third-party-manufacturers/midas.md)
+* [HEXASPOT](https://hexaspot.com/) joined their distribution network (based in the Netherlands) for EU868 units on the 28th of March 2022
+
+<h3 id='heading--Pycom'><a href="#heading--pycom">Pycom</a></h3>
+
+* Pycom ([twitter](https://twitter.com/pycomiot/status/1489246003622400000?s=21))
+* First batch shipping July 2022 for 275 EUR started advertising on 5th April 2022 as seen [here](https://twitter.com/pycomiot/status/1511379842146656262?s=21&t=1dTtwFeom69k4njNTQJTWw)
+* Order page [here](https://pycom.io/product/helium-hotspot-miner-batch-2/)
+
+<h3 id='heading--atom'><a href="#heading--atom">Atom</a></h3>
+
+* Atom was approved in April 2022
+* TBC everything else
+
+<h3 id='heading--kstech'><a href="#heading--kstech">KS Technologies</a></h3>
+
+* KS Technologies was approved on 18 April 2022
+* TBC everything else
+
+<h3 id='heading--edaiot'><a href="#heading--edaiot">EDA IoT</a></h3>
+
+* EDA IoT was approved on 18 April 2022
+* TBC everything else
+
+<h3 id='heading--aitek'><a href="#heading--aitek">Aitek Inc</a></h3>
+
+* Aitek was approved around 24 May 2022
+* They seem to have a website [here](https://www.aiteks.com/products/1)
+
+
+
+<h3 id='heading--OG'><a href="#heading--OG">Helium Inc (OG)</a></h3>
+
+![image|669x500](upload://2op4C1DPAzas7SsGHbUFiWu8PTE.jpeg) 
+
+The original Helium Miner manufactured by Helium is no longer for sale.
+
+* On 31 March 2022 Nebra released firmware for it which introduces fast-sync and other [goodies](https://twitter.com/nebraltd/status/1509562916567072769?s=21&t=en4LLo3l3ZQfIuj2Nxy5yQ)
+
+<h3 id='heading--others'><a href="#heading--others">Other manufacturers (inbound)</a></h3>
+
+These are yet  to be HIP19 (or just) approved and not for sale yet - these will move to the above section once they are approved and nearing a state of pre-ordering.
+
+There is a vendor tracking spreadsheet available [here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/edit#gid=504066718)
+
+* Dusun was added to the approved list on 29 April 2022 - waiting for more information
+* Embit was approved on 18 April 2022 ([here](https://discord.com/channels/404106811252408320/921085505028890674/965739405610463242)), waiting for a web page to create a section for it
+* Atom was certified on 5 April 2022 as seen [here](https://explorer.helium.com/accounts/13GY3FdbfNpXoBkyRukFj2fx9851oqX2SUTKY8Gd4BDJsZsuYhd) and application [here](https://github.com/dewi-alliance/hotspot-manufacturers/blob/main/atom-design-and-innovation.md)
+
+
+
+<h3 id='heading--naughtylist'><a href="#heading--naughtylist">Naughty list</a></h3>
+
+Manufacturers who has accepted pre-orders before HIP19 approval from Helium get on a naughty list , so far first offenders are,
+
+<h4 id='heading--naughtylistairbit'><a href="#heading--naughtylistairbit">Airbit</a></h4>
+
+![image|322x214](upload://muF7FBLmS9qjEC9xx4snz8tV57A.png)
+
+They also appear to have stolen some images:
+![image|603x78](upload://e3BBsJcq0hcqIH9FO5bVsv8mL9Z.png)
+![image|690x429](upload://6YkyiclfQNDw4t39N2MfL0igLL1.jpeg)
+
+And..
+![image|690x491](upload://m9RpN3fvWnaqWsNhSCnLuLJyVWg.png)
+
+<h4 id='heading--naughtydeeper'><a href="#heading--naughtydeeper">Deeper</a></h4>
+
+On 5 April 2022 this was announced:
+![image|690x279](upload://kZRJ43HS3ZtAWAiONGzC6tf7IMU.png)
+
+On 9 April 2022 this was announced:
+
+
+```
+Manufacturing Oversight Committee (MOC) update:
+
+Deeper Network - Hearing Results
+
+Yesterday, April 7, the Manufacturing Oversight Committee (MOC) held a hearing with members of the Deeper Network team and the PoC Security Working Group (POCSWG). During this hearing, the MOC heard evidence and testimony from both the POCSWG and Deeper Network. Deeper Network was given the opportunity to explain and provide evidence in defense of the finding of the POCSWG. 
+
+Based on the evidence presented and the testimonies given during yesterday's hearing, the Manufacturing Oversight Committee (MOC) has unanimously voted that Deeper Network, whether intentionally involved or not, is in fact responsible for the gaming of Deeper Hotspots and the damage done to the Helium Network. 
+
+Deeper Network has stated that the cheating was organized by their exclusive distributor Jhuan Information Technology Ltd. However, the MOC feels based on the testimony given by the Deeper Network team that this business relationship was a significant partnership, and whether intentionally involved or not, Deeper Network bears the responsibility and obligation to vet its distributors to ensure their integrity. 
+
+The MOC has ruled to suspend Deeper’s Maker Key for a minimum of one year, with no further guarantee of readmission in the future. 
+
+The hearing was recorded and can be reviewed by the community here: https://drive.google.com/file/d/1C7eaq1Kwd21971YAV0J4nLig0z1Zr0ks/view?usp=sharing
+```
+
+Gristle King did a video about it [here](https://www.youtube.com/watch?v=XwfsTLQLXyM)
+
+
+<h4 id='heading--naughtylistrevofi'><a href="#heading--naughtylistrevofi">RevoFi</a></h4>
+
+![image|598x500](upload://3WPdjGkzZFgv4Wo376a6fx2RpP5.jpeg)
+
+In late August 2021 their HIP application were [denied](https://www.youtube.com/watch?v=QDssFxuCTAI)
+
+This was received on 10th July via email from RevoFi (ie, ignoring above and before they have been approved by Helium):
+
+![image|690x370](upload://wUzBfjbeD7pR3SgvM7uZ8z48LdN.png)
+
+
+<h4 id='heading--naughtyCOTX'><a href="#heading--naughtyCOTX">COTX</a></h4>
+
+On 22 October 2021 this was [released](https://discord.com/channels/404106811252408320/813452716286017557/901211992885452892):
+
+> As previously announced, the Manufacturing Oversight Committee (MOC) has voted to place COTX Networks under a 6 month probation for its involvement, if only negligently, with partners who constructed massive illegitimate hotspot deployments that attempted to receive Proof-of-Coverage rewards without actually providing network coverage. As part of this probation, COTX is prohibited from accepting and shipping new hotspots orders for six months, starting retroactively from September 27, 2021.
+> 
+> While this suspension is designed to establish a message with all manufacturers that direct involvement in "gaming" is not a tolerable nor sustainable business practice, the MOC recognizes that the Helium Network's most ardent and effective asset are hotspot hosts -- customers who have and will continue to enthusiastically purchase hotspots from approved manufacturers. As the MOC's rulings do not spread as far and wide as any manufacturer's marketing efforts, we’ve set an order fulfillment cutoff date for one week after the suspension.
+> 
+> This means that, with exceptions, consumer orders placed by October 4, 2021 will be allowed to be fulfilled. The full ruling is as follows:
+> 
+> 1. Orders must have been made on or before 1 week after the 2021-09-27 suspension. This comes to 2021-10-04.
+> 
+> 2. The order quantity must be 20 units or fewer, or
+> 
+> 3. If the order quantity is more than 20 units, it must satisfy all of the following:
+> 
+> 3.A The customer gives COTX permission to identify the customer to the MOC, and
+> 
+> 3.B COTX forwards the customer information to the MOC, and
+> 
+> 3.C The MOC approves the order.
+> 
+> 4. For all orders of quantity 21 or more in which the three items 3.A, 3.B and 3.C cannot be satisfied, we ask the COTX and/or its distributors issue a refund. 
+
+On 14 October 2021 this was [released](https://discord.com/channels/404106811252408320/813452716286017557/898352235199754300)
+
+```
+COTX Suspension/Probation
+
+The Manufacturing Oversight Committee has voted to convert COTX Network's suspension into a 6 month probation period. Under this probation COTX's ability to on-board hotspots will be restored to allow existing orders to be fulfilled subject to certain restrictions, but COTX will be prohibited from taking new orders until the probation period has ended.
+
+We are requesting data from COTX and will describe the fulfillment process in more detail once that data arrives. We will also explain the rationale behind the suspension and probation in further announcements
+```
+
+
+This was [released](https://discord.com/channels/404106811252408320/813452716286017557/892112199542255678) on 27 September 2021:
+
+> **Temporary Manufacturer Suspension: COTX**
+> 
+> The DeWi Manufacturing Oversight Committee (MOC) has voted to temporarily suspend COTX Networks' ability to onboard hotspots due to troubling patterns we have observed with COTX hotspots that have been deployed by their partners and employees in advance of sales to the general public at large. In the meantime, COTX will continue to provide the MOC with explanations and reports to help rectify, and hopefully, resolve the issue.
+> 
+> **What does the suspension do?**
+> 
+> While the suspension is in effect, new COTX hotspots will not be able to placed on the blockchain. Existing COTX hotspots will continue to function normally.
+> 
+> **Why the suspension?**
+> 
+> We've identified a population of COTX associated hotspots that show troubling signs of "gaming" -- attempts to earn rewards while not providing real coverage for the Helium network. While we acknowledge that any manufacturer's hotspots can be abused this way, we are compelled to take action when the hotspots are directly under the control of the manufacturer or its major partners.
+> 
+> **When will the suspension be lifted?**
+> 
+> No date has been set to re-instate COTX's onboarding ability. The suspension will only be lifted once the MOC has completed its investigation and is convinced that COTX's deployment and sales plans will benefit the network overall. 
+
+
+<h2 id='heading--placement'><a href="#heading--placement">Miner Placement</a></h2>
+
+![image|485x323](upload://2t8XFo19QWqoGUHdaVtKn8wY4SL.jpeg)
+
+
+There are various things to consider when positioning your miner and maximising earning potential. Considering that Helium operates on a Proof-of-Coverage algorithm, placing your miner in a location where it can communicate with other miners is the goal. The more hotspots it can communicate within a specific range, the higher probability of earning more coin over time.
+
+Range is important. On paper (reality is [a bit more technical](https://www.youtube.com/watch?v=L9nq1h_Qes4)), it is advised to space miners 300 meters apart **from each other** (of any type). With that said, it has been reported that if line of sight is good as well, 300-350 meters can potentially be too close. If miners are too close, witnessing can become invalidated, resulting in reduced reward pay-outs.  Note that all vendor's default antennas are good for several miles of range assuming no obstructions in line of sight.
+
+This is why you do not see mobile phone masts every block, it does not expand network coverage in a optimal way. [Do not cluster](https://www.youtube.com/watch?v=D8K57mbR-H8&t=207s).
+
+To get a visual representation of how your exact location may communicate with neighboring hotspots, please check out [Hotspotty](https://hotspotty.net/). Input your address to review the sweet spot range. Your hotspot miner will be the black dot. Any additional miner that is within the red-colored heat map is considered an “invalid witness zone”. Alternatively, look at helium.vision, there is a good video demo on '[If your place is good for Helium Hotspot Mining](https://www.youtube.com/watch?v=mDKNdRTxwIQ)' 
+
+**PLEASE NOTE**: This is a over-simplified explanation, and the technical details are in [HIP17](https://voskcointalk.com/t/helium-wiki-faq/14786#heading--faq-hip17). ie. You can't have more than 1 hotspot within a res 8 hexagon (to maximise your reward scale) unless that hexagon has 2 other populated hotspots as neighbours - this of course gets complicated to explain in scale, so please see the <a href="#heading--faq-hip17">HIP17 link</a> for further detail.
+
+On 18 May 2021, Helium announced [Disco Mode](https://blog.helium.com/uncover-your-hotspots-potential-discovery-mode-a14003ec23d) - you can use this (once you have a miner setup) to compare locations for the best rewards. Ed Ballou talks about it [here](https://youtu.be/cs3zZsoBSdQ?t=1128) (24 May 2021)
+
+Other links,
+* 26 November 2021 Vosk [talks](https://youtu.be/uOvdp1udTxk?t=340) about where to place your Helium hotspot miner
+* 15 November 2021 Vosk [talks](https://youtu.be/ont126oav-c?t=947) about helium placement and what the hexagons mean
+* Vosk talks about 'What is the correct placement for Helium miners' on this 19 Sep 2021 [video](https://youtu.be/FXJIox0R0lQ?t=230)
+* Vosk runs [through](https://youtu.be/cofKps88NAA?t=525) using the explorer-beta.helium.com on 14 June 2021 and how to optimise spots
+* To add a semi-social element, future hotspot owners can plan and add their hotspots-to-be on [this map](https://tinyurl.com/heliumminer)
+* A video on how to use Helium explorer [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=2006s)
+* Vosk answers 'How many Helium miners can I have in my house?' in this 11 May 2021 [video](https://youtu.be/VJQXFR5OSi4?t=139)
+
+<h2 id='heading--moolah'><a href="#heading--moolah">How much will I make?</a></h2>
+
+Please understand that the current hotspot population is growing by the day. What may be virgin territory today could be a strong hotspot region over time.
+
+If you are curious as to if a desired location (whether it be your residence or a family friends) will be profitable, please use [Helium Explorer ](https://explorer.helium.com/). All you need to do is type in your city, and a list of active hotspots will generate.
+
+Click on the 3 word seed phrase to open that hotspot account. From here, you’ll see a map of it’s connections, 24 hour/prior 24 hour and 30 day/prior 30 day payouts, the profit % change, along with witness and nearby hotspot information. This resource is the best tool for gauging approximate profitability in your area.
+
+If you reviewed your territory and noticed there are no neighboring hotspots near your location, what is the next best option? Time to phone a family or friend! A plausible option is to let a fellow contact “host” your hotspot miner. That way, you are maximizing your miners profitability. 
+
+You can also (after paying a small fee) get a rough indication of what you might earn for a particular location by using hotspotrf.com - more on them below.
+
+* Please also see <a href="https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-amitoolate">Am I too late to buy a miner?</a>
+* Voskcoin talks about it on this 7 April 2022 [video](https://www.youtube.com/watch?v=MGBMwzrE2AM)
+* Voskcoin addresses '[is it still worth it](https://youtu.be/L90Y90A1vjQ?t=158)' on this 12 March 2022 video
+* GristleKing discusses 'How Do You Know How Much HNT You'll Earn?' on this 6 March 2022 [video](https://www.youtube.com/watch?v=o5uHEK6eLXg)
+* Voskcoin on this 18 Dec 2021 video explains ["Your earnings will vary"](https://youtu.be/mFZXtStcq24?t=499)
+* HODLHelium has a good [explainer](https://www.youtube.com/watch?v=gl2ZAB3jwbk) around "Is It Worth Getting Into Helium Mining: Winter 2021" - to answer the 'is it worth it' questions
+* Vosks updates on how much miners make on this 29 October 2021 [video](https://youtu.be/9mYWcUJHUYU?t=200)
+* Vosk talks about 'How much am I going to make?' on this 19 Sep 2021 [video](https://youtu.be/FXJIox0R0lQ?t=156)
+* Vosk talks about Helium mining profitability in this [video](https://www.youtube.com/watch?v=PH3dst55LX0&t=220s) on 19 August 2021
+* Vosk talks about the mining earning variability in this [video](https://youtu.be/OAgO1AYM6lo?t=456) on 28 July 2021
+* Vosk talks about how much you make depending on your proximity to other miners on June 1 2021 [here](https://youtu.be/3RiSYr_3fLg?t=832)
+* Vosk talks about 'How much money will I make' [here](https://youtu.be/VJQXFR5OSi4?t=207)
+* Also try the [Helium Hotspot Earnings Calculator](https://helium.plus/earnings-calculator)
+* Vosk [talks](https://youtu.be/NgbpYZcHsgM?t=693) on 8 June 2021 about how the Hotspot reward system works
+* Vosk talks about how the Hotspot reward system works [here](https://youtu.be/pDNAouHV9G0?t=766)
+* Miing Chamber talks about the reward system [here](https://youtu.be/oIpk4QaSbJ8?t=339)
+* Keep in mind you can only practically witness [18 hotspots](https://discord.com/channels/404106811252408320/730418759298318346/895355370627805194)
+
+<h2 id='heading--witnesses'><a href="#heading--witnesses">How does witnessing more miners increase my earnings?</a></h2>
+
+@Toby's example:
+
+![image|690x402](upload://ezhoF4qxiIJpVdCIMHQ5JSrq56D.jpeg) 
+![image|411x362](upload://mvB6ouXX6tMI1oHpbQLdvjMMGD0.png) 
+![image|386x494](upload://7JZb0OGmc4245dyYEIEdJzc7RRW.jpeg) 
+![image|605x500](upload://mI27pSYQR71rx7fsiBoHmOpD7L3.png) 
+
+> Just to let you all know my scenario and what rewards looks like here is my setups in stage 1 2 and 3   (Stage 1 = 1 hotspot, stage 2 = 2 hotspots etc)
+> 
+> Week 1-10 average 1.5
+> Week 11-13 average 11
+> Week 14  36
+> 
+> (Numbers = HNT)
+> Orange lines = Witness
+
+* A video discussing this as well, [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=325s)
+* Vosk discusses witnessing [here](https://youtu.be/Xgpu40fwQxI?t=616) (9 May 2021)
+
+<h2 id='heading--minersetup'><a href="#heading--minersetup">How do I set up my miner?</a></h2>
+
+It takes about 5 mins, turn it on  download the app on your phone (links can be found at the bottom of the helium.com website and usually on a QR code with the miner), bluetooth search for it, pair it up assert location on the map on your phone connect to WiFi or Ethernet and boom done.
+Video tutorial [here](https://www.youtube.com/watch?v=TIPI_PAx9pw)
+
+* Vosk runs through the setup process [here](https://youtu.be/NgbpYZcHsgM?t=1133) on 8 June 2021
+* Vosk runs through it again [here](https://youtu.be/VJQXFR5OSi4?t=523) as well
+
+
+
+<h2 id='heading--antenna'><a href="#heading--antenna">Antenna Placement</a></h2>
+
+* No you do not need to immediately buy a 'stronger' antenna - see all the links below as to why/how
+* Stick with the antenna you got it with [at first](https://youtu.be/Xgpu40fwQxI?t=693) - Vosk 9 May 2021
+* Vosk talks about [this](https://youtu.be/0Q4P1bsIiak?t=252) on his 8 Dec 2021 video
+* Gristle King talks with Ben from MP Antenna on this 19 November 2021 titled '[Helium Indoor Antenna FAQ](https://www.youtube.com/watch?v=d0X6EflVZ9g)'
+* [Antenna Installation Guide](https://hntnews.org/antenna-installation-tips-for-the-helium-network/) - discusses internal/external antenna placements
+* [Setting up a Helium Hotspot with an After-Market Antenna](https://www.tjohearn.com/2021/02/13/setting-up-a-helium-hotspot-with-after-market-antenna/)
+* [A rough guide to Helium hotspot placement](https://kyk13.com/a-rough-guide-to-helium-hotspot-placement/)
+* [What's the best antenna for your Helium hotspot?](https://kyk13.com/antennas-for-helium/)
+* Sign up for free at [hotspotrf.com](https://voskco.in/hntRF) you can simulate your positioning for free, and it will show you your network connected , can change variables like height , antenna strength and terrain around you - how to use it instructions [here](https://help.hotspotrf.com/d/2-not-sure-where-to-start-how-to-use-hotspotrf)
+* [RF Line of Sight](https://www.scadacore.com/tools/rf-path/rf-line-of-sight/) site for similar placement planning
+* [Another RF Sight tool site](https://app.helium.vision/) - a video on how to use it [here](https://www.youtube.com/watch?v=s6slMtKn_IU)
+* Vosk talks about 'Helium mining height & antenna facts' in this 19 Sep 2021 [video](https://youtu.be/FXJIox0R0lQ?t=291)
+* Vosk talks about antenna placement [here](https://youtu.be/pDNAouHV9G0?t=1231)
+* Keep in mind that all hotspot vendors connectors to the units are RP-SMA-Female (ty @Paul)
+* If given the choice of extending the antenna cable or extending the ethernet cable it is best to keep the antenna cable as short as possible - however safety is important. Ed Ballou has a video on this [here](https://youtu.be/c7dzFjz0BMk?t=532)
+* Good [video](https://www.youtube.com/watch?v=sV7FPm5KBeU&t=1s) showing a external antenna placement, connectors and setup
+
+<h2 id='heading--antennastrength'><a href="#heading--antennastrength">Antenna Strengths</a></h2>
+
+* Vosk discusses this topic on this 8 Dec 2021 [video](https://youtu.be/0Q4P1bsIiak?t=271)
+*  Vosk answers 'What is the best antenna for Helium hotspot miners' [here](https://youtu.be/VJQXFR5OSi4?t=395)
+* As mentioned, the standard antennas are GREAT - 10km+ in NYC has been achieved by a discord member as an example here -
+![image|690x167](upload://mPED51vJiuKZHzfUY4hJ5q1jRKR.png) 
+(RAK v2 unit at 30ft elevation)
+
+This image best describes what higher dbi antennas do:
+![image0 (1)|592x500](upload://69e2IgIxmVTRrGoPkalW2io6fT.jpeg) 
+![image|690x353](upload://cSzplmeW2d4A40pv0v7G19Go7x2.png)
+![image|666x500](upload://5VYVMDeBDlnuMjByr79Mcn1H8Z3.png)
+
+Please realise the donut shapes these make, especially at higher dbi - pictured another way:
+![image|536x500](upload://7EKFKqxj5kKYp5BLLvlJW5TYZYN.jpeg)
+![image|411x500](upload://zG9Gpc0fzru5pTDaOvyu75G8CPW.jpeg)
+(Credit to @2thdoc)
+This is why you don't put a high dbi in a city for example:
+![image|438x500](upload://p8tQKPEWNNYCR227RdvxTAoT1g6.png)
+(credit @Shwetty)
+Don't be fooled by the picture of a 2dbi antenna either - the 'bubble' is huge:
+![image|472x460](upload://xt62C49SbIMRoyTHBZbiZULiq6o.png)
+(credit @Shwetty)
+
+
+![image|675x500](upload://wpBQ2lgkNDHazWku25nker4fTB3.jpeg)
+Note: 3dbi can reach out to almost 20 miles line of sight
+* A good video on [how antennas work](https://www.youtube.com/watch?v=ZaXm6wau-jc&t=237s)
+* A good Cisco paper discussing [antenna patterns](https://www.industrialnetworking.com/pdf/Antenna-Patterns.pdf)
+* Keep in mind, lower dBi antennas have more vertical range and less horizontal range. Higher ones have less vertical range and more horizontal range. Find a good balance that hits your nearby hotspots.
+* Careful with 8dbi or you will overshoot hotspots that are close to you and won't witness/challenge them
+* Higher gain does not mean better or stronger all it means is that it’s more directed. Think of it like a flashlight or a garden hose. The more focused the light becomes the more direct the light goes
+* Antenna are environment dependent. If it’s in an urban environment a higher gain is not good you need a lower gain. If you are in open area trying reach specific point in an area than a higher gain is better
+* Antenna gain is just for penetration through buildings, trees etc. Your better sticking a 3dbi high up. and a 5.8 on ground for example
+![Helium-Hotspot-Antenna|690x460](upload://uoVt0v7Zzl2XbgsZxhKrb39FxNd.png) 
+* Angle of elevation also matters. If you mount a long range (narrrow beam) antenna on a high elevation and all the other miners are at a lower elevation your signal will just go right over the other miners and not link up. So in the picture with the two cars a 3dbi antenna will reach the other car but the 6dbi one will not since the signal just goes right over the other car.
+* This Eigen Tech [video](https://www.youtube.com/watch?v=A2_sJQhpdig) is a very good explainer on how gain, dbi's, antenna strengths work and what kind of antennas to get to maximise your earnings
+* Keep your antenna cable runs low - a handy refference for signal loss over cable lengths [here](https://web.archive.org/web/20210406155843/https://www.w4rp.com/ref/coax.html) and a video showing this [here](https://youtu.be/tLlK7tNgEL4?t=103), Gristle King writes a good piece about it [here as well](https://gristleking.com/helium-101-cable-loss-and-eirp/)
+* Here is also a good cable length loss [calculator](https://www.timesmicrowave.com/Calculator)
+* Jimmy is Promo discussing antennas [here](https://www.youtube.com/watch?v=D8K57mbR-H8&t=1835s)
+* Advice on maximum antenna strengths discussed in the <a href="#heading--faq-antennapower">FAQ below</a>
+* Helium Noob has a good video about '[Is your Antenna Legal'](https://www.youtube.com/watch?v=WwpWq-SBZ1U) - US-centric but the math applies anywhere
+* EU [equivalent](https://lora.readthedocs.io/en/latest/#in-europe) on antenna power limits
+* Losses through typical materials:
+![image|690x388](upload://gwOcIcdYxTDQiNh55sReqmQ65db.png)
+* Want to know more about LoRa at the protocol level and how it relates to antennas? [Read this](https://lora.readthedocs.io/en/latest/)
+* Want to understand Gain/dB/dBm/dbI better? Read [this](https://www.wilsonamplifiers.com/blog/db-vs-dbi-what-gain-actually-means/)
+* Useful dBm (and others) [calculator](https://www.compeng.com.au/radiated-power-calculator/)
+* Gristle King has a good video on [testing your antenna](https://www.youtube.com/watch?v=beHpEHt0wQU) 'the right way'
+* [hs-analyzer.com](https://hs-analyzer.com/) is a good site to check your RSSI, valid/invalid witnesses and more
+
+<h2 id='heading--antennaconnectors'><a href="#heading--antennaconnectors">Antenna Connectors</a></h2>
+
+Handy chart from Phayu:
+
+![Helium_Hotspots_Connector_Types_By_Makers1024_1|791x1024](upload://4IUbzl7rg2PLBVqd4l07VrEBP8N.jpeg)
+
+
+This [post](https://kyk13.com/helium-hotspot-reference/) explains all that is to know about RP-SMA, N-type, as well as PoE options etc.
+
+The short version - all miners thus far have a Reverse Polarity SMA Female connector (RP-SMA-Female) on the casing (other than the Nebra outdoor which has an N-type Female and PantherX using SMA Female)- therefore you need a RP-SMA male on the antenna cable end for most miners.
+![image|690x273](upload://14jZppdPCp8Av6JgZUg817MTfcO.jpeg).
+
+First to understand is that the 'bit in the middle' (like with other cables) does not make it male or female - it is the outer edge that does:
+![image|500x270](upload://v6xgIBZCXwC4Eh6zWiF1wyoe32H.png)
+
+
+And here's a great [graphic presentation](https://www.youtube.com/watch?v=NUZLtE4ZNvI) :slight_smile: 
+
+(credit: @Paul)
+
+![image|690x232](upload://u61S5KW4aot3ELZdeFWrEOqsiEV.jpeg)
+![image|500x500](upload://sOXtbn6smB5zb90i4WBd8tx8aU6.jpeg)
+
+
+* Rokland has a [video showing](https://www.youtube.com/watch?v=tLlK7tNgEL4) these differences
+* Nebra has a good guide as well [here](https://helium.nebra.com/handy-guides/antenna/connectors)
+
+<h2 id='heading--antennareviews'><a href="#heading--antennareviews">Antenna Reviews</a></h2>
+
+I'll put some antenna reviews people pointed me to here and break out into sections over time.
+
+**RAK**
+* [3.0 dBi](https://www.youtube.com/watch?v=raTcOeCUY_w) - poor VSWR > 2 (2.49 at 904.5 MHz)
+* [5.8 dBi](https://www.youtube.com/watch?v=uf5uyckRbSs) - Excellent VSWR < 2 (1.09 at 904.5 MHz)
+* [5.8 dBi & 3.0 dBi](https://www.youtube.com/watch?v=vYdI553ltKw) + info on the Vector Impdance Analyzer
+* Sorin [testing](https://www.youtube.com/watch?v=U2DdMagpPW0) between 4.5dbi Paradar, 5.8dbi RAK, 8.5dbi Paradar, 9dbi McGill & 6.5dbi MiktoTik
+* Sorin testing McGill 9dbi vs RAK 8dbi & McGill 6dbi vs RAK 5.8dbi [here](https://www.youtube.com/watch?v=k71XTq-hjoc) on this 25 Dec 2021 videos 
+
+<h2 id='heading--antennavendors'><a href="#heading--antennavendors">Antenna/Cable Vendors</a></h2>
+
+Please ensure you read ALL of the above sections before upgrading your antenna [(bigger != better](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--antenna), etc). If you are here nontheless and are looking at outdoor options, here's some we came across:
+
+* Global,
+-- Check your Helium miner manufacurers and distributors websites, [Cal-Chip](https://www.calchipconnect.com/collections/antennas), [RAK](https://voskco.in/rak), [Nebra](https://www.nebra.com/collections/antennas), etc.
+-- [Laird/RAK/Borwan](https://www.calchipconnect.com/collections/antennas)
+-- [HNTenna](https://hntenna.com/)
+* NA.
+-- [Rokland](https://store.rokland.com/)  - has a bunch of good feedback but caters for US only
+-- [USACoax](https://usacoax.com/custom.html) for LMR cables
+-- 619OTA recommends [this Ebay Seller](https://www.ebay.com/itm/384491405007) who will confirm you are using the right connectors
+-- [IOT OffGrid](https://www.iotoffgrid.com/collections/antennas)
+-- [Fiz-Tech](https://fiz-tech.net/collections/antennas)
+* Europe,
+-- [McGill](https://www.mcgillmicrowave.com/helium-products/helium-antennas-helium-products/) has a good reputation
+-- [ConnectedThings](https://connectedthings.store/gb/lora-antennae/) - based in the UK
+-- [Connextech](https://www.connextech.co.uk/) - UK based antenna vendor
+-- [Paradar](https://paradar.co.uk/) - UK based antenna vendor
+-- [Hexaspot](https://hexaspot.com/) - EU based antena/cable vendor
+
+<h2 id='heading--app'><a href="#heading--app">Helium App Questions</a></h2>
+
+This is a attempt at collecting and answering a number of issues/errors that occur in the Helium App
+
+<h3 id='heading--app-registration'><a href="#heading--app-registration">Registering the miner</a></h3>
+
+Issues with pairing or going through the registration progress (where the miner get their name)? 
+
+Wait until the miner is 'ready' on Bobcat's this means the LED must NOT be Yellow
+
+<h3 id='heading--app-syncing'><a href="#heading--app-syncing">Syncing to the Blockchain</a></h3>
+
+* Initial syncing can take between 1 and 8 days - watch this [video](https://www.youtube.com/watch?v=oMXWr2LF7b8) which runs through the same points
+* It takes even longer from 99.1%-99.999% than 0-98%
+* If it has been "stuck" at 0 blocks or 1 blocks synced see the last bullet
+* It is quite normal (as blocks are generated every ~67 seconds) for the percentage sync to drop over time as it falls behind
+* If your hotspot has been at the same block for more than 24h we suggest a reboot, or trying a wired connection, otherwise - just leave it
+* Some miners offer a fast-sync option, see how to access those menus [here](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-networkaccess-IP) a special Bobcat guide to do that is [here](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--app-syncingBobcatCheck) as well
+* If you do not have this option, put it in diagnostic mode and check progress that way - do not rely on Explorer/The mobile App alone
+
+If you are feeling techie and want to pass the time whilst this is happening,
+* If you have a Bobcat
+  - Since 7 September 2021 the 'fast sync' method was introduced - read up on how to use it [here](https://www.bobcatminer.com/post/mind-the-gap-how-to-fix-a-huge-sync-gap)
+  - You can browse to the IP address of the miner and click on the link that says "Sync Status" and see the difference between your height and the blockchain height, OR,
+  - You can browse to the IP address of the miner and click on the link that says "Miner (5s, miner slow down)" - take the miner_height value and compare with the blockchain_height value
+* For anything else, you can
+  - Get the current blockchain height at https://api.helium.io/v1/blocks/height
+  - Get your hotspot's height at: https://api.helium.io/v1/hotspots/YOUR_MINERS_ADDRESS under the 'height' field
+* Or - Install this <a href="#heading--faq-apps">app</a> and go into the diagnostic screen to see what the miner 'thinks' is the current height - observe over time
+
+<h4 id='heading--app-syncingBobcatCheck'><a href="#heading--app-syncingBobcatCheck">Bobcat Random Syncing</a></h4>
+
+Do you feel like your Bobcat is falling in and out of the status of syncing or have you just setup your Bobcat recently and want to avoid a long initial sync delay?
+
+NOTE: The Explorer and the App is lagged and not always up to date and cannot be relied on (Sept 2021), it might simply be saying your hotspot is 'syncing' when it is definitely not, since Bobcats allow you to check this directly with the miner we can check for it here.
+ 
+
+Video guides to this process,
+* Vosk runs you through fast-sync on this 29 Oct 2021 [video](https://youtu.be/9mYWcUJHUYU?t=571)
+* Alternate [video](https://www.youtube.com/watch?v=kPzIMeWKxtY),
+
+Or just follow these steps,
+
+* Browse to the IP address of your Bobcat on your local network, if you are unsure how to do that, [see this section](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-networkaccess-IP)
+* Once successful, the page should look something like this:
+![image|208x147](upload://bnchSdvMMIT1kShdnkNilyQcMpl.png)
+-- If you do not see a webpage, you either have the IP address wrong or the miner's webserver is unavailable, wait 30mins and check again, if that fails, turn it off, wait a minute and turn it back on and wait 10 minutes generally resolves this
+* Click on 'Sync Status', a perfectly running one will look something like this:
+```
+{
+  "status": "synced",
+  "gap": "-1",
+  "miner_height": "1022841",
+  "blockchain_height": "1022840",
+  "epoch": "26492"
+}
+```
+* Take a note of the 'gap' line,
+-- If the value is negative it is synchronised
+-- If the value is 10 or less, the status will say 'synced' and everything is OK (regardless of what Explorer says)
+-- If the value is 400 or less, the miner is busy syncing and will eventually appear sync - reload this page every 10 minutes or so to check
+-- If the value is above 400, follow from step 5 onwards under 'Bobcat Perpectual Sync Issue' below
+* If the 'gap' over a period of several hours have narrowed to less than 100 and then suddenly jumped back up to a high value (above 400) you might have the 'Perpetual Sync Issue' please follow the steps to resolve that in the section below
+
+<h4 id='heading--app-syncingBobcatGap'><a href="#heading--app-syncingBobcatGap">Bobcat Perpetual Sync Issue</a></h4>
+
+This issue starting arising week-of 13 September 2021 - this may or may not help some Bobcat's perpetually syncing.
+
+FIRST: Be 100% confident your Bobcat is perpetually syncing, this means that you have checked your Bobcat's Status screen (/status.json) and seen that the 'gap' number decreases slowly and then over time (3+ hours) reset back to a much higher again (instead of being below a gap of 10).
+
+NOTE: The whole process takes about 6 hours
+
+[Credit] (https://discord.com/channels/860251893803384893/860251893803384896/887826933176479744)
+
+THIS METHOD IS NOT A GUARANTEED FIX. 
+USERS WHO USE THIS METHOD DO SO AT THEIR OWN RISK.
+PLEASE READ INSTRUCTIONS CAREFULLY (especially where it says IMPORTANT)
+
+0. Switch to Ethernet if you can
+1. Access the miner dashboard by entering the miner's IP Address into the browser. From the menu, click on Reset Miner
+2. Go through the steps to get this started (type in 'I Agree', enter username: bobcat password: miner)
+3. IMPORTANT, WAIT FOR THE MESSAGE BELOW TO BE DISPLAYED (might take ~20mins):
+   1: your miner is going to rest
+   2: housekeeper was sent home
+   3: dockerd is stopped
+   exit status 1
+   5: detonated a bomb, old blockchain data gone
+   6: detonated another bomb, miner gone
+   7: the housekeeper is back, but everything is gone
+   8: rebuilding everything
+   9: cleaning up
+   10: cleaning bomb resedue
+   your miner has successfuly started, but it may take 15 minutes to load files, please be patient. you can  run the diagnoser after the light turns green
+4. Go back to the miner dashboard and click on Sync Status. Do no proceed to the next step until you see your miner height above 900,000. The reason for this is because the blessed snapshot isn't confirmed as loaded until this happens. If you do this step too early, start at step
+1 again.
+5. Once confirmed, click on Fast sync(Alpha)
+6. Again, go through the steps to get this started (type in 'I Agree', enter username: bobcat password: miner)
+7. IMPORTANT WAIT FOR THE MESSAGE TO BE DISPLAYED:
+   Synching your miner, please leave your power on.
+8. This concludes everything you need to do to fix the perpetual gap problem
+
+
+
+
+<h3 id='heading--app-updatinghotspot'><a href="#heading--app-updatinghotspot">Update Hotspot</a></h3>
+
+![image|225x500](upload://qYr8VSdU1PUiYNxjWlOnF25yjrL.jpeg)
+
+Your initial assert might take a long time as your miner is probably not synced or there is a issue with the blockchain. Just be patient and have a look at the explorer under the activity tab to see if/when your assertion has gone through.
+
+<h3 id='heading--app-failedtransaction'><a href="#heading--app-failedtransaction">Failed Transaction</a></h3>
+
+![image|230x500](upload://y0e1WjVDAdq2aSAPGvwyn9X6GdY.png)
+
+This has been seen when updating location / antenna / height, suggestions:
+* Check on the blockchain explorer if you have not already asserted (activity tab)
+* As suggested - possibly try again in ~30mins
+
+<h3 id='heading--app-transferminer'><a href="#heading--app-transferminer">How to transfer a miner</a></h3>
+
+* Note that the hotspot being transferred should be fully synced (or within roughly 1200 blocks) to allow for a transfer
+* Helium documents this well [here](https://docs.helium.com/wallets/app-wallet/transfer-hotspot/)
+
+<h3 id='heading--app-weird1'><a href="#heading--app-weird1">Characteristic error</a></h3>
+
+![image|231x500](upload://A7vyKoVvngOfheePc7zsK1PPXUK.jpeg)
+
+Leave the device for ~30 minutes, close the app, open it again and it should be showing that it is syncing.
+
+<h3 id='heading--app-onboardingerror'><a href="#heading--app-onboardingerror">Onboarding Error</a></h3>
+
+Error saying invalid_onboarding_address 
+
+![image|243x500](upload://wUyEDpW3oSfB8YaflPk5zM4EtwY.png)
+![image|415x500](upload://5sbMwoWvj5h85SwgPo24k8hfOrK.jpeg)
+
+
+This typically happens when the blockchain or onboarding servers (which can at times be vendor specific) has issues.
+
+If this happens to you,
+
+* Retrying in 15-30 minute intervals typically helps
+* Keep a eye on http://status.helium.com
+* If this fails for more than a day, contact the vendor
+
+<h3 id='heading--app-alreadyactive'><a href="#heading--app-alreadyactive">gateway_already_active</a></h3>
+
+![image|231x500](upload://h8rJ2NTltYpnsHdkx3pLMJgvVvi.png)
+
+Usually means that this has already been registed, force-close and try again in 30mins, you will probably see it has registered.
+
+
+<h3 id='heading--app-constructingerror'><a href="#heading--app-constructingerror">Constructing Error</a></h3>
+
+![image|231x500](upload://n6bZtLZHT1EHpBllWPwJvhtBghH.jpeg)
+
+'There was an error constructing the Add Hotspot transaction. Please try again.'
+
+Simply force-close the app (as it likes to cache) - and try again in 30mins - this is apparently a onboarding server issue however we have seen this occur more during busy times on the Explorer website especially.
+
+<h3 id='heading--app-hexagonmissing'><a href="#heading--app-hexagonmissing">My hexagon is not showing?</a></h3>
+
+Helium has a 'tileserver' which sometimes get backed up due to the big amount of hotspots going online, over time this 'job' will re-run and add your hotspot to a tile.
+
+* Example [issue](https://discord.com/channels/404106811252408320/730418759298318346/900893065022152825) from 22 October 2021
+
