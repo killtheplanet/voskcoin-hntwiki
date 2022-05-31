@@ -467,6 +467,22 @@ There is a vendor tracking spreadsheet available [here](https://docs.google.com/
 
 Manufacturers who has accepted pre-orders before HIP19 approval from Helium get on a naughty list , so far first offenders are,
 
+<h4 id='heading--naughtylistpantherx'><a href="#heading--naughtylistpantherx">PantherX</a></h4>
+
+On 31 May 2022 the Manufacturing Compliance Committee announced:
+
+[SOURCE](https://discord.com/channels/404106811252408320/921085505028890674/981291490082951218)
+
+```
+Panther - MCC Hearing 
+
+A case was brought to the MCC regarding Panther by the PoC Security Working Group (POCSWG). On the basis of the evidence provided by the POCSWG, the MCC voted to temporarily disable Panther's API access to onboard new Hotspots to the chain until the case is heard and resolved.
+
+The MCC will hold a hearing this Wednesday, June 1, 2022, to hear evidence and testimony by the POCSWG and from Panther. Afterward, the MCC will deliberate on a more permanent action.
+```
+
+
+
 <h4 id='heading--naughtylistairbit'><a href="#heading--naughtylistairbit">Airbit</a></h4>
 
 ![image|322x214](upload://muF7FBLmS9qjEC9xx4snz8tV57A.png)
