@@ -615,7 +615,7 @@ All miners send/receive challanges - see [Vosk's video here](https://youtube.com
 <h3 id='heading--faq-profitable'><a href="#heading--faq-profitable">Is it still profitable?</a></h3>
 
 Yes, reasoning:
-* Even if you put this in your basement with a [faraday](https://en.wikipedia.org/wiki/Faraday_cage) cage surrounding it, your miner will get challenged (over the internet) and it will get rewarded for responding to those challenges (over the internet), and those rewards *most likely* will exceed the electricity use, therefore it will be profitable.
+* If you at least witness one hotspot you SHOULD be making enough to cover the electricity use of the device, ie. do not put this in a faraday cage / basement
 * If the *rate* of the profit you accumulate is acceptable to you is of course the actual question, we got a couple of section in this very FAQ/Wiki to help make your decision on that,
   - Starting with '[Why are my earnings so low?'](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-lowearnings) in the section below
   - [Am I too late to buy a miner?](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786/44#heading--faq-amitoolate)
