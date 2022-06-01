@@ -614,7 +614,8 @@ All miners send/receive challanges - see [Vosk's video here](https://youtube.com
 
 <h3 id='heading--faq-profitable'><a href="#heading--faq-profitable">Is it still profitable?</a></h3>
 
-Yes, reasoning:
+It depends, reasoning:
+* On average (see caveats below), if you are bullish on HNT it might be more practical (if you do not have killer spots) to buy the coin instead of mining it
 * If you at least witness one hotspot you SHOULD be making enough to cover the electricity use of the device, ie. do not put this in a faraday cage / basement
 * If the *rate* of the profit you accumulate is acceptable to you is of course the actual question, we got a couple of section in this very FAQ/Wiki to help make your decision on that,
   - Starting with '[Why are my earnings so low?'](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-lowearnings) in the section below
@@ -915,6 +916,7 @@ Discovery mode is also known as Disco mode - which was released on 18 May 2021. 
 <h3 id='heading--faq-amitoolate'><a href="#heading--faq-amitoolate">Am I too late to buy a miner?</a>
 </h3>
 
+* See <a href="#heading--faq-profitable">is it still profitable?</a>
 * Understand and read<a href="#heading--faq-lowearnings">'Why are my earnings so low?'</a>
 * Vosk talks about it on this 13 May 2022 [video](https://youtu.be/2CCVz5YZyE4?t=989)
 * Vosk talks about it on 19 Sep 2021 [here](https://youtu.be/FXJIox0R0lQ?t=665)
