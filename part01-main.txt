@@ -783,7 +783,7 @@ I'll put some antenna reviews people pointed me to here and break out into secti
 * Sorin [testing](https://www.youtube.com/watch?v=U2DdMagpPW0) between 4.5dbi Paradar, 5.8dbi RAK, 8.5dbi Paradar, 9dbi McGill & 6.5dbi MiktoTik
 * Sorin testing McGill 9dbi vs RAK 8dbi & McGill 6dbi vs RAK 5.8dbi [here](https://www.youtube.com/watch?v=k71XTq-hjoc) on this 25 Dec 2021 videos 
 
-<h2 id='heading--antennavendors'><a href="#heading--antennavendors">Antenna/Cable Vendors</a></h2>
+<h2 id='heading--antennavendors'><a href="#heading--antennavendors">Antenna and Cable Vendors</a></h2>
 
 Please ensure you read ALL of the above sections before upgrading your antenna [(bigger != better](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--antenna), etc). If you are here nontheless and are looking at outdoor options, here's some we came across:
 
