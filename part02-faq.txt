@@ -615,6 +615,7 @@ All miners send/receive challanges - see [Vosk's video here](https://youtube.com
 <h3 id='heading--faq-profitable'><a href="#heading--faq-profitable">Is it still profitable?</a></h3>
 
 It depends, reasoning:
+* See vosk's 5 June 2022 video discussing 'Regretting buying my Helium miners?' [here](https://youtu.be/d2wdlP3gDTo?t=823)
 * On average (see caveats below), if you are bullish on HNT it might be more practical (if you do not have killer spots) to buy the coin instead of mining it
 * If you at least witness one hotspot you SHOULD be making enough to cover the electricity use of the device, ie. do not put this in a faraday cage / basement
 * If the *rate* of the profit you accumulate is acceptable to you is of course the actual question, we got a couple of section in this very FAQ/Wiki to help make your decision on that,
@@ -792,8 +793,14 @@ HIP 42, if implemented, would regulate the number of witnesses a Hotspot is rewa
 
 <h3 id='heading--faq-hip51'><a href="#heading--faq-hip51">What is HIP-51?</a></h3>
 
+* Voskcoin covers what HIP51 mean for the Helium network in this 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=160)
+* Voskcoin asks if this is a rug on all existing miners in the same 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=595)
 * This was announced in May 2022 - see the blog post [here](https://blog.helium.com/helium-chapter-2-a-network-of-networks-7372262210bd)
 * You can read the HIP [here](https://github.com/helium/HIP/issues/336)
+
+<h3 id='heading--faq-hip52'><a href="#heading--faq-hip52">What is HIP-52 and HIP-53?</a></h3>
+
+* Voskcoin talks about what HIP52 and HIP53 mean for the helium network on this 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=683)
 
 <h3 id='heading--faq-hip54'><a href="#heading--faq-hip54">What is HIP-54 & HIP-55?</a></h3>
 
@@ -1427,7 +1434,7 @@ Random images found on Discord,
 
 For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
 
-<img src="https://cdn.discordapp.com/attachments/828974069378580490/982761106885971978/10k_Vendors_-_2022-06-04T223856.093.png">
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/983126845136445440/10k_Vendors_-_2022-06-05T225438.159.png">
 
 
 
