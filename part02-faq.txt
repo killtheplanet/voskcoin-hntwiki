@@ -793,6 +793,7 @@ HIP 42, if implemented, would regulate the number of witnesses a Hotspot is rewa
 
 <h3 id='heading--faq-hip51'><a href="#heading--faq-hip51">What is HIP-51?</a></h3>
 
+* Gristle King has a good panel interview w.r.t HIP51 in this [video](https://www.youtube.com/watch?v=6ZnYo_ZNMpY)
 * Voskcoin covers what HIP51 mean for the Helium network in this 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=160)
 * Voskcoin asks if this is a rug on all existing miners in the same 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=595)
 * This was announced in May 2022 - see the blog post [here](https://blog.helium.com/helium-chapter-2-a-network-of-networks-7372262210bd)
