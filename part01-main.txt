@@ -443,7 +443,10 @@ NOTE: COTX has been placed on Helium's naughty list on 27 September 2021 <a href
 * Aitek was approved around 24 May 2022
 * They seem to have a website [here](https://www.aiteks.com/products/1)
 
+<h3 id='heading--dusun'><a href="#heading--dusun">Dusun</a></h3>
 
+* Dusun was added to the approved list on 29 April 2022
+* First orders online appeared on [Fastminers.io](https://fastminers.io/store/product/dusun-helium-hotspot-miner/) for frequencies EU868, US915 & AU915
 
 <h3 id='heading--OG'><a href="#heading--OG">Helium Inc (OG)</a></h3>
 
@@ -459,7 +462,6 @@ These are yet  to be HIP19 (or just) approved and not for sale yet - these will 
 
 There is a vendor tracking spreadsheet available [here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/edit#gid=504066718)
 
-* Dusun was added to the approved list on 29 April 2022 - waiting for more information
 * Embit was approved on 18 April 2022 ([here](https://discord.com/channels/404106811252408320/921085505028890674/965739405610463242)), waiting for a web page to create a section for it
 * Atom was certified on 5 April 2022 as seen [here](https://explorer.helium.com/accounts/13GY3FdbfNpXoBkyRukFj2fx9851oqX2SUTKY8Gd4BDJsZsuYhd) and application [here](https://github.com/dewi-alliance/hotspot-manufacturers/blob/main/atom-design-and-innovation.md)
 
