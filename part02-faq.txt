@@ -1435,7 +1435,7 @@ Random images found on Discord,
 
 For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
 
-<img src="https://cdn.discordapp.com/attachments/828974069378580490/983487898064126032/10k_Vendors_-_2022-06-06T224915.040.png">
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/983844771133026344/10k_Vendors_-_2022-06-07T222709.769.png">
 
 
 
