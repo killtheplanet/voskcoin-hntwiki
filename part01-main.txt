@@ -49,7 +49,7 @@ Currently still (December 2021) recommended by Vosk. This is because they have p
 * Still the Vosk recommended [miner](https://medium.com/voskcoin/the-best-helium-hnt-hotspot-miner-to-buy-right-now-788a332d1ac5) here, on [21 Nov 2021](https://youtu.be/UAWc5Jv_RTU?t=105)
 * On 24 March 2022 Bobcat released announced that you can now manage your Bobcat on a cloud-based and from the mobile app - [see the announcement](https://www.bobcatminer.com/post/bobcat-launches-remote-troubleshooting-features)
 * Vosk talks about the upcoming Bobcat 500 in this 24 March 2022 [video](https://youtu.be/xwEl4nQkRWg?t=159)
-* Latest shipping news is always [here](https://www.bobcatminer.com/shipping-update)
+* Latest shipping news is always [here](https://www.bobcatminer.com/updates.html) (under 'Shipping Updates')
 * As of 5 Nov 2021 AU915/AS923/KR920 miners are [orderable](https://twitter.com/BOBCATiot/status/1456456239030939667?t=-s6IlTVrjAtiKQWHXP6UfA&s=19)
 * See Vosk's 16 June 2021 video titled "[How to Buy Bobcat Miner 300 Helium Hotspot Miner](https://www.youtube.com/watch?v=2w4q2SbQb_8)"
 * Since 4 June 2021 the easiest option is to pay in USDC using Coinbase at checkout, video [here](https://www.youtube.com/watch?v=FkKRWaYJqVM). 
