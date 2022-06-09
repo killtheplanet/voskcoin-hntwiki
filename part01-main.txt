@@ -39,7 +39,7 @@ A spreadsheet tracking all the new vendors and where they are in the approval pr
 
 All certified vendors for Helium are listed [here](https://docs.helium.com/mine-hnt/full-hotspots)
 
-<h3 id='heading--bobcat'><a href="#heading--bobcat">Bobcat</a></h3>
+<h3 id='heading--bobcat'><a href="#heading--bobcat">Bobcat (300)</a></h3>
 
 ![image|670x500](upload://amiwXqh9vfms7RMpczFcBFEnw8n.jpeg) 
 
@@ -83,6 +83,11 @@ Your miner will ship in 20-28 weeks from the time you placed your order.
 * Bobcat [explains](https://twitter.com/BOBCATiot/status/1451014533695168517?s=20) the Shipping label order process here so you can understand the shipment process better
 * Serial port details of your Bobcat, MicroUSB cable at the back runs at 1500000 baud, 8N1, credit 
 * There is talk about improving the antenna circuit within the Bobcat in this [Sorin](https://www.youtube.com/watch?v=OTovVfFVTBI) video, [US](https://www.amazon.com/dp/B093247PHX?psc=1&ref=ppx_yo2_dt_b_product_details) & [UK](https://www.amazon.co.uk/gp/product/B072VWKXCR/ref=ppx_yo_dt_b_asin_title_o00_s00?) part for reference
+
+<h3 id='heading--bobcat5G'><a href="#heading--bobcat5G">Bobcat 5G (500)</a></h3>
+
+* [Order link](https://www.bobcatminer.com/product.html?id=7371651874973?ref=vosk)
+* This was officially approved on 9 June 2022, maker key is [here](https://explorer.helium.com/accounts/14gqqPV2HEs4PCNNUacKVG7XeAhCUkN553NcBVw4xfwSFcCjhXv)
 
 
 <h3 id='heading--nebra'><a href="#heading--nebra">Nebra</a></h3>
@@ -348,7 +353,6 @@ NOTE: COTX has been placed on Helium's naughty list on 27 September 2021 <a href
 <h3 id='heading--PantherX'><a href="#heading--PantherX">PantherX</a></h3>
 
 ![image|665x500](upload://2OEIgg3CJW75rtaWQkZy6s8PFtu.jpeg)
-
 
 * NOTE (June 2022) that PantherX is on the <a href="#heading--naughtylistpantherx">naughty list</a> and their key is currently REVOKED
 * [Approved](https://discord.com/channels/404106811252408320/813452716286017557/892154151205744680) 27 September 2021
