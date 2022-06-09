@@ -278,7 +278,7 @@ See the <a href="#heading--security">security</a> section if you have more quest
 
 This section discusses circumventing the reward structure for your own benefits, rather than the security aspect of it (check [security](https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--security) for that)
 
-In short - there is no official way to report hacking, however there is a site for users to look at for patterns into this kind of gaming [here](https://suspots.com). Helium itself currently has no report or deny-list as there are no definitive rules to determine "gaming". Nor is there a defined process as to how to address it even if someone could somehow be confirmed to be doing something wrong. This is being worked on and will be proposed in [HIP-40](https://github.com/helium/HIP/blob/master/0040-validator-denylist.md)
+In short - there is no official way to report hacking, however there is a site for users to look at for patterns into this kind of gaming here on [suspots.com](https://suspots.com) or here on [Crowdspot.io](http://crowdspot.io). Helium itself currently has no report or deny-list as there are no definitive rules to determine "gaming". Nor is there a defined process as to how to address it even if someone could somehow be confirmed to be doing something wrong. This is being worked on and will be proposed in [HIP-40](https://github.com/helium/HIP/blob/master/0040-validator-denylist.md)
 
 Some other hacks mentions,
 * GristleKing discusses ['How Do you Cheat On The Helium Network?'](https://gristleking.com/how-do-you-cheat-on-the-helium-network/) on this January 2022 post
