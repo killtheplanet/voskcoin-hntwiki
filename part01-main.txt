@@ -350,7 +350,7 @@ NOTE: COTX has been placed on Helium's naughty list on 27 September 2021 <a href
 ![image|665x500](upload://2OEIgg3CJW75rtaWQkZy6s8PFtu.jpeg)
 
 
-* NOTE (June 2022) that PantherX is on the <a href="#heading--naughtylistpantherx">naughty list</a>
+* NOTE (June 2022) that PantherX is on the <a href="#heading--naughtylistpantherx">naughty list</a> and their key is currently REVOKED
 * [Approved](https://discord.com/channels/404106811252408320/813452716286017557/892154151205744680) 27 September 2021
 * [Website](https://voskco.in/hntP)
 * The X2 has a 1.8GHz processor, 4GB of memory, 32GB eMMC and 64 GB TF card and comes with a 3dBi antenna
@@ -472,6 +472,12 @@ There is a vendor tracking spreadsheet available [here](https://docs.google.com/
 Manufacturers who has accepted pre-orders before HIP19 approval from Helium get on a naughty list , so far first offenders are,
 
 <h4 id='heading--naughtylistpantherx'><a href="#heading--naughtylistpantherx">PantherX</a></h4>
+
+On 9 June 2022 the MCC updated:
+
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/984480975172034640/IMG_1196.png">
+[source](https://discord.com/channels/404106811252408320/921085505028890674/984266324278673438)
+
 
 On 6 June 2022 the MCC confirmed that Panther Hotspot onboarding has been paused:
 <img src="https://media.discordapp.net/attachments/828974069378580490/983486114306338866/unknown.png">
