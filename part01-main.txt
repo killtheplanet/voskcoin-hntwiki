@@ -477,6 +477,11 @@ Manufacturers who has accepted pre-orders before HIP19 approval from Helium get 
 
 <h4 id='heading--naughtylistpantherx'><a href="#heading--naughtylistpantherx">PantherX</a></h4>
 
+NOTE on the current state (post 10 June 2022):
+* Onboarding PantherX miners that has not already been onboarded will fail
+* Existing/Onboarded PantherX's will function for the time being
+* MCC decision still to be made (the maker key suspension is temporarily at the moment until a decision is made as per below)
+
 On 9 June 2022 the MCC updated:
 
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/984480975172034640/IMG_1196.png">
