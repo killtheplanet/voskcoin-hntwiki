@@ -793,6 +793,7 @@ HIP 42, if implemented, would regulate the number of witnesses a Hotspot is rewa
 
 <h3 id='heading--faq-hip51'><a href="#heading--faq-hip51">What is HIP-51?</a></h3>
 
+* Gristle King [HIP 51 Explained - Get Up In There, Yo](https://www.youtube.com/watch?v=dp8MPk1KIbA) released on 17 June 2022
 * Gristle King has a good panel interview w.r.t HIP51 in this [video](https://www.youtube.com/watch?v=6ZnYo_ZNMpY)
 * Voskcoin covers what HIP51 mean for the Helium network in this 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=160)
 * Voskcoin asks if this is a rug on all existing miners in the same 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=595)
@@ -1435,7 +1436,7 @@ Random images found on Discord,
 
 For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
 
-<img src="https://cdn.discordapp.com/attachments/828974069378580490/987114325628031066/10k_Vendors_-_2022-06-16T225909.084.png">
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/987479849650229268/10k_Vendors_-_2022-06-17T230936.974.png">
 
 * Another nice graph [available here at etl](https://etl.dewi.org/public/dashboard/5f3cd0b4-9317-48a3-88f0-aae5adf80aed?days=180)
 * Another effort for stats are available at https://heliumanalytics.io/

@@ -296,8 +296,8 @@ Note that eventually all miners will have their software converted to a light ho
 ![image|690x387](upload://6qeVDDn5sDJYz3biEbgW41UtVX.jpeg)
 
 
-NOTE: COTX has been placed on Helium's naughty list on 27 September 2021 <a href="#heading--naughtyCOTX">see this</a> and should be on this listed until April 2022 before they will take new orders
-
+* On June 16 2022 COTX released the [COTX X5](https://cotx-store.com/blogs/news/new-product-release-cotx-x5-standard-lorawan-gateway-helium-full-outdoor-hotspot)
+* On June 15 2022 COTX released the [COTX X1 Lite](https://cotx-store.com/blogs/news/new-product-release-cotx-x1-lite-standard-lorawan-gateway-helium-data-only-hotspot?) this is a data-only hotspot (unlike the X5)
 * Vosk's Order [link](https://voskco.in/cotx) - email them to get on their order list [here](https://voskco.in/cotx2)
 * Vosk's [review](https://www.youtube.com/watch?v=cWrPW1BGIMU) of the COTX Helium miner on 7 Jan 2022. Vosk also have a written guide which goes into the temporary suspension of them [here](https://voskcointalk.com/t/cotx-helium-hotspot-miner-review-the-hnt-miner-that-was-banned/31678)
 * [Cotx Networks](https://github.com/helium/HIP/blob/7e97f1a3bd5ac43157e2a8b5f0a13b0aef6830b8/0019-third-party-manufacturers/Cotx-Networks.md?utm_source=pocket_mylist)
@@ -555,6 +555,9 @@ This was received on 10th July via email from RevoFi (ie, ignoring above and bef
 
 
 <h4 id='heading--naughtyCOTX'><a href="#heading--naughtyCOTX">COTX</a></h4>
+
+<b>NOTE:</b> This suspenction is now lifted, below for historical reasons only
+
 
 On 22 October 2021 this was [released](https://discord.com/channels/404106811252408320/813452716286017557/901211992885452892):
 
