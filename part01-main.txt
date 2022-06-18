@@ -466,6 +466,7 @@ These are yet  to be HIP19 (or just) approved and not for sale yet - these will 
 
 There is a vendor tracking spreadsheet available [here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/edit#gid=504066718)
 
+* On 18 June 2022 MNTD unveiled their [5G Hotspot](https://getmntd.com/5g/?utm_source=social+media&utm_medium=organic+traffic&utm_campaign=5G+Unveiling)
 * Embit was approved on 18 April 2022 ([here](https://discord.com/channels/404106811252408320/921085505028890674/965739405610463242)), waiting for a web page to create a section for it
 * Atom was certified on 5 April 2022 as seen [here](https://explorer.helium.com/accounts/13GY3FdbfNpXoBkyRukFj2fx9851oqX2SUTKY8Gd4BDJsZsuYhd) and application [here](https://github.com/dewi-alliance/hotspot-manufacturers/blob/main/atom-design-and-innovation.md)
 
