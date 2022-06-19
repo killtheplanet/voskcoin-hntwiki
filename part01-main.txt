@@ -354,7 +354,7 @@ Note that eventually all miners will have their software converted to a light ho
 
 ![image|665x500](upload://2OEIgg3CJW75rtaWQkZy6s8PFtu.jpeg)
 
-* NOTE (June 2022) that PantherX is on the <a href="#heading--naughtylistpantherx">naughty list</a> and their key is currently REVOKED
+* <b>WARNING</b> (June 2022) that PantherX is on the <a href="#heading--naughtylistpantherx">naughty list</a> and their key is suspended for 1 year with an opportunity to reduce the suspension to six months if particular conditions are met (see the naughty list link)
 * [Approved](https://discord.com/channels/404106811252408320/813452716286017557/892154151205744680) 27 September 2021
 * [Website](https://voskco.in/hntP)
 * The X2 has a 1.8GHz processor, 4GB of memory, 32GB eMMC and 64 GB TF card and comes with a 3dBi antenna
@@ -477,25 +477,49 @@ There is a vendor tracking spreadsheet available [here](https://docs.google.com/
 Manufacturers who has accepted pre-orders before HIP19 approval from Helium get on a naughty list , so far first offenders are,
 
 <h4 id='heading--naughtylistpantherx'><a href="#heading--naughtylistpantherx">PantherX</a></h4>
+NOTE on the current state (post 15 June 2022):
 
-NOTE on the current state (post 10 June 2022):
+[source](https://discord.com/channels/404106811252408320/921085505028890674/986718999213666305)
+> Video Link: https://vimeo.com/720799472
+> 
+> Meeting Notes: https://docs.google.com/document/d/1CtJK8Podx8hdWNJ8HCRImBfSwJVt1jZ10Eabeh2s-yA/edit?usp=sharing
+> 
+> -------------------------------------------------------------------------------------------
+> Manufacturing Compliance Committee (MCC) update:
+> 
+> Panther Hearing - Final Results
+> 
+> The MCC has come to a conclusion regarding the Panther hearing. The MCC unanimously voted to
+> have Panther's Maker Key suspended for one year, with an opportunity to reduce this suspension
+> to six months with evidence of the following actions:
+>  The Panther team will keep the firmware updated for Hotspots.
+>  Transparency, resolving questions around the current fleet.
+>  Panther to provide a plan of action for anti-gaming solutions for their Hotspots
+>  Dissolution of partnerships with distributors involved in gaming and end affiliate partnerships that promote gaming.
+> 
+> In order for the MCC to assist customers who have, at no fault of their own, been unable to onboard their Hotspots, 
+> the MCC is requesting the order information from Panther (not individuals) for all pre-sold and shipped orders 
+> as soon as possible. The Panther team was emailed today for this requested information, and this process will 
+> begin as soon as the MCC receives this.
+>
+> It is the goal of the MCC to help community members onboard legitimate Hotspots. Thank you all for your patience.
+
+
+
+
+
+
+Older updates,
 * Onboarding PantherX miners that has not already been onboarded will fail
 * Existing/Onboarded PantherX's will function for the time being
 * MCC decision still to be made (the maker key suspension is temporarily at the moment until a decision is made as per below)
-
-On 9 June 2022 the MCC updated:
-
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/984480975172034640/IMG_1196.png">
 [source](https://discord.com/channels/404106811252408320/921085505028890674/984266324278673438)
-
 The 9 June 2022 decision response from PantherX:
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/984613161774747708/unknown.png">
-
 On 6 June 2022 the MCC confirmed that Panther Hotspot onboarding has been paused:
 <img src="https://media.discordapp.net/attachments/828974069378580490/983486114306338866/unknown.png">
-
 On 31 May 2022 the Manufacturing Compliance Committee announced:
-
 [SOURCE](https://discord.com/channels/404106811252408320/921085505028890674/981291490082951218)
 
 > Panther - MCC Hearing 
