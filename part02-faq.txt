@@ -238,6 +238,13 @@ Is your miner saying it is syncing, offline or that it needs attention? Here's s
 -- If your block height has not increased in several hours, try rebooting the miner
 -- If your block 'gap' INCREASES (but height increases) it means it is struggling keeping synced - you typically have a local/internet issue then, if it is on WiFi, take it off it (this is a common issue)
 
+<h3 id='heading--faq-stillsyncing'><a href="#heading--faq-stillsyncing">Are our hotspots still syncing?</a></h3>
+
+After the light-hotspots rollout of May 2022, do our hotspots still sync?
+
+At the time of writing (June 2022) they still are purely as backup but this will be stopping soon. Any hotspot should at least sync higher than block 1,350,664 which includes the light-hotspot variable flip
+
+
 <h3 id='heading--security'><a href="#heading--security">Security</a></h3>
 
 What about the security of these miners?
@@ -1436,7 +1443,7 @@ Random images found on Discord,
 
 For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
 
-<img src="https://cdn.discordapp.com/attachments/828974069378580490/989285503255846973/10k_Vendors_-_2022-06-22T224638.282.png">
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/989657940451524668/10k_Vendors_-_2022-06-23T232333.505.png">
 
 * Another nice graph [available here at etl](https://etl.dewi.org/public/dashboard/5f3cd0b4-9317-48a3-88f0-aae5adf80aed?days=180)
 * Another effort for stats are available at https://heliumanalytics.io/
