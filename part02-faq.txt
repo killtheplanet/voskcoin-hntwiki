@@ -331,11 +331,11 @@ Credit: @Sound
 
 <h3 id='heading--faq-banning'><a href="#heading--faq-banning">Banned hotspots</a></h3>
 
-The denylist will be published [here](https://github.com/helium/denylist) once [HIP-40](https://github.com/helium/HIP/blob/master/0040-validator-denylist.md) (Validator Denylist) has been implemented
+The denylist is published [here](https://github.com/helium/denylist) 
 
 For now, hotspots have the ability to get banned if they are found 'guilty' of hacking. This started with:
 * [Maintain Temporary Hotspot Denylist](https://heliumvote.com/14iwaexUYUe5taFgb5hx2BZw74z3TSyonRLYyZU1RbddV4bJest) and [Publish Temporary Hotspot Denylist](https://heliumvote.com/13wCuq7XGnc4xgxPAc9n9ragKsRfmH9t9jB3c1smfKPZWSikZkd)  voted on Jan 14 2022
-
+* A good/interesting resource [crowdspot.io/denylist](https://www.crowdspot.io/denylist)
 
 
 **Historically**
