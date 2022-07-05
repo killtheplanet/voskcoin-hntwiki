@@ -87,6 +87,7 @@ Your miner will ship in 20-28 weeks from the time you placed your order.
 <h3 id='heading--bobcat5G'><a href="#heading--bobcat5G">Bobcat 5G (500)</a></h3>
 
 * [Order link](https://www.bobcatminer.com/product.html?id=7371651874973?ref=vosk)
+* VoskCoin gives his [opinion](https://youtu.be/pTrZ3TA0sGw?t=750) on this hotspot on this 30 June 2022 video
 * This was officially approved on 9 June 2022, maker key is [here](https://explorer.helium.com/accounts/14gqqPV2HEs4PCNNUacKVG7XeAhCUkN553NcBVw4xfwSFcCjhXv)
 
 
@@ -674,6 +675,7 @@ If you reviewed your territory and noticed there are no neighboring hotspots nea
 
 You can also (after paying a small fee) get a rough indication of what you might earn for a particular location by using hotspotrf.com - more on them below.
 
+* VoskCoin [answers this](https://youtu.be/pTrZ3TA0sGw?t=450) on this June 30 2022 video
 * Please also see <a href="https://voskcointalk.com/t/helium-hnt-hotspot-mining-wiki-faq/14786#heading--faq-amitoolate">Am I too late to buy a miner?</a>
 * Voskcoin talks about it on this 7 April 2022 [video](https://www.youtube.com/watch?v=MGBMwzrE2AM)
 * Voskcoin addresses '[is it still worth it](https://youtu.be/L90Y90A1vjQ?t=158)' on this 12 March 2022 video

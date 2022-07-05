@@ -608,6 +608,7 @@ All miners send/receive challanges - see [Vosk's video here](https://youtube.com
 <h3 id='heading--faq-finance'><a href="#heading--faq-finance">I have a finance/tokenomics/tax reporting question</a>
 </h3>
 
+* VoskCoin talks about [HNT distribution](https://youtu.be/pTrZ3TA0sGw?t=561) in this 30 June 2022 video
 * Good site for calculating any tax on your HNT mining at [minertax.com](https://www.minertax.com/)
 * Another good [HNT Transaction Export](https://www.fairspot.host/hnt-export-mining-tax) tool for reporting purposes
 * Miner history for a period [tool](https://helium.hiker.rocks/)
@@ -622,7 +623,8 @@ All miners send/receive challanges - see [Vosk's video here](https://youtube.com
 <h3 id='heading--faq-profitable'><a href="#heading--faq-profitable">Is it still profitable?</a></h3>
 
 It depends, reasoning:
-* See vosk's 5 June 2022 video discussing 'Regretting buying my Helium miners?' [here](https://youtu.be/d2wdlP3gDTo?t=823)
+* See Vosk's 5 June 2022 video discussing 'Regretting buying my Helium miners?' [here](https://youtu.be/d2wdlP3gDTo?t=823)
+* VoskCoin runs through the profits from each of his hotspots on [this](https://youtu.be/pTrZ3TA0sGw?t=893) 30 June 2022 video
 * On average (see caveats below), if you are bullish on HNT it might be more practical (if you do not have killer spots) to buy the coin instead of mining it
 * If you at least witness one hotspot you SHOULD be making enough to cover the electricity use of the device, ie. do not put this in a faraday cage / basement
 * If the *rate* of the profit you accumulate is acceptable to you is of course the actual question, we got a couple of section in this very FAQ/Wiki to help make your decision on that,
@@ -800,6 +802,7 @@ HIP 42, if implemented, would regulate the number of witnesses a Hotspot is rewa
 
 <h3 id='heading--faq-hip51'><a href="#heading--faq-hip51">What is HIP-51?</a></h3>
 
+* Vosk talks about [it](https://youtu.be/pTrZ3TA0sGw?t=55) on this 30 June 2022 video
 * Gristle King [HIP 51 Explained - Get Up In There, Yo](https://www.youtube.com/watch?v=dp8MPk1KIbA) released on 17 June 2022
 * Gristle King has a good panel interview w.r.t HIP51 in this [video](https://www.youtube.com/watch?v=6ZnYo_ZNMpY)
 * Voskcoin covers what HIP51 mean for the Helium network in this 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=160)
@@ -932,6 +935,7 @@ Discovery mode is also known as Disco mode - which was released on 18 May 2021. 
 <h3 id='heading--faq-amitoolate'><a href="#heading--faq-amitoolate">Am I too late to buy a miner?</a>
 </h3>
 
+* VoskCoin [answers this](https://youtu.be/pTrZ3TA0sGw?t=450) on this June 30 2022 video
 * See <a href="#heading--faq-profitable">is it still profitable?</a>
 * Understand and read<a href="#heading--faq-lowearnings">'Why are my earnings so low?'</a>
 * Vosk talks about it on this 13 May 2022 [video](https://youtu.be/2CCVz5YZyE4?t=989)
