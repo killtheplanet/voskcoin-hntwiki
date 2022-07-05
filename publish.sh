@@ -35,7 +35,7 @@ function generate_payload () {
 
 function upload_payload () {
 	echo Re-Publishing post ${2}
-	curl -X PUT https://voskcointalk.com/posts/${1}.json -H "Content-Type: application/json;" -H "Api-Key: ${VOSKCOINTALK_APIKEY}"  -H "Api-Username: ${VOSKCOINTALK_USERNAME}"	--data-binary "@${2}" > /dev/null
+	curl -X PUT https://voskcointalk.com/posts/${1}.json -H "Content-Type: application/json;" -H "Api-Key: ${VOSKCOINTALK_APIKEY}"  -H "Api-Username: ${VOSKCOINTALK_USERNAME}"	--data-binary "@${2}" --http1.1  > /dev/null
 	echo Re-publish completed with RC=$?
 }
 
