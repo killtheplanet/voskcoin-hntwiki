@@ -979,7 +979,7 @@ This has been seen when updating location / antenna / height, suggestions:
 * Note that the hotspot being transferred should be fully synced (or within roughly 1200 blocks) to allow for a transfer
 * Helium documents this well [here](https://docs.helium.com/wallets/app-wallet/transfer-hotspot/)
 
-<h3 id='heading--app-weird1'><a href="#heading--app-weird1">Characteristic error</a></h3>
+<h3 id='heading--app-characteristic'><a href="#heading--app-characteristic">Characteristic error</a></h3>
 
 ![image|231x500](upload://A7vyKoVvngOfheePc7zsK1PPXUK.jpeg)
 
