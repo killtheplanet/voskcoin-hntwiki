@@ -983,7 +983,7 @@ This has been seen when updating location / antenna / height, suggestions:
 
 ![image|231x500](upload://A7vyKoVvngOfheePc7zsK1PPXUK.jpeg)
 
-Leave the device for ~30 minutes, close the app, open it again and it should be showing that it is syncing.
+Leave the device for ~30 minutes, restart your phone, open it again and it should be showing that it is syncing.
 
 <h3 id='heading--app-onboardingerror'><a href="#heading--app-onboardingerror">Onboarding Error</a></h3>
 
