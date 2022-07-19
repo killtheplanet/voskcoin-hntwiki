@@ -813,6 +813,9 @@ HIP 42, if implemented, would regulate the number of witnesses a Hotspot is rewa
 <h3 id='heading--faq-hip52'><a href="#heading--faq-hip52">What is HIP-52 and HIP-53?</a></h3>
 
 * Voskcoin talks about what HIP52 and HIP53 mean for the helium network on this 5 June 2022 [video](https://youtu.be/d2wdlP3gDTo?t=683)
+* Voting opened on 19th July 2022 [source](https://discord.com/channels/404106811252408320/730418759298318346/998988413548101674)
+* [HIP-52](https://github.com/helium/HIP/blob/main/0052-iot-dao.md) IoT DAO
+* [HIP-53](https://github.com/helium/HIP/blob/main/0053-mobile-dao.md) MOBILE DAO
 
 <h3 id='heading--faq-hip54'><a href="#heading--faq-hip54">What is HIP-54 & HIP-55?</a></h3>
 
