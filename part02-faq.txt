@@ -1214,6 +1214,7 @@ Science stuff,
 
 Check out this - [How to take your Helium Hotspot off grid](https://kyk13.com/how-to-take-your-helium-hotspot-off-grid/) 
 
+* [DIY Solar Off Grid Helium Miner Wiring Diagram, Plans & Parts List](https://notsealed.com/diy-solar-off-grid-helium-miner-wiring-diagram-plans-parts-list.html) might be useful to many
 * Helium 4G LTE Hotspot Setups, Relay Mode, VPNs, and Resources - covers [some options](https://www.youtube.com/watch?v=xQarBIe0PiA) for connectivity 
 * Gristle King explains 'Will Your Off Grid Helium Hotspot Get Stolen?' on this 26 Dec 2021 [video](https://www.youtube.com/watch?v=S0-kBL4VcHk)
 * Gristle King running through offgrid requirements [https://www.youtube.com/watch?v=9QrqB5uIJ6c](https://www.youtube.com/watch?v=9QrqB5uIJ6c)on 23 July 2021
