@@ -1035,6 +1035,8 @@ To set the scene:
 ![image|690x316](upload://sPn8H2cVOm1qfETLuKeFpjfpdv0.jpeg)
 
 * NOTE this is US only for now and completely optional
+* On 20th July 2022 Hotspotrf relesed their [Helium $MOBILE Rewards Calculator](https://hotspotrf.com/helium-5g)
+* On 20th July 2022 Tactical Investing discusses the [Genesis vs PoC vs 5G use](https://www.youtube.com/watch?v=9PGIdxAOONw&ab_channel=TacticalInvesting) case
 * [Bobcat 500 5G Masterclass Setup & AMA](https://www.youtube.com/watch?v=nSwx26-JzJU) released on 2 June 2022
 * Vosk talks about 5G and cossts on this 24 March 2022 [video](https://youtu.be/xwEl4nQkRWg?t=452)
 * Interesting HIP for accelerating Helium 5G in [Europe](https://github.com/dewi-alliance/grants/issues/52)
