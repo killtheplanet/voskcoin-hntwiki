@@ -494,7 +494,13 @@ To demonstrate another way:
 ![image|683x500](upload://dLBXukf2fItspGdeGX5TIgcgiyz.jpeg)
 
 
+<h3 id='heading--faq-tooclose'><a href="#heading--faq-tooclose">Witness too close?</a></h3>
 
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/1001088440672190545/unknown.png">
+
+Got a "error" like this?
+
+It means that the hotspot in question is being observed 'better than expected', this typically means that the hotsot that you did not get rewarded for is closer to you than where they asserted it to on the map.
 
 <h3 id='heading--faq-butiamalone'><a href="#heading--faq-butiamalone">No hotspots are around me?</a>
 </h3>
