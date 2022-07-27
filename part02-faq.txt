@@ -842,6 +842,9 @@ After voting this has been approved on 14 April 2022
 
 ![image|393x500](upload://uaywbY5dxIV6WD9gUggc5G2k1v0.jpeg)
 
+<h3 id='heading--faq-hip67'><a href="#heading--faq-hip67">What is HIP-67?</a></h3>
+
+[HIP 67: Repeal Redenomination](https://github.com/helium/HIP/blob/main/0067-repeal-redenomination.md) is about repearling HIP-39 which the community passed in November 2021 to initiate a 1000:1 HNT token redomination and was announced on 27 July 2022.
 
 
 
