@@ -1453,6 +1453,8 @@ Random images found on Discord,
 ![image|683x384](upload://pa17H3vCg0Mx7TrKjZzpE6wPZm.jpeg)
 ![image|530x296](upload://ctWZsbvabhFSLEXADjgxs29h1Lo.jpeg)
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/994018793854619818/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/1001642361866162317/unknown.png">
+
 
 
 <h3 id='heading--faq-activations'><a href="#heading--faq-activations">Activation rate</a></h3>
