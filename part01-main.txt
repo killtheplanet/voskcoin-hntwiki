@@ -215,7 +215,7 @@ Another Helium manufacturer, orders are now open to all
 (credit: CreditCardBuffet@Discord)
 
 A vendor who already sells a few LoRa gateways and sensors who appears to want to create a miner.
-
+* Miners tend to be sold under the 'Finstra' name
 * Their HIP19 application is [here](https://github.com/helium/HIP/blob/7f56331deb02d46f411eb00d87933cb3068da27f/0019-third-party-manufacturers/smart-mimic.md)
 * [Website](https://thefinestra.com/)
 * NOTE: This miner has NO Ethernet, Wifi only, unless you cut it out like this:
