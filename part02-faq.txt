@@ -846,6 +846,10 @@ After voting this has been approved on 14 April 2022
 
 [HIP 67: Repeal Redenomination](https://github.com/helium/HIP/blob/main/0067-repeal-redenomination.md) is about repearling HIP-39 which the community passed in November 2021 to initiate a 1000:1 HNT token redomination and was announced on 27 July 2022.
 
+<h3 id='heading--faq-hip70'><a href="#heading--faq-hip70">What is HIP-70? Solana?</a></h3>
+
+[HIP 70: Scaling the Helium Network](https://github.com/helium/HIP/blob/main/0070-scaling-helium.md) was announced on 30 August 2022.
+The goal is for the network to scale, which means jumping from the Helium blockchain to Solana.
 
 
 <h3 id='heading--faq-poc'><a href="#heading--faq-poc">Talk to me about the PoC standards</a>
