@@ -853,6 +853,8 @@ The goal is for the network to scale, which means jumping from the Helium blockc
 
 This means that staking validators will no longer have a function and might cause instability in the token prices...
 
+* Voskcoin talks about it [here](https://youtu.be/jWOkvat5O_k?t=38) in this 10 Sept 2022 video
+
 
 <h3 id='heading--faq-poc'><a href="#heading--faq-poc">Talk to me about the PoC standards</a>
 </h3>
