@@ -853,6 +853,7 @@ The goal is for the network to scale, which means jumping from the Helium blockc
 
 This means that staking validators will no longer have a function and might cause instability in the token prices...Voting started on 12 September 2022.
 
+* On 15 September 2022 Helium put up a block posted titled [HIP-70: Evaluating Layer 1 Blockchains for the Helium Network](https://medium.com/helium-foundation/hip-70-evaluating-layer-1-blockchains-for-the-helium-network-15f81af6941c) which explains how/why they made Solana chain to go on
 * Voskcoin talks about it [here](https://youtu.be/jWOkvat5O_k?t=38) in this 10 Sept 2022 video
 * Crypto Compound talks about 3X inentive bonus, etc on this 12 September 2022 [video](https://www.youtube.com/watch?v=pYmvuXkxsrI)
 
