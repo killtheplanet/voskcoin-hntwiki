@@ -1082,6 +1082,14 @@ To set the scene:
 * FreedomFi shows what's all involved with a LTE (not 5G) setup in this entertaining [video](https://www.youtube.com/watch?v=yMSWNl96yNU)
 * Previously we had a mini-rant here, this is deleted because it appears this offering is data-only as well as CBRS which skips many regulatory hurdles, whilst there is still some significant costs (outlined roughly above) they are not as costly as operator-level operations
 
+<h3 id='heading--faq-heliumMobile'><a href="#heading--faq-heliumMobile">Tell me about Helium Mobile?</a>
+</h3>
+
+Helium Mobile was announced on 12 September 2022 and is a partnership with Heliumn and T-Mobile (US only).
+
+* [Helium's Blog article here](https://blog.hellohelium.com/announcing-helium-mobile/?)
+
+
 <h3 id='heading--faq-contactminer'><a href="#heading--faq-contactminer">Can I contact an owner of a miner?</a>
 </h3>
 
