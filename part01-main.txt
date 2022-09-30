@@ -422,12 +422,6 @@ Note that eventually all miners will have their software converted to a light ho
 * Midas Technologies HIP-19 [application](https://github.com/helium/HIP/blob/3768d9bbdaf9cd0e9377ce61ac86424393b354ff/0019-third-party-manufacturers/midas.md)
 * [HEXASPOT](https://hexaspot.com/) joined their distribution network (based in the Netherlands) for EU868 units on the 28th of March 2022
 
-<h3 id='heading--Pycom'><a href="#heading--pycom">Pycom</a></h3>
-
-* Pycom ([twitter](https://twitter.com/pycomiot/status/1489246003622400000?s=21))
-* First batch shipping July 2022 for 275 EUR started advertising on 5th April 2022 as seen [here](https://twitter.com/pycomiot/status/1511379842146656262?s=21&t=1dTtwFeom69k4njNTQJTWw)
-* Order page [here](https://pycom.io/product/helium-hotspot-miner-batch-2/)
-
 <h3 id='heading--atom'><a href="#heading--atom">Atom</a></h3>
 
 * Atom was approved in April 2022
@@ -467,6 +461,8 @@ These are yet  to be HIP19 (or just) approved and not for sale yet - these will 
 
 There is a vendor tracking spreadsheet available [here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/edit#gid=504066718)
 
+* TMG received a maker key on 30 September 2022 [wallet here](https://explorer.helium.com/accounts/14D2VWryAKZqiDhTEhhLQonWYwqatJjYHmiyP13BwVARj9pujAN)
+* ResIOT.io received a maker key on 30 September 22 [wallet here](https://explorer.helium.com/accounts/14Mh3LmuAy1L8ni5HGVJ4GmxxR2ncT3WJSqBUPHAEdHahemzAh7)
 * uG Miner received a maker key on 8 September 2022 [wallet here](https://explorer.helium.com/accounts/14pmUdhaq7AYznDV8ST37yztmX1FmPQJabxsDjsAuUrDatxM4qK) - waiting for more information!
 * Osprey received a maker key on 8 September 2022 [wallet here](https://explorer.helium.com/accounts/148i6YAg4N7rSqABdTygCFYh7g2QGJ7KeRbskWc7cZgvgQNsbq2) - waiting for more information!
 * Embit was approved on 18 April 2022 ([here](https://discord.com/channels/404106811252408320/921085505028890674/965739405610463242)), waiting for a web page to create a section for it
@@ -636,6 +632,14 @@ This was [released](https://discord.com/channels/404106811252408320/813452716286
 > **When will the suspension be lifted?**
 > 
 > No date has been set to re-instate COTX's onboarding ability. The suspension will only be lifted once the MOC has completed its investigation and is convinced that COTX's deployment and sales plans will benefit the network overall. 
+
+
+<h4 id='heading--naughtyPycom'><a href="#heading--maughtypycom">Pycom</a></h4>
+
+* Pycom Limited went into administration on 16 September 2022 [link](https://twitter.com/pycomIOT/status/1572615390257094658?s=20&t=vfgE-E6diknwU4XXkeS1Gw)
+* Pycom ([twitter](https://twitter.com/pycomiot/status/1489246003622400000?s=21))
+* First batch shipping July 2022 for 275 EUR started advertising on 5th April 2022 as seen [here](https://twitter.com/pycomiot/status/1511379842146656262?s=21&t=1dTtwFeom69k4njNTQJTWw)
+* Order page [here](https://pycom.io/product/helium-hotspot-miner-batch-2/)
 
 
 <h2 id='heading--placement'><a href="#heading--placement">Miner Placement</a></h2>
