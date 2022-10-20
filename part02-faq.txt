@@ -857,6 +857,15 @@ This means that staking validators will no longer have a function and might caus
 * Voskcoin talks about it [here](https://youtu.be/jWOkvat5O_k?t=38) in this 10 Sept 2022 video
 * Crypto Compound talks about 3X inentive bonus, etc on this 12 September 2022 [video](https://www.youtube.com/watch?v=pYmvuXkxsrI)
 
+<h3 id='heading--faq-hip73'><a href="#heading--faq-hip73">What is HIP-73?</a></h3>
+
+HIP-73: Consensus Deselection Weighting
+
+Is about having a tunable chain variable for the Helium L1 blockchain by changing the algorithm of new conensus group members.
+
+You can read about it [here](https://github.com/helium/HIP/issues/491)
+
+
 <h3 id='heading--faq-poc'><a href="#heading--faq-poc">Talk to me about the PoC standards</a>
 </h3>
 
