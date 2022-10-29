@@ -1063,6 +1063,7 @@ To set the scene:
 ![image|690x316](upload://sPn8H2cVOm1qfETLuKeFpjfpdv0.jpeg)
 
 * NOTE this is US only for now and completely optional
+* On 29 Oct 2022 Vosk gives his [opinion here](https://youtu.be/1UZUIXvX88U?t=504) about the T-mobile deal
 * On 21 July 2022 it was announced that High-power outdoor small cell radios will receive [4X the rewards](https://media.discordapp.net/attachments/957830840010813450/999472540353310800/unknown.png?width=1231&height=275)  of indoor small cells
 * On 20th July 2022 Hotspotrf relesed their [Helium $MOBILE Rewards Calculator](https://hotspotrf.com/helium-5g)
 * On 20th July 2022 Tactical Investing discusses the [Genesis vs PoC vs 5G use](https://www.youtube.com/watch?v=9PGIdxAOONw&ab_channel=TacticalInvesting) case
