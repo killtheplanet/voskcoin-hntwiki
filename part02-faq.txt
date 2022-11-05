@@ -346,8 +346,8 @@ Capcom on 27 September 2021 said [here](https://discord.com/channels/40410681125
 
 <h3 id='heading--faq-future'><a href="#heading--faq-future">What's the future for Helium & HNT?</a></h3>
 
+* VoskCoin asks if Helium has a future in this 3 Nov 2022 [video](https://youtu.be/KZ5Nr0YVX80?t=303)
 * [5G](https://voskcointalk.com/t/helium-wiki-faq/14786#heading--faq-5G)
-* Topical video [link](https://www.youtube.com/watch?v=D8K57mbR-H8&t=967s) (bullish speculation of $80-100 USD per HNT)
 
 <h3 id='heading--faq-dilute'><a href="#heading--faq-dilute">What about more miners coming online?</a></h3>
 
@@ -853,6 +853,7 @@ The goal is for the network to scale, which means jumping from the Helium blockc
 
 This means that staking validators will no longer have a function and might cause instability in the token prices...Voting started on 12 September 2022.
 
+* VoskCoin discusses [Solana](https://youtu.be/KZ5Nr0YVX80?t=384) and asks if it is the right move in this 3 Nov 2022 video
 * Voskcoin [talks about it here](https://youtu.be/1UZUIXvX88U?t=439) on this 29 October 2022 video
 * On 15 September 2022 Helium put up a block posted titled [HIP-70: Evaluating Layer 1 Blockchains for the Helium Network](https://medium.com/helium-foundation/hip-70-evaluating-layer-1-blockchains-for-the-helium-network-15f81af6941c) which explains how/why they made Solana chain to go on
 * Voskcoin talks about it [here](https://youtu.be/jWOkvat5O_k?t=38) in this 10 Sept 2022 video
@@ -1064,6 +1065,7 @@ To set the scene:
 
 * NOTE this is US only for now and completely optional
 * On this 3 Nov 2022 video Vosk talks about [Helium becoming a Mobile Provider](https://youtu.be/KZ5Nr0YVX80?t=221)
+* VoskCoin talks later on in the above video about the HeliumDeploy 5G bundle on this [3 Nov 2022 video](https://youtu.be/KZ5Nr0YVX80?t=563)
 * On 29 Oct 2022 Vosk gives his [opinion here](https://youtu.be/1UZUIXvX88U?t=504) about the T-mobile deal
 * On 21 July 2022 it was announced that High-power outdoor small cell radios will receive [4X the rewards](https://media.discordapp.net/attachments/957830840010813450/999472540353310800/unknown.png?width=1231&height=275)  of indoor small cells
 * On 20th July 2022 Hotspotrf relesed their [Helium $MOBILE Rewards Calculator](https://hotspotrf.com/helium-5g)
@@ -1099,12 +1101,14 @@ To set the scene:
 
 Helium Mobile was announced on 12 September 2022 and is a partnership with Heliumn and T-Mobile (US only).
 
+* VoskCoin covers the T-mobile deal in [this](https://youtu.be/KZ5Nr0YVX80?t=682) 3 Nov 2022 video
 * [Helium's Blog article here](https://blog.hellohelium.com/announcing-helium-mobile/?)
 
 <h3 id='heading--faq-heliumaltcoins'><a href="#heading--faq-heliumaltcoins">Tell me about the Helium altcoins like MOBILE?</a>
 </h3>
 
-VoskCoin covers this in this 3 Nov 2022 [video](https://youtu.be/KZ5Nr0YVX80?t=262)
+* VoskCoin covers this in this 3 Nov 2022 [video](https://youtu.be/KZ5Nr0YVX80?t=262)
+* In the same video the Mobile token is discussed [at this timestamp](https://youtu.be/KZ5Nr0YVX80?t=519)
 
 
 <h3 id='heading--faq-contactminer'><a href="#heading--faq-contactminer">Can I contact an owner of a miner?</a>

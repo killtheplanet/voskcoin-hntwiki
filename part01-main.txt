@@ -472,7 +472,9 @@ There is a vendor tracking spreadsheet available [here](https://docs.google.com/
 
 <h3 id='heading--naughtylist'><a href="#heading--naughtylist">Naughty list</a></h3>
 
-Manufacturers who has accepted pre-orders before HIP19 approval from Helium get on a naughty list , so far first offenders are,
+* VoskCoin discusses[Helium manufacturers and resellers acting like bad actors](https://youtu.be/KZ5Nr0YVX80?t=779) in this 3 Nov 2022 video
+
+Manufacturers who has accepted pre-orders before HIP19 approval or who has been found guilty of assisting hacking/cheating get on a naughty list , this is a rough list of those...
 
 <h4 id='heading--naughtylistpantherx'><a href="#heading--naughtylistpantherx">PantherX</a></h4>
 NOTE on the current state (post 15 June 2022):
