@@ -355,7 +355,7 @@ Note that eventually all miners will have their software converted to a light ho
 
 ![image|665x500](upload://2OEIgg3CJW75rtaWQkZy6s8PFtu.jpeg)
 
-* <b>WARNING</b> (June 2022) that PantherX is on the <a href="#heading--naughtylistpantherx">naughty list</a> and their key is suspended for 1 year with an opportunity to reduce the suspension to six months if particular conditions are met (see the naughty list link)
+* <b>WARNING</b> (June 2022) that PantherX was on the <a href="#heading--naughtylistpantherx">naughty list</a> and their key was suspended until 24 Nov 2022  (see the naughty list link)
 * [Approved](https://discord.com/channels/404106811252408320/813452716286017557/892154151205744680) 27 September 2021
 * [Website](https://voskco.in/hntP)
 * The X2 has a 1.8GHz processor, 4GB of memory, 32GB eMMC and 64 GB TF card and comes with a 3dBi antenna
@@ -477,7 +477,11 @@ There is a vendor tracking spreadsheet available [here](https://docs.google.com/
 Manufacturers who has accepted pre-orders before HIP19 approval or who has been found guilty of assisting hacking/cheating get on a naughty list , this is a rough list of those...
 
 <h4 id='heading--naughtylistpantherx'><a href="#heading--naughtylistpantherx">PantherX</a></h4>
-NOTE on the current state (post 15 June 2022):
+
+PantherX's key was re-enabled on 24 Nov 2022:
+<img src="https://media.discordapp.net/attachments/828974069378580490/1045128839438798918/image.png">
+
+State on 15 June 2022:
 
 [source](https://discord.com/channels/404106811252408320/921085505028890674/986718999213666305)
 > Video Link: https://vimeo.com/720799472
