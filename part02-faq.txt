@@ -1505,7 +1505,7 @@ Random images found on Discord,
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/1032300444590022706/unknown.png">
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/1037893466975375360/image.png">
 <img src="https://cdn.discordapp.com/attachments/828974069378580490/1038170029449023558/image.png">
-
+ 
 <h3 id='heading--faq-activations'><a href="#heading--faq-activations">Activation rate</a></h3>
 
 For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
