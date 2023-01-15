@@ -678,6 +678,8 @@ Other links,
 
 Please understand that the current hotspot population is growing by the day. What may be virgin territory today could be a strong hotspot region over time.
 
+A good simple idea can be found at [HeliumTracker.io](https://heliumtracker.io/) where the average earnings per hotspot is shown on the right and on the left menu you can see the 'Hotspot Charts' and 'Top Cities'.
+
 If you are curious as to if a desired location (whether it be your residence or a family friends) will be profitable, please use [Helium Explorer ](https://explorer.helium.com/). All you need to do is type in your city, and a list of active hotspots will generate.
 
 Click on the 3 word seed phrase to open that hotspot account. From here, you’ll see a map of it’s connections, 24 hour/prior 24 hour and 30 day/prior 30 day payouts, the profit % change, along with witness and nearby hotspot information. This resource is the best tool for gauging approximate profitability in your area.
