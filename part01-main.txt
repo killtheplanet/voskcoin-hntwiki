@@ -461,6 +461,7 @@ These are yet  to be HIP19 (or just) approved and not for sale yet - these will 
 
 There is a vendor tracking spreadsheet available [here](https://docs.google.com/spreadsheets/d/1pOmrMV_oiF0FtR1NOX_pqykKOBsb_QghiNkTlF644DU/edit#gid=504066718)
 
+* 'Polyhex' received a maker key on 26 January 2023 [wallet here](https://explorer.helium.com/accounts/13ZAjmCPLPYzgUf3pYLT59JwCcrPpkw59mDvkQT48MC8HfnwW11) - waiting for more information!
 * TMG received a maker key on 30 September 2022 [wallet here](https://explorer.helium.com/accounts/14D2VWryAKZqiDhTEhhLQonWYwqatJjYHmiyP13BwVARj9pujAN)
 * ResIOT.io received a maker key on 30 September 22 [wallet here](https://explorer.helium.com/accounts/14Mh3LmuAy1L8ni5HGVJ4GmxxR2ncT3WJSqBUPHAEdHahemzAh7)
 * uG Miner received a maker key on 8 September 2022 [wallet here](https://explorer.helium.com/accounts/14pmUdhaq7AYznDV8ST37yztmX1FmPQJabxsDjsAuUrDatxM4qK) - waiting for more information!
