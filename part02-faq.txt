@@ -871,6 +871,8 @@ You can read about it [here](https://github.com/helium/HIP/issues/491)
 <h3 id='heading--faq-poc'><a href="#heading--faq-poc">Talk to me about the PoC standards</a>
 </h3>
 
+PoC with Off-Chain Proof-of-Coverage was activated on Feb 2 2023, Helium's [announcement is here](https://medium.com/helium-foundation/off-chain-proof-of-coverage-is-live-e5f0493e2bca). This is essential for [HIP-70](https://medium.com/helium-foundation/hip-70-helium-core-team-proposes-to-migrate-to-solana-e7ea23a042e7) to go live.
+
 What is Proof of Coverage? Vosk covers it here on a 15 Nov 2021 [video](https://youtu.be/ont126oav-c?t=272)
 
 POCv11 was activated on 13 December around 10:00 AM PT / 18:00 PM UTC
