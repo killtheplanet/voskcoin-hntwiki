@@ -1512,7 +1512,7 @@ Random images found on Discord,
 
 For those interested in how many units of each manufacturer are going online every day - I keep a tally here. Data is from Helium's [Makers hotspot explorer](https://explorer.helium.com/hotspots)
 
-<img src="https://cdn.discordapp.com/attachments/828974069378580490/1075183452565012482/20k_Vendors_-_2023-02-14T223439.832.png">
+<img src="https://cdn.discordapp.com/attachments/828974069378580490/1075545542379175967/20k_Vendors_-_2023-02-15T223324.305.png">
 
 * Another nice graph [available here at etl](https://etl.dewi.org/public/dashboard/5f3cd0b4-9317-48a3-88f0-aae5adf80aed?days=180)
 * Another effort for stats are available at https://heliumanalytics.io/
