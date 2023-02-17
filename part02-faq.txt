@@ -851,8 +851,9 @@ After voting this has been approved on 14 April 2022
 [HIP 70: Scaling the Helium Network](https://github.com/helium/HIP/blob/main/0070-scaling-helium.md) was announced on 30 August 2022.
 The goal is for the network to scale, which means jumping from the Helium blockchain to Solana.
 
-This means that staking validators will no longer have a function and might cause instability in the token prices...Voting started on 12 September 2022.
+This means that staking validators will no longer have a function and might cause instability in the token prices...Voting started on 12 September 2022, switchover to SOL will occur on 27 March 2023.
 
+* 27 March 2023 [announcement from Helium](https://blog.helium.com/the-next-era-of-the-helium-network-begins-on-march-27th-6d08f2b048e0)
 * VoskCoin discusses [Solana](https://youtu.be/KZ5Nr0YVX80?t=384) and asks if it is the right move in this 3 Nov 2022 video
 * Voskcoin [talks about it here](https://youtu.be/1UZUIXvX88U?t=439) on this 29 October 2022 video
 * On 15 September 2022 Helium put up a block posted titled [HIP-70: Evaluating Layer 1 Blockchains for the Helium Network](https://medium.com/helium-foundation/hip-70-evaluating-layer-1-blockchains-for-the-helium-network-15f81af6941c) which explains how/why they made Solana chain to go on
